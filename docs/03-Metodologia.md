@@ -44,6 +44,7 @@ As tarefas (issues) são, ainda, etiquetadas em função da natureza da atividad
 - Test: Testes
 
 ![Labels](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/bac37d2d-b7de-4f04-bdd9-8708b4a04e2f)
+
 Figura xx - Tela do esquema de cores e categorias
 
 ## Gerenciamento de Projeto
