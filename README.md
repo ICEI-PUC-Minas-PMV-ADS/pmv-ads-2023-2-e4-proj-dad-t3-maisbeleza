@@ -1,12 +1,13 @@
-# TÍTULO DO PROJETO
+# Mais Beleza
+![Mais Beleza](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/c203ed2e-21cf-4f51-b438-a2a7cb932e28)
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC MINAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-`SEMESTRE`
+`2/2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo deste projeto é a criação de uma aplicação, voltada para os Microempreendedores Individuais (MEI) do ramo da beleza, com intuito de auxiliá-los na gestão de seus negócios.
 
 ## Integrantes
 
@@ -17,7 +18,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Nome completo do professor 1
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
