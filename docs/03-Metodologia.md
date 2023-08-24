@@ -24,7 +24,7 @@ Para a gestão do código fonte será utilizado um processo baseado no Gitflow, 
 
 Fonte: ATLASSIAN BITBUCKET, [<i>s. d.</i>]
 
-Figura 13 - Fluxo de controle do código fonte com Git
+Figura xx - Fluxo de controle do código fonte com Git
 
 O projeto utilizará os seguintes nomes de branches:
 
