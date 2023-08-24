@@ -94,6 +94,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 A técnica de priorização de requisitos utilizada foi a Escala de Três Níveis, com os valores "Alta", "Média" e "Baixa", associada ao quadrante de priorização, que estabeleu a importância e urgência dos requisitos.
 
+![Quadrante_4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/68c83fa4-691c-41ed-818e-9bc32005a198)
+Figura xx - Quadrante de priorização de requisitos
+
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
