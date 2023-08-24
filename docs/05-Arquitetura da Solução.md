@@ -37,9 +37,22 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+As tecnologias listadas abaixo serão utilizadas para a implementação da solução.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+|Nome                | Função                             |
+|--------------------|------------------------------------|
+|Whatsapp, Microsoft Teams | Comunicação entre a equipe; comunicação entre a equipe e o Product Owner do projeto.  |
+|Github | Repositório da documentação e código fonte do projeto; gerenciamento de funções e tarefas.  |
+|Git | Gestão do código fonte (versionamento).  |
+|Microsoft Visual Studio | Criação do código fonte. |
+|MongoDB | Criação e administração do banco de dados.  |
+|Expo Dev | Criação do código da aplicação mobile. |
+|Lucidchart  | Criação dos diagramas e modelos. |
+|Marvel App  | Projeto de interface e wireframes. |
+|React, React Native, React Native Paper, ASP.NET Core MVC | Bibliotecas e framework utilizados  |
+|C#, HTML, CSS, JavaScript, JSON (JavaScript Object Notation)	| Linguagens de programação utilizadas na criação do código fonte da aplicação |
+
+A ilustração de como as tecnologias estão relacionadas e como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário, pode ser visualizada no item um, Arquitetura da Solução.
 
 ## Hospedagem
 
