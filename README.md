@@ -11,10 +11,11 @@ O objetivo deste projeto é a criação de uma aplicação distribuída, voltada
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* [Daiane Campos Procópio](https://github.com/procopiodaiane)
+* [Fernanda Augusta de Barcelos Coura](https://github.com/fernandaabarcelos)
+* [Guilherme Faustini de Azevedo](https://github.com/GFaustini)
+* [Juliana Calazans Rodrigues de Magalhães](https://github.com/JulianaCalazans)
+* [Rúbia Karina Prado Costa](https://github.com/RubiaKarina)
 
 ## Orientador
 
