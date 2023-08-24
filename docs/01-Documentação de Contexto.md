@@ -1,6 +1,8 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O Microempreendedor Individual, mais conhecido como MEI, é um empresário(a) de pequeno porte que atua de maneira independente. Ao se formalizar, ele recebe vários benefícios, como o acesso facilitado a serviços financeiros, emissão de notas fiscais e prestação de serviços para outras empresas e entidades governamentais. Adicionalmente, o registro como MEI garante direitos essenciais, como auxílio-doença e aposentadoria por idade e invalidez. (Brasil, 2020).
+
+Entre esses números, os profissionais do ramo da beleza, englobando cabeleireiros, manicures e pedicures, se destacam com 7,4% dos registros, liderando o ranking das ocupações formalizadas através do MEI. Em oitavo lugar, estão as atividades de estética e cuidados com a beleza, com 2,1% dos registros (Sena, 2020).
 
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
