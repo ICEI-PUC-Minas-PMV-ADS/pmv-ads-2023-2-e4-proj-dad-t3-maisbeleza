@@ -16,34 +16,35 @@ Os artefatos do projeto serão desenvolvidos a partir das plataformas listadas a
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t4-melhor-idade/tree/main/docs) foi utilizado para hospedagem do repositório.
 
-O projeto segue a seguinte convenção para o nome de branches:
+Para a gestão do código fonte será utilizado um processo baseado no Gitflow, mostrado na figura abaixo, que permite que a equipe trabalhe com correções de problemas ou atualizações sem a interrupção do trabalho em andamento (ATLASSIAN BITBUCKET, [<i>s. d.</i>]).
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+![Gitflow](https://user-images.githubusercontent.com/100447878/224438616-057b263d-cb67-4f75-bacd-339024012816.png)
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+Fonte: ATLASSIAN BITBUCKET, [<i>s. d.</i>]
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+Figura 13 - Fluxo de controle do código fonte com Git
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+O projeto utilizará os seguintes nomes de branches:
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+- Main: versão estável já testada do software
+- Hotfix: ramificação para manutenção e correções
+- Develop: ramificação de integração para recursos
+- Feature: novo recurso do software
+
+## Etiquetas
+
+As tarefas (issues) são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+
+- Bug: Ocorrência e identificação de erros
+- Documentation: Atualização da Documentação
+- Enhancement: Novo recurso adicionado
+- Help wanted: Solicitação de ajuda
+- Test: Testes
+
+![Labels](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/bac37d2d-b7de-4f04-bdd9-8708b4a04e2f)
+Figura xx - Tela do esquema de cores e categorias
 
 ## Gerenciamento de Projeto
 
