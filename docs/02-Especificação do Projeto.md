@@ -79,8 +79,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| A aplicação deve permitir ao usuário cadastrar uma conta. | ALTA | 
+|RF-002| A aplicação deve permitir ao usuário cadastrado logar em sua conta. | MÉDIA |
+|RF-003| A aplicação deve permitir ao usuário cadastrado sair da sua conta. | MÉDIA |
+|RF-004| A aplicação deve permitir ao usuário gerenciar a sua conta. | MÉDIA |
+|RF-005| A aplicação deve permitir ao cliente fazer agendamentos. | MÉDIA |
+|RF-006| A aplicação deve permitir ao cliente gerenciar seus agendamentos. | MÉDIA |
+|RF-007| A aplicação deve permitir ao microempreendedor individual aceitar ou negar agendamentos. | MÉDIA |
+|RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda. | MÉDIA |
+|RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços. | MÉDIA |
+|RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento. | MÉDIA |
 
 ### Requisitos não Funcionais
 
