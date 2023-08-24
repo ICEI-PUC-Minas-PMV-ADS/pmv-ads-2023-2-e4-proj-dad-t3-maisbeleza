@@ -90,6 +90,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços. | ALTA |
 |RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento. | ALTA |
 
+#### Técnica de priorização de requisitos
+
+A técnica de priorização de requisitos utilizada foi a Escala de Três Níveis, com os valores "Alta", "Média" e "Baixa", associada ao quadrante de priorização, que estabeleu a importância e urgência dos requisitos.
+
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
