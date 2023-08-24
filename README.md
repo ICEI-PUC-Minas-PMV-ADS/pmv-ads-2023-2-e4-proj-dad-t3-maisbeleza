@@ -7,7 +7,7 @@
 
 `2/2023`
 
-O objetivo deste projeto é a criação de uma aplicação, voltada para os Microempreendedores Individuais (MEI) do ramo da beleza, com intuito de auxiliá-los na gestão de seus negócios.
+O objetivo deste projeto é a criação de uma aplicação distribuída, voltada para os Microempreendedores Individuais (MEI) do ramo da beleza, com intuito de auxiliá-los na gestão de seus negócios.
 
 ## Integrantes
 
