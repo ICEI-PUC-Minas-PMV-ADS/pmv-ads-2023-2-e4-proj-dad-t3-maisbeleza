@@ -1,7 +1,5 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+BRASIL. Ministério da Fazenda. Empresas e Negócios. <b>O que é Microempreendedor Individual – MEI. 2020</b>. Disponível em: https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes. Acesso em: 17 ago. 2023.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+SENA, Victor. Veja as profissões que lideram o número de MEIs no Brasil. <b>Exame</b>, 21 nov. 2020. Disponível em: https://exame.com/carreira/veja-as-profissoes-que-lideram-o-numero-de-meis-no-brasil/. Acesso em: 17 ago. 2023.
