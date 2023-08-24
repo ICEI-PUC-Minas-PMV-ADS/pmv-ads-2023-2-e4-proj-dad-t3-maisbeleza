@@ -27,12 +27,12 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A importância da criação de uma aplicação voltada para microempreendedores consiste na necessidade de uma ferramenta ágil de auxílio para a gestão de negócios.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Podemos citar que essa necessidade de utilizarmos a tecnologia atrelada ao ambiente de negócio é de suma importância pelos tantos exemplos que temos de cases de sucesso ao utilizar aplicativos a fim de facilitar o dia a dia de empreendedores. Um exemplo é a aplicação feita pelo Sebrae, que disponibiliza uma gama de funcionalidades que tem como objetivo capacitar, orientar e ajudar os empresários, e oferece toda a experiência do Sebrae na palma da mão de forma digital e inovadora.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Desse modo, decidimos criar uma aplicação voltada para Microempreendedores Individuais (MEI) do ramo da beleza, e que tem como intuito facilitar e tornar prático os registros de clientes, o controle de faturamento, auxiliar na otimização do tempo, facilitando a organização do microempreendedor, como também tem como foco a autonomia dos clientes em gerir seus próprios agendamentos.
+
 
 ## Público-Alvo
 
