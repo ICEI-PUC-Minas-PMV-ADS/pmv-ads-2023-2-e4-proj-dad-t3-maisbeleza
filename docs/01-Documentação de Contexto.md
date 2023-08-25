@@ -4,6 +4,8 @@ O Microempreendedor Individual, mais conhecido como MEI, é um empresário(a) de
 
 Os profissionais do ramo da beleza, englobando cabeleireiros, manicures e pedicures, se destacam com 7,4% dos registros, liderando o ranking das ocupações formalizadas através do MEI. Em oitavo lugar, estão as atividades de estética e cuidados com a beleza, com 2,1% dos registros (Sena, 2020).
 
+Nos últimos anos, houve um crescimento significativo na indústria de aplicativos no Brasil. Esse avanço foi impulsionado pelo aumento da utilização de smartphones e pela expansão do acesso à internet em todo o país. A crise gerada pela pandemia de COVID-19 teve como consequência um aumento exponencial na procura por aplicativos. Isso ocorreu devido à necessidade das pessoas de encontrarem alternativas digitais para atividades que, anteriormente, eram realizadas de forma presencial. Nesse cenário, o Brasil se destacou como um dos principais mercados de aplicativos na América Latina (Quezada, 2023).
+
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
