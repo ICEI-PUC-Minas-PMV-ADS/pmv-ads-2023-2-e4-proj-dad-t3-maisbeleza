@@ -1,6 +1,6 @@
 # Introdução
 
-O Microempreendedor Individual, mais conhecido como MEI, é um empresário(a) de pequeno porte que atua de maneira independente. Ao se formalizar, ele recebe vários benefícios, como o acesso facilitado a serviços financeiros, emissão de notas fiscais e prestação de serviços para outras empresas e entidades governamentais. Adicionalmente, o registro como MEI garante direitos essenciais, como auxílio-doença e aposentadoria por idade e invalidez. (Brasil, 2020).
+O Microempreendedor Individual, mais conhecido como MEI, é um empresário(a) de pequeno porte que atua de maneira independente. Ao se formalizar, ele recebe vários benefícios, como o acesso facilitado a serviços financeiros, emissão de notas fiscais e prestação de serviços para outras empresas e entidades governamentais. Adicionalmente, o registro como MEI garante direitos essenciais, como auxílio-doença e aposentadoria por idade e invalidez (Brasil, 2020).
 
 Os profissionais do ramo da beleza, englobando cabeleireiros, manicures e pedicures, se destacam com 7,4% dos registros, liderando o ranking das ocupações formalizadas através do MEI. Em oitavo lugar, estão as atividades de estética e cuidados com a beleza, com 2,1% dos registros (Sena, 2020).
 
@@ -18,13 +18,12 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-O objetivo deste projeto é a criação de uma aplicação, voltada para os Microempreendedores Individuais(MEI) do ramo da beleza, com intuito de auxiliá-los na gestão de seus negócios. 
+O objetivo deste projeto é a criação de uma aplicação, voltada para os Microempreendedores Individuais (MEI) do ramo da beleza, com intuito de auxiliá-los na gestão de seus negócios. 
 
 Como objetivos específicos podemos destacar:
 - Registro de clientes;
 - Controle de faturamento;
 - Organização dos horários de atendimento.
-
 
 ## Justificativa
 
@@ -33,7 +32,6 @@ A importância da criação de uma aplicação voltada para microempreendedores 
 Podemos citar que essa necessidade de utilizarmos a tecnologia atrelada ao ambiente de negócio é de suma importância pelos tantos exemplos que temos de cases de sucesso ao utilizar aplicativos a fim de facilitar o dia a dia de empreendedores. Um exemplo é a aplicação feita pelo Sebrae, que disponibiliza uma gama de funcionalidades que tem como objetivo capacitar, orientar e ajudar os empresários, e oferece toda a experiência do Sebrae na palma da mão de forma digital e inovadora.
 
 Desse modo, decidimos criar uma aplicação voltada para Microempreendedores Individuais (MEI) do ramo da beleza, e que tem como intuito facilitar e tornar prático os registros de clientes, o controle de faturamento, auxiliar na otimização do tempo, facilitando a organização do microempreendedor, como também tem como foco a autonomia dos clientes em gerir seus próprios agendamentos.
-
 
 ## Público-Alvo
 
