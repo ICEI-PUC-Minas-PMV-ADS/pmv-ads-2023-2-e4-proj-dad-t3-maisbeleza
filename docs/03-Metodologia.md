@@ -18,11 +18,11 @@ Os artefatos do projeto serão desenvolvidos a partir das plataformas listadas a
 
 A ferramenta de controle de versão adotada no projeto foi o [Git](https://git-scm.com/), sendo que o [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/main/docs) foi utilizado para hospedagem do repositório.
 
-Para a gestão do código fonte será utilizado um processo baseado no Gitflow, mostrado na figura abaixo, que permite que a equipe trabalhe com correções de problemas ou atualizações sem a interrupção do trabalho em andamento (ATLASSIAN BITBUCKET, [<i>s. d.</i>]).
+Para a gestão do código fonte será utilizado um processo baseado no Gitflow, mostrado na figura abaixo, que permite que a equipe trabalhe com correções de problemas ou atualizações sem a interrupção do trabalho em andamento (Atlassian Bitbucket, [<i>s. d.</i>]).
 
 ![Gitflow](https://user-images.githubusercontent.com/100447878/224438616-057b263d-cb67-4f75-bacd-339024012816.png)
 
-Fonte: ATLASSIAN BITBUCKET, [<i>s. d.</i>]
+Fonte: Atlassian Bitbucket, [<i>s. d.</i>]
 
 Figura xx - Fluxo de controle do código fonte com Git
 
@@ -45,7 +45,7 @@ As tarefas (issues) são, ainda, etiquetadas em função da natureza da atividad
 
 ![Labels](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/bac37d2d-b7de-4f04-bdd9-8708b4a04e2f)
 
-Figura xx - Tela do esquema de cores e categorias
+Figura xx - Tela do esquema de cores e categorias das etiquetas
 
 ## Gerenciamento de Projeto
 
