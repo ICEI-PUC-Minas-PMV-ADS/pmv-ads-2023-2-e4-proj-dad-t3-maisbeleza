@@ -1,6 +1,6 @@
 # Referências
 
-ATLASSIAN BITBUCKET. <b>Fluxo de trabalho de Gitflow</b>. [s. d.]. Disponível em: https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow. Acesso em: 24 ago. 2023.
+ATLASSIAN. <b>Fluxo de trabalho de Gitflow</b>. [s. d.]. Disponível em: https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow. Acesso em: 24 ago. 2023.
 
 BRASIL. Ministério da Fazenda. Empresas e Negócios. <b>O que é Microempreendedor Individual – MEI. 2020</b>. Disponível em: https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes. Acesso em: 17 ago. 2023.
 
