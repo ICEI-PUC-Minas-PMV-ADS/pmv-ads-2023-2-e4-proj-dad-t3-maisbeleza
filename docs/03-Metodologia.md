@@ -57,7 +57,7 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 
 A equipe está organizada da seguinte maneira:
 - Scrum Master: Daiane Campos Procópio;
-- Product Owner: Leonardo Cardoso Vilela;
+- Product Owner: Leonardo Vilela Cardoso;
 - Equipe de Desenvolvimento: Fernanda Augusta de Barcelos Coura, Guilherme Faustini de Azevedo, Juliana Calazans Rodrigues de Magalhães e Rúbia Karina Prado Costa.
 
 ### Processo
@@ -72,7 +72,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
   <li>Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.</li>
  </ul>
 
-O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/225 e é apresentado, no estado atual, na figura abaixo:
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/483 e é apresentado, no estado atual, na figura abaixo:
 
 
 Figura xx - Tela do kanban no GitHub utilizada pelo grupo
