@@ -76,10 +76,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| A aplicação deve permitir ao usuário cadastrado logar em sua conta. | ALTA |
 |RF-003| A aplicação deve permitir ao usuário cadastrado sair da sua conta. | BAIXA |
 |RF-004| A aplicação deve permitir ao usuário gerenciar a sua conta. | MÉDIA |
-|RF-005| A aplicação deve permitir ao cliente fazer agendamentos. | ALTA |
+|RF-005| A aplicação deve permitir ao cliente fazer agendamentos. | MÉDIA |
 |RF-006| A aplicação deve permitir ao cliente gerenciar seus agendamentos. | MÉDIA |
-|RF-007| A aplicação deve permitir ao microempreendedor individual aceitar ou negar agendamentos. | ALTA |
-|RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda. | ALTA |
+|RF-007| A aplicação deve permitir ao microempreendedor individual aceitar ou negar agendamentos. | MÉDIA |
+|RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda. | MÉDIA |
 |RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços. | ALTA |
 |RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento. | ALTA |
 
