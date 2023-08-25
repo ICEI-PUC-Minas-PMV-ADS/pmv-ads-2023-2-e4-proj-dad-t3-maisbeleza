@@ -1,5 +1,7 @@
 # Referências
 
+AMARAL, Vanessa de Araújo; OLIVEIRA, Angela Maria Fleury de; ISONI, Taciana Maria. Inovação social e metodologias ágeis: uma história de sucesso. <b>DOM</b>: a revista da Fundação Dom Cabral, Nova Lima, v. 12, n. 38, p. 66-71, maio/ago. 2019.
+
 ATLASSIAN. <b>Fluxo de trabalho de Gitflow</b>. [s. d.]. Disponível em: https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow. Acesso em: 24 ago. 2023.
 
 BRASIL. Ministério da Fazenda. Empresas e Negócios. <b>O que é Microempreendedor Individual – MEI. 2020</b>. Disponível em: https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/perguntas-frequentes. Acesso em: 17 ago. 2023.
