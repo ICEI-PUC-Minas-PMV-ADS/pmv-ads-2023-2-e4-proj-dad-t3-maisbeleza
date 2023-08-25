@@ -6,6 +6,13 @@ Os profissionais do ramo da beleza, englobando cabeleireiros, manicures e pedicu
 
 Nos últimos anos, houve um crescimento significativo na indústria de aplicativos no Brasil. Esse avanço foi impulsionado pelo aumento da utilização de smartphones e pela expansão do acesso à internet em todo o país. A crise gerada pela pandemia de COVID-19 teve como consequência um aumento exponencial na procura por aplicativos. Isso ocorreu devido à necessidade das pessoas de encontrarem alternativas digitais para atividades que, anteriormente, eram realizadas de forma presencial. Nesse cenário, o Brasil se destacou como um dos principais mercados de aplicativos na América Latina (Quezada, 2023).
 
+Esse avanço tecnológico trouxe benefícios não só para a nossa vida cotidiana, mas também para as empresas, entre os quais se destacam:
+
+- Redução de custos: A incorporação de sistemas de gestão financeira proporciona uma administração mais precisa dos recursos, permitindo um efetivo corte de despesas.
+- Aumento da produtividade: A adoção da tecnologia elimina a necessidade de processos manuais e controles redundantes, resultando em um notável aumento da eficiência operacional.
+- Otimização e automação de processos: Através da automação, os processos repetitivos são otimizados, resultando em um ambiente de trabalho mais ágil e eficaz.
+- Comunicação aprimorada com os clientes: A tecnologia viabiliza uma comunicação mais direta e eficaz com os clientes, melhorando substancialmente sua interação com os produtos e serviços oferecidos pelas empresas.
+
 ## Problema
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
