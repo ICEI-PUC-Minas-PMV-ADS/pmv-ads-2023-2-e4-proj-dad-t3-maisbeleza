@@ -44,10 +44,10 @@ Desse modo, decidimos criar uma aplicação voltada para Microempreendedores Ind
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Estabeleceu-se como público-alvo desta aplicação distribuída profissionais que desejam gerenciar seu negócio de maneira mais eficiente e clientes que desejam ter autonomia no agendamento de serviços de beleza.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/3b03e2af-ffef-45d0-acda-ab64ad2096e8)
+
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
