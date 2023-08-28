@@ -134,6 +134,16 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100742971/c0b5e6a3-7508-4686-87ab-d8f72edf96a2)
 
+Equipe Front-End:
+
+* Daiane Campos Procópio
+* Fernanda Augusta de Barcelos Coura
+
+Equipe Back-End:
+
+* Guilherme Faustini de Azevedo
+* Juliana Calazans Rodrigues de Magalhães
+* Rúbia Karina Prado Costa
 
 ## Gestão de Orçamento
 
@@ -145,5 +155,3 @@ Os valores dos custos do projeto foram calculados com a estimativa de tempo de q
 |Software| R$12.000,00|  Licenças, Servidor | 
 |Serviços| R$16.000,00|  Internet, Energia, Água, Alimentação |
 |Custos extras| R$2.800,00 |Transporte, Treinamento |
-
-![Orçamento](img/02-orcamento.png)
