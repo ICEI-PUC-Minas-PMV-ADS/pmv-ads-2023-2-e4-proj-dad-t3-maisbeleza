@@ -109,6 +109,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 Figura xx - Diagrama de Casos de Uso
 # Matriz de Rastreabilidade
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/02a9af58-2509-44a5-8972-ffa1757ff925)
+
 A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
 
 A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
