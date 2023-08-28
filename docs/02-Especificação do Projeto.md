@@ -137,6 +137,13 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+Os valores dos custos do projeto foram calculados com a estimativa de tempo de quatro meses, utilizando cinco profissionais. Qualquer alteração de custos deverá ser avaliada pelo cliente e gerente do projeto.
+
+|Recursos Necessários | Valor  | Descrição |
+|-------|---|----|
+|Recursos Humanos| R$83.000,00| R$ 40,00/hora x 416 horas (4 meses)| 
+|Software| R$12.000,00|  Licenças, Servidor | 
+|Serviços| R$16.000,00|  Internet, Energia, Água, Alimentação |
+|Custos extras| R$2.800,00 |Transporte, Treinamento |
 
 ![Orçamento](img/02-orcamento.png)
