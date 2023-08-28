@@ -151,7 +151,7 @@ Os valores dos custos do projeto foram calculados com a estimativa de tempo de q
 
 |Recursos Necessários | Valor  | Descrição |
 |-------|---|----|
-|Recursos Humanos| R$96.000,00| R$ 40,00/hora x 480 horas (4 meses)| 
+|Recursos Humanos| R$96.000,00| R$40,00/hora x 480 horas (4 meses)| 
 |Software| R$12.000,00|  Licenças, Servidor | 
 |Serviços| R$16.000,00|  Internet, Energia, Água, Alimentação |
 |Custos extras| R$2.800,00 |Transporte, Treinamento |
