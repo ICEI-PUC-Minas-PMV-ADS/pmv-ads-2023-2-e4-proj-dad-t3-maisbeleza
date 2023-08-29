@@ -128,6 +128,7 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 
 ## Gerenciamento de Equipe
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100742971/8d63657d-3d1a-421a-bb26-8f750e8e1711)
 
 Equipe Front-End:
 
@@ -146,7 +147,7 @@ Os valores dos custos do projeto foram calculados com a estimativa de tempo de q
 
 |Recursos Necessários | Valor  | Descrição |
 |-------|---|----|
-|Recursos Humanos| R$96.000,00| 5 pessoas x R$40,00/hora x 480 horas (4 meses)| 
+|Recursos Humanos| R$72.000,00| R$30,00/hr x 480 horas| 
 |Software| R$12.000,00|  Licenças, Servidor | 
 |Serviços| R$16.000,00|  Internet, Energia, Água, Alimentação |
 |Custos extras| R$2.800,00 |Transporte, Treinamento |
