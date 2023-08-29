@@ -12,6 +12,8 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 |1|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/c54dadea-f489-4739-834c-cbedfeafb36a)|Patrícia tem 37 anos, é residente de Itabira e trabalha como cabeleireira. Gosta muito de viajar e tem vontade de expandir seu negócio. Está buscando uma aplicação que a permita ter um melhor controle de seu faturamento, para que possa investir na expansão.|
 |2|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/eac4cbd0-4809-41ce-b719-777bbd274ce9)|Pedro tem 33 anos é residente de Belo Horizonte e trabalha como designer.Gosta muito de estudar e se diz muito vaidoso. Está em busca de uma aplicação onde possa ter controle dos horários de seus procedimentos estéticos, para garantir que não se esqueça de algum de seus agendamentos.
 |3|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/030bcac6-263c-4574-9bfa-d446a04e5cfd)|Beatriz tem 27 anos ,é residente de João Monlevade e trabalha como advogada. Gosta muito de viajar e de se cuidar. Por trabalhar muito, tem dificuldade em conversar com os profissionais para agendar seus procedimentos estéticos e, por isso, está em busca de uma aplicação que lhe permita ver os horários disponíveis, e fazer seu próprio agendamento.|
+|4|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/50116df9-8a28-49e7-8f03-7d37dc3929f9)|Maria Eduarda tem 22 anos, é residente de Betim e está iniciando sua carreira como manicure. Gosta muito de estudar sobre assuntos relacionados a estética e de sair com seus amigos. Por estar no começo de sua carreira como microempreendedora, está com dificuldades em relação a administração do tempo de seus atendimentos. Por isso, está em busca de uma aplicação onde possa fazer o gerenciamento de sua agenda.|
+|5|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/75e5aa6b-ed75-475b-aff5-d962a2f51567)|Gabriel tem 29 anos, é residente de Belo Horizonte e tem um estúdio ontem realiza procedimentos como design de sobrancelhas, lash design e extensão de cílios. Gosta muito de sair para dançar e tem muito orgulho de seu negócio estar expandindo tão rapidamente. Está em busca de uma aplicação onde possa cadastrar seus serviços para simplificar o agendamento de seus clientes.|
 
 
 
@@ -24,6 +26,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Patrícia | Registrar meu faturamento          | Controlar minhas finanças       |
 |Pedro     | Gerenciar meus agendamentos             | Controlar melhor os horários dos meus procedimentos|
 |Beatriz   | Fazer meu próprio agendamento           | Economizar tempo |
+|Maria Eduarda  | Gerenciar minha agenda          | Administrar melhor o tempo dos atendimentos dos meus clientes|
+|Gabriel   | Cadastrar meus serviços           | Os clientes fazerem seus próprios agendamentos |
 
 
 
