@@ -30,7 +30,6 @@ Como objetivos específicos podemos destacar:
 
 ## Justificativa
 
-A importância da criação de uma aplicação voltada para microempreendedores consiste na necessidade de uma ferramenta ágil de auxílio para a gestão de negócios.
 
 Podemos citar que essa necessidade de utilizarmos a tecnologia atrelada ao ambiente de negócio é de suma importância pelos tantos exemplos que temos de cases de sucesso ao utilizar aplicativos a fim de facilitar o dia a dia de empreendedores. Um exemplo é a aplicação feita pelo Sebrae, que disponibiliza uma gama de funcionalidades que tem como objetivo capacitar, orientar e ajudar os empresários, e oferece toda a experiência do Sebrae na palma da mão de forma digital e inovadora.
 
