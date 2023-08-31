@@ -106,7 +106,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre letivo, não podendo extrapolar a data de 10/12/2023. |
+|01| O projeto deverá ser entregue até o final do semestre letivo, não podendo extrapolar a data de 26/11/2023. |
 |02| A equipe não pode subcontratar o desenvolvimento do trabalho. |
 
 ## Diagrama de Casos de Uso
