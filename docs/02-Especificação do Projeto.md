@@ -96,7 +96,9 @@ Figura xx - Quadrante de priorização de requisitos
 |-------|-------------------------|----|
 |RNF-001| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada. | BAIXA | 
 |RNF-002| A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade. |  BAIXA | 
-|RNF-003| A aplicação web deve ser compatível com os navegadores mais utilizados do mercado. |  MÉDIA | 
+|RNF-003| A aplicação web deve ser compatível com os navegadores mais utilizados do mercado. |  MÉDIA |
+|RNF-004| A aplicação móvel deve ser compatível com diferentes sistemas operacionais.  |  ALTA |
+|RNF-005| A aplicação móvel deve ser intuitiva para que o usuário consiga encontrar as informações que deseja facilmente.  |  ALTA |
 
 ## Restrições
 
