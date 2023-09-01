@@ -15,6 +15,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 |4|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/50116df9-8a28-49e7-8f03-7d37dc3929f9)|Maria Eduarda tem 22 anos, é residente de Betim e está iniciando sua carreira como manicure. Gosta muito de estudar sobre assuntos relacionados a estética e de sair com seus amigos. Por estar no começo de sua carreira como microempreendedora, está com dificuldades em relação a administração do tempo de seus atendimentos. Por isso, está em busca de uma aplicação onde possa fazer o gerenciamento de sua agenda.|
 |5|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/17b21b6c-be9a-4606-9d42-b76841e92039)|Laís tem 45 anos, é residente de Belo Horizonte e tem um estúdio ontem realiza procedimentos como design de sobrancelhas, lash design e extensão de cílios. Gosta muito de sair para dançar e tem muito orgulho de seu negócio estar expandindo tão rapidamente. Está em busca de uma aplicação onde possa cadastrar seus serviços para que os clientes saibam quais procedimentos são oferecidos em seu estúdio.|
 |6|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/3e44f820-0a7d-4965-b6a4-d6cb8eeed73c)|Gabriel tem 29 anos, é residente de Contagem, e tem uma barbearia. Gosta muito de ouvir música eletrônica, e de fazer trilhas. Se considera muito desorganizado e por isso acaba se atrapalhando com os horários de seus clientes. Está em busca de uma aplicação onde possa visualizar sua agenda mais claramente. |
+|7|![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/fa196b63-5500-4f4b-a7d9-8e52c7ed5ca9)|Paula tem 30 anos, é residente de Mariana e trabalha como maquiadora.  Gosta de sair com suas amigas e viajar. Relata ter uma verdadeira paixão por seu trabalho, principalmente nos dias que faz maquiagem em noivas. No entanto, relata que para fazer este tipo de atendimento, ela tem que recusar outras clientes que tentam agendar no mesmo dia. Por isso, está em busca de uma aplicação onde possa aceitar ou recusar as solicitações de agendamento.|
 
 
 ## Histórias de Usuários
@@ -29,6 +30,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Maria Eduarda  | Gerenciar o horário dos meus clientes        | Administrar melhor o tempo que gastarei com os atendimentos|
 |Gabriel   | Cadastrar meus serviços           | Os clientes saberem quais os serviços que ofereço |
 |Laís   | Visualizar minha agenda        | Não confundir os horários dos atendimentos|
+|Paula   | Ter uma opção de aceitar ou recusar uma solicitação de agendamento        | Agendar os atendimentos de acordo com minha disponibilidade de horário |
 
 
 
