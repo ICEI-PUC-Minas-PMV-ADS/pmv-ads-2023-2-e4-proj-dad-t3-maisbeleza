@@ -129,7 +129,8 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-![Gantt](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/98122346/531a2104-be74-4eca-ba0c-37d957707e17)
+![Gráfico de Gantt](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/98122346/a310bc2a-596a-43f5-ae41-4be004dab0fb)
+
  Figura xx - Diagrama de Gantt
 
 ## Gerenciamento de Equipe
