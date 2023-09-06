@@ -113,7 +113,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/d5aa7d45-5f55-4171-90a7-d3ddd14ed635)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/6037d5aa-2e66-4866-b453-e5ba62d6eb7d)
+
 
 Figura xx - Diagrama de Casos de Uso
 # Matriz de Rastreabilidade
