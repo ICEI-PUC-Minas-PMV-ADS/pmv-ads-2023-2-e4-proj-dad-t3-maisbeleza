@@ -33,8 +33,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Paula   | Ter uma opção de aceitar ou recusar uma solicitação de agendamento        | Agendar os atendimentos de acordo com minha disponibilidade de horário |
 
 
-
-
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
@@ -90,7 +88,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 A técnica de priorização de requisitos utilizada foi a Escala de Três Níveis, com os valores "Alta", "Média" e "Baixa", associada ao quadrante de priorização, que estabeleu a importância e urgência dos requisitos.
 
 ![Quadrante_4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/2f150beb-d294-4274-a42e-013f822aedb0)
-Figura xx - Quadrante de priorização de requisitos
+Figura 02 - Quadrante de priorização de requisitos
 
 ### Requisitos não Funcionais
 
@@ -114,33 +112,29 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Diagrama de Casos de Uso
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/d3c83268-beeb-46bf-8d7d-2b6c91cb59ed)
+Figura 03 - Diagrama de Casos de Uso
 
-
-
-Figura xx - Diagrama de Casos de Uso
 # Matriz de Rastreabilidade
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/3d4a303d-6a6b-43ae-8b55-739557365349)
 
-
-
-
-Figura xx - Matriz de Rastreabilidade
+Figura 04 - Matriz de Rastreabilidade
 
 
 # Gerenciamento de Projeto
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+De acordo com o PMBoK v6, as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas.
 
 ## Gerenciamento de Tempo
 
 ![Gráfico de Gantt](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/98122346/12e1051b-816b-4547-89c9-d46222b70fb7)
 
-
- Figura xx - Diagrama de Gantt
+ Figura 05 - Diagrama de Gantt
 
 ## Gerenciamento de Equipe
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100742971/8d63657d-3d1a-421a-bb26-8f750e8e1711)
+
+Figura 06 - Gerenciamento da equipe
 
 Equipe Front-End:
 
@@ -155,7 +149,7 @@ Equipe Back-End:
 
 ## Gestão de Orçamento
 
-Os valores dos custos do projeto foram calculados com a estimativa de tempo de quatro meses, utilizando cinco profissionais. Qualquer alteração de custos deverá ser avaliada pelo cliente e gerente do projeto.
+Os valores dos custos do projeto foram calculados com a estimativa de tempo de quatro meses, utilizando cinco profissionais, totalizando R$103.600,00. Qualquer alteração de custos deverá ser avaliada pelo cliente e gerente do projeto.
 
 |Recursos Necessários | Valor  | Descrição |
 |-------|---|----|
