@@ -5,7 +5,7 @@
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ![Mais Beleza](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/b06b4723-2573-496e-9639-01a535cdb1c8)
-Figura xx - Diagrama da arquitetura
+Figura 10 - Diagrama da arquitetura
 
 ## Diagrama de Classes
 
@@ -52,6 +52,7 @@ As tecnologias listadas abaixo serão utilizadas para a implementação da solu�
 |Marvel App  | Projeto de interface e wireframes. |
 |React, React Native, React Native Paper, ASP.NET Core MVC | Bibliotecas e framework utilizados.  |
 |C#, HTML, CSS, JavaScript, JSON (JavaScript Object Notation)	| Linguagens de programação utilizadas na criação do código fonte da aplicação. |
+|Insomnia | Testes. |
 
 A ilustração de como as tecnologias estão relacionadas e como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário, pode ser visualizada na figura xx, Diagrama da arquitetura.
 
