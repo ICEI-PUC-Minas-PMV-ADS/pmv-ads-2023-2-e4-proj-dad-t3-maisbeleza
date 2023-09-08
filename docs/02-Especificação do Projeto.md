@@ -113,7 +113,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/6037d5aa-2e66-4866-b453-e5ba62d6eb7d)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/d3c83268-beeb-46bf-8d7d-2b6c91cb59ed)
+
 
 
 Figura xx - Diagrama de Casos de Uso
