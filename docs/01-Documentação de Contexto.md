@@ -15,9 +15,9 @@ Esse avanço tecnológico trouxe benefícios não só para a nossa vida cotidian
 
 ## Problema
 
-Hoje no Brasil 29% dos microempreendedores individuais(MEI) fecham seus negócios após 5 anos de atividade devido a ineficiência de gestão.
+Hoje, no Brasil, 29% dos microempreendedores individuais (MEI) fecham seus negócios após 5 anos de atividade devido à ineficiência de gestão (Sebrae, 2023).
 
-Em consideração a isso, o problema que se busca resolver com a aplicação é da dificuldade que microempresários do ramo de beleza têm em gerir seus empreendimentos, seja administrando o cadastro de seus clientes, gerindo agendamento de horários e controlando seu faturamento.
+Em consideração a isso, o problema que se busca resolver com a aplicação é da dificuldade que microempreendedores do ramo de beleza têm em gerir seus empreendimentos, seja administrando o cadastro de seus clientes, gerindo agendamento de horários e controlando seu faturamento.
 
 ## Objetivos
 
@@ -41,5 +41,5 @@ Estabeleceu-se como público-alvo desta aplicação distribuída profissionais q
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/3b03e2af-ffef-45d0-acda-ab64ad2096e8)
 
-
+Figura 1 - Mapa de stakeholders
 
