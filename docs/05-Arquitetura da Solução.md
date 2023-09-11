@@ -19,7 +19,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 ![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/a2779bf0-b2dc-43c8-b048-29d8be24e7f6)
 Figura 12 - Modelo entidade relacionamento
