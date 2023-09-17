@@ -3105,19 +3105,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\proco\\.nuget\\packages\\": {}
+    "C:\\Users\\julia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\proco\\OneDrive\\Área de Trabalho\\MaisBeleza\\MaisBeleza\\MaisBeleza\\MaisBeleza.csproj",
+      "projectUniqueName": "C:\\Users\\julia\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\\MaisBeleza\\MaisBeleza\\MaisBeleza.csproj",
       "projectName": "MaisBeleza",
-      "projectPath": "C:\\Users\\proco\\OneDrive\\Área de Trabalho\\MaisBeleza\\MaisBeleza\\MaisBeleza\\MaisBeleza.csproj",
-      "packagesPath": "C:\\Users\\proco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\proco\\OneDrive\\Área de Trabalho\\MaisBeleza\\MaisBeleza\\MaisBeleza\\obj\\",
+      "projectPath": "C:\\Users\\julia\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\\MaisBeleza\\MaisBeleza\\MaisBeleza.csproj",
+      "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\julia\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\\MaisBeleza\\MaisBeleza\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\proco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3181,7 +3181,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
