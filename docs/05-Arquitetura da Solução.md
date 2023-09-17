@@ -12,7 +12,8 @@ Figura 10 - Diagrama da arquitetura
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Classe UML (9)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/61d5a9ba-df31-40e5-9c5d-edebd3d13399)
+
+![Classe UML (10)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/7a0dcc45-0f29-4ef5-88d0-39b2c68e3fbe)
 
 
 
