@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\MaisBeleza",
+    "\\MaisBeleza\\MaisBeleza",
+    "\\MaisBeleza\\MaisBeleza\\Controllers",
+    "\\MaisBeleza\\MaisBeleza\\Models"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\MaisBeleza\\MaisBeleza.sln",
   "PreviewInSolutionExplorer": false
 }

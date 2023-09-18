@@ -5,3 +5,10 @@ C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\D
 C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.csproj.CoreCompileInputs.cache
 C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.AssemblyInfo.cs
+C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.MvcApplicationPartsAssemblyInfo.cache
