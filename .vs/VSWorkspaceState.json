@@ -3,9 +3,8 @@
     "",
     "\\MaisBeleza",
     "\\MaisBeleza\\MaisBeleza",
-    "\\MaisBeleza\\MaisBeleza\\Controllers",
-    "\\src"
+    "\\MaisBeleza\\MaisBeleza\\Models"
   ],
-  "SelectedNode": "\\MaisBeleza\\MaisBeleza\\Controllers\\AgendamentosController.cs",
+  "SelectedNode": "\\MaisBeleza\\MaisBeleza\\Models\\Agendamento.cs",
   "PreviewInSolutionExplorer": false
 }

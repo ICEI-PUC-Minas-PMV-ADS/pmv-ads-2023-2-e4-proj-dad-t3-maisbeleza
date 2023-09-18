@@ -10,12 +10,14 @@ namespace MaisBeleza.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public string Nome { get; set; }
+        public string NomeServico { get; set; }
+        [Required]
+        public string Descricao { get; set; }
         [Required]
         public int Duracao { get; set; }
         [Required]
-        [Column(TypeName ="decimal(10,2)")]
-        public decimal Preco { get; set; }
+        [Column(TypeName = "decimal(10,2)")]
+        public decimal Valor { get; set; }
 
         [Required]
         public int MeiId { get; set; }
