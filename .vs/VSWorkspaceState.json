@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MaisBeleza",
+    "\\MaisBeleza\\MaisBeleza",
+    "\\MaisBeleza\\MaisBeleza\\Controllers",
+    "\\src"
   ],
-  "SelectedNode": "\\C:\\Users\\proco\\OneDrive\\Área de Trabalho\\MaisBeleza",
+  "SelectedNode": "\\MaisBeleza\\MaisBeleza\\Controllers\\AgendamentosController.cs",
   "PreviewInSolutionExplorer": false
 }
