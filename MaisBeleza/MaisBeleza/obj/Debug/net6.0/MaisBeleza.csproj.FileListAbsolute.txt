@@ -1,7 +1,0 @@
-C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.csproj.AssemblyReference.cache
-C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.AssemblyInfoInputs.cache
-C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.AssemblyInfo.cs
-C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.csproj.CoreCompileInputs.cache
-C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\proco\OneDrive\Área de Trabalho\MaisBeleza\MaisBeleza\MaisBeleza\obj\Debug\net6.0\MaisBeleza.MvcApplicationPartsAssemblyInfo.cache
