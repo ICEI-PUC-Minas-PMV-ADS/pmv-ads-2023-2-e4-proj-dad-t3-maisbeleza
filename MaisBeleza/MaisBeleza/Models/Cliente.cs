@@ -11,7 +11,7 @@ namespace MaisBeleza.Models
         [Required]
         public string Nome { get; set; }
         [Required]
-        public int Telefone { get; set; }
+        public string Telefone { get; set; }
         [Required]
         public string Password { get; set; }
 
