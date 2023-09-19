@@ -9,9 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MaisBeleza
 build_property.RootNamespace = MaisBeleza
+<<<<<<<< HEAD:MaisBeleza/MaisBeleza/obj/Release/net6.0/MaisBeleza.GeneratedMSBuildEditorConfig.editorconfig
 build_property.ProjectDir = C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza
+========
+build_property.ProjectDir = C:\Users\gfaus\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gfaus\source\repos\ICEI-PUC-Minas-PMV-ADS\pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza\MaisBeleza\MaisBeleza
+>>>>>>>> origin/guilherme-mei:MaisBeleza/MaisBeleza/obj/Debug/net6.0/MaisBeleza.GeneratedMSBuildEditorConfig.editorconfig
 build_property._RazorSourceGeneratorDebug = 
