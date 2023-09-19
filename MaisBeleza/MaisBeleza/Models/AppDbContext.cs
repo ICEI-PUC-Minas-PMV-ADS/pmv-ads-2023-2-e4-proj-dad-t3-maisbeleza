@@ -28,17 +28,17 @@ namespace MaisBeleza.Models
                 .HasOne(c => c.Agendamento).WithMany(c => c.Servicos)
                 .HasForeignKey(c => c.AgendamentoId);
 
-            builder.Entity<Agenda>()
-                .HasOne(c => c.Servico).WithMany(c => c.Agendamentos)
-            .HasForeignKey(c => c.ServicoId);
+            //builder.Entity<Agenda>()
+            //    .HasOne(c => c.Servico).WithMany(c => c.Agendamentos)
+            //.HasForeignKey(c => c.ServicoId);
         }
 
 
         public DbSet<Agendamento> Agendamentos { get; set; }
-        public DbSet<Cliente> Clientes { get; set; }
+        //public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Faturamento> Faturamentos { get; set; }
-        public DbSet<Mei> Meis { get; set; }
-        public DbSet<Servico> Servicos { get; set; }
+        //public DbSet<Mei> Meis { get; set; }
+        //public DbSet<Servico> Servicos { get; set; }
         public DbSet<Agenda> Agendas { get; set; }
     }
 }

@@ -38,7 +38,8 @@ namespace MaisBeleza.Controllers
         {
 
             var model = await _context.Agendamentos
-                .Include(t => t.Servicos).ThenInclude(t => t.Servico)
+                .Include(t => t.Servicos)
+                //.ThenInclude(t => t.Servico)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();

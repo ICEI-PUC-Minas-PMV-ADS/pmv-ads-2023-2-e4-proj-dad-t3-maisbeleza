@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace MaisBeleza.Controllers
+namespace MaisBeleza.Models
 {
 
     [Table("Faturamentos")]
