@@ -15,14 +15,82 @@ namespace MaisBeleza.Models
         [Required]
         public string Rua { get; set; }
         [Required]
-        public int Numero { get; set; }
+        public string Numero { get; set; }
         [Required]
         public string Bairro { get; set; }
         [Required]
         public string Cidade { get; set; }
         [Required]
-        public string Estado { get; set; }
+        public Estado Estado { get; set; }
         [Required]
         public string Senha { get; set; }
+        [Required]
+        public string HorarioFuncionamento { get; set; }
+
+        public ICollection<Servico> Servicos { get; set; }
+
+        public ICollection<Faturamento> Faturamentos { get; set; }
+
+        public ICollection<Agendamento> Agendamentos { get; set; }
     }
-}
+        public enum Estado
+
+        {
+
+            AC,
+
+            AL,
+
+            AP,
+
+            AM,
+
+            BA,
+
+            CE,
+
+            DF,
+
+            ES,
+
+            GO,
+
+            MA,
+
+            MT,
+
+            MS,
+
+            MG,
+
+            PA,
+
+            PB,
+
+            PR,
+
+            PE,
+
+            PI,
+
+            RJ,
+
+            RN,
+
+            RS,
+
+            RO,
+
+            RR,
+
+            SC,
+
+            SP,
+
+            SE,
+
+            TO
+
+
+        }
+    }
