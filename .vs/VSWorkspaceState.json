@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\MaisBeleza",
+    "\\MaisBeleza\\MaisBeleza",
+    "\\MaisBeleza\\MaisBeleza\\Models"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\MaisBeleza\\MaisBeleza\\Models\\Agendamento.cs",
   "PreviewInSolutionExplorer": false
 }
