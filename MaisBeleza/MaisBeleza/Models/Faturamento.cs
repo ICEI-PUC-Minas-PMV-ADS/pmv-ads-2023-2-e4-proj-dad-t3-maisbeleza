@@ -16,7 +16,7 @@ namespace MaisBeleza.Models
 
         [Required]
         public int MeiId { get; set; }
-        //public Mei Mei { get; set; }
+        public Mei Mei { get; set; }
 
     }
 }

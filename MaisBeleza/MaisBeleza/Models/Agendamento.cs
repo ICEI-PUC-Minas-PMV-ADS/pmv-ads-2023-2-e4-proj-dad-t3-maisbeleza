@@ -19,7 +19,7 @@ namespace MaisBeleza.Models
 
         [Required]
         public int ClienteId { get; set; }
-        //public Cliente Cliente { get; set; }
+        public Cliente Cliente { get; set; }
 
         public ICollection<Agenda> Servicos { get; set; }
     }
