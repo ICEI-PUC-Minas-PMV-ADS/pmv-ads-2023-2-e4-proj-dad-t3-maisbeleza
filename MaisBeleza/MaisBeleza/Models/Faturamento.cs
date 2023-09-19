@@ -5,7 +5,7 @@ namespace MaisBeleza.Models
 {
 
     [Table("Faturamentos")]
-    public class Faturamento
+    public class Faturamento: LinksHATEOS
     {
         [Key]
         public int Id { get; set; }
