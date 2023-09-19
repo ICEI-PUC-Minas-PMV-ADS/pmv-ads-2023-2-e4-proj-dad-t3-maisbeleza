@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Reflection.Emit;
 using System.Reflection.Metadata;
 
