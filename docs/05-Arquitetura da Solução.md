@@ -50,7 +50,7 @@ As tecnologias listadas abaixo serão utilizadas para a implementação da solu�
 |Github | Repositório da documentação e código fonte do projeto; gerenciamento de funções e tarefas.  |
 |Git | Gestão do código fonte (versionamento).  |
 |Microsoft Visual Studio | Criação do código fonte. |
-|MongoDB | Criação e administração do banco de dados.  |
+|SQL Server | Criação e administração do banco de dados.  |
 |Expo Dev | Criação do código da aplicação mobile. |
 |Lucidchart  | Criação dos diagramas e modelos. |
 |Marvel App  | Projeto de interface e wireframes. |
