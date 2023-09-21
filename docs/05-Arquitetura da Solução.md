@@ -15,12 +15,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ![Classe UML (10)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/7a0dcc45-0f29-4ef5-88d0-39b2c68e3fbe)
 
-
-
-
-
-
-
+Figura 11 - Diagrama de classes
 
 ## Modelo ER
 
