@@ -21,14 +21,16 @@ Figura 11 - Diagrama de classes
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/a2779bf0-b2dc-43c8-b048-29d8be24e7f6)
+![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/aba4b403-d1ab-48d4-8553-08fe9ce4f845)
+
 Figura 12 - Modelo entidade relacionamento
 
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
-![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/62b3262a-a21e-4ea9-a4b3-1d28bc62d9d5)
+![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4a450a42-b074-4134-b966-225aba5cc743)
+
 Figura 13 - Esquema relacional
 
 ## Modelo Físico
