@@ -8,6 +8,8 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Figura 10 - Diagrama da arquitetura
 
+A escolha do SQL Server como banco de dados da API se deu por sua integração com o ASP.NET, simplificando o processo de desenvolvimento da API e tornando mais eficiente a administração de recursos da equipe.
+
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
