@@ -39,6 +39,7 @@ namespace MaisBeleza.Controllers
         public async Task<ActionResult> GetById(int id)
         {
             var model = await _context.Servicos
+                .Include(t => t.Mei)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) NotFound();

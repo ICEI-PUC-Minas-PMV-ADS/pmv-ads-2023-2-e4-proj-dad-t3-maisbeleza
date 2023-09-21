@@ -51,6 +51,7 @@ namespace MaisBeleza.Controllers
             if (id != model.Id) return BadRequest();
 
             var modeloDb = await _context.Clientes.AsNoTracking()
+                .Include(t => t.Agendamentos)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (modeloDb == null) return NotFound();
