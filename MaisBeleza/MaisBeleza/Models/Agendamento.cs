@@ -8,9 +8,12 @@ namespace MaisBeleza.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar a data!")]
         public DateTime Data { get; set; }
-        [Required]
+
+        [Display(Name = "Horário")]
+        [Required(ErrorMessage = "É necessário informar o horário!")]
         public string Horario { get; set; }
 
         [Required]
