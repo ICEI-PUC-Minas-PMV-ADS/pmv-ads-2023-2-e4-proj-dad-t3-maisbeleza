@@ -14,8 +14,10 @@ A escolha do SQL Server como banco de dados da API se deu por sua integração c
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
+![Classe UML (12)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/91e6e69d-d058-4b25-aaa5-53868d3458dc)
 
-![Classe UML (10)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/7a0dcc45-0f29-4ef5-88d0-39b2c68e3fbe)
+
+
 
 Figura 11 - Diagrama de classes
 
