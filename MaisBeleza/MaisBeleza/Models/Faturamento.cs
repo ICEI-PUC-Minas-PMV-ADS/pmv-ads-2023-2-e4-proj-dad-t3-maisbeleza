@@ -10,11 +10,11 @@ namespace MaisBeleza.Models
         [Key]
         public int Id { get; set; }
         public DateTime Data { get; set; }
-        [Required]
+        [Required(ErrorMessage = "É necessário informar a data!")]
         [Column(TypeName = "decimal(18,2)")]
         public decimal ValorTotal { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "É necessário informar o valor!")]
         public int MeiId { get; set; }
         public Mei Mei { get; set; }
 

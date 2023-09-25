@@ -71,6 +71,12 @@ namespace MaisBeleza.Controllers
 
             return NoContent();
         }
+        private void GerarLinks(Faturamento model)
+        {
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "Delete"));
+        }
     }
 }
 
