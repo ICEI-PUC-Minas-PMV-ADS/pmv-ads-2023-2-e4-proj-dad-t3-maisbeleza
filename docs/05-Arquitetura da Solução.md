@@ -36,8 +36,20 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 Figura 13 - Esquema relacional
 
 ## Modelo Físico
+Segue abaixo a representação do banco de dados:
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+![print_db](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/177cd1c7-afb4-41a5-adcd-b0b3e12dffec)
+
+Figura 14 - Tabelas de Agenda, Agendamento e Clientes
+
+![print-db-2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/0b71eee8-8950-4412-9071-71bcad8718de)
+
+Figura 15 - Tabelas de Faturamentos e Meis
+
+![print-db-3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/47dd2044-fc15-47c3-b865-57ea3af7e5e6)
+
+Figura 16 - Tabela de Serviços
+
 
 ## Tecnologias Utilizadas
 
