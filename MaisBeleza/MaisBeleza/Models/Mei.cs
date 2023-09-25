@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace MaisBeleza.Models
 {
@@ -10,6 +11,8 @@ namespace MaisBeleza.Models
         public int Id { get; set; }
         [Required]
         public string NomeMei { get; set; }
+        [Required]
+        public string Email { get; set; }
         [Required]
         public string Telefone { get; set; }
         [Required]
@@ -23,7 +26,10 @@ namespace MaisBeleza.Models
         [Required]
         public Estado Estado { get; set; }
         [Required]
-        public string Senha { get; set; }
+        public Perfil Perfil { get; set; }
+        [Required]
+        [JsonIgnore]
+        public string Password { get; set; }
         [Required]
         public string HorarioFuncionamento { get; set; }
 
@@ -36,7 +42,6 @@ namespace MaisBeleza.Models
         public enum Estado
 
         {
-
             AC,
 
             AL,
@@ -90,7 +95,5 @@ namespace MaisBeleza.Models
             SE,
 
             TO
-
-
         }
     }

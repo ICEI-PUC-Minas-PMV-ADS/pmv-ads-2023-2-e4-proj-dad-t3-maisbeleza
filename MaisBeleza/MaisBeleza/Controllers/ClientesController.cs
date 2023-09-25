@@ -1,10 +1,16 @@
 ﻿using MaisBeleza.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace MaisBeleza.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ClientesController : ControllerBase
@@ -24,14 +30,22 @@ namespace MaisBeleza.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(Cliente model)
+        public async Task<ActionResult> Create(ClienteDto model)
         {
+            Cliente novo = new Cliente()
+            { 
+                    Nome = model.Nome,
+                    Email = model.Email,
+                    Telefone = model.Telefone,
+                    Perfil = model.Perfil,
+                    Password = BCrypt.Net.BCrypt.HashPassword(model.Password)
+                };
 
-            _context.Clientes.Add(model);
-            await _context.SaveChangesAsync();
+                _context.Clientes.Add(novo);
+                await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetById", new { id = model.Id }, model);
-        }
+                return CreatedAtAction("GetById", new { id = novo.Id }, novo);
+            }
 
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
@@ -46,7 +60,7 @@ namespace MaisBeleza.Controllers
             return Ok(model);
         }
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(int id, Cliente model)
+        public async Task<ActionResult> Update(int id, ClienteDto model)
         {
             if (id != model.Id) return BadRequest();
 
@@ -56,7 +70,13 @@ namespace MaisBeleza.Controllers
 
             if (modeloDb == null) return NotFound();
 
-            _context.Clientes.Update(model);
+            modeloDb.Nome = model.Nome;
+            modeloDb.Email = model.Email;
+            modeloDb.Telefone = model.Telefone;
+            modeloDb.Perfil = model.Perfil;
+            modeloDb.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
+
+            _context.Clientes.Update(modeloDb);
             await _context.SaveChangesAsync();
 
             return NoContent();
@@ -75,6 +95,48 @@ namespace MaisBeleza.Controllers
             return NoContent();
         }
 
-      
+        [AllowAnonymous]
+        [HttpPost("authenticate")]
+        public async Task<ActionResult> Authenticate(AuthenticateDto model)
+        {
+            var clienteDb = await _context.Clientes.FindAsync(model.Id);
+
+            if (clienteDb == null || !BCrypt.Net.BCrypt.Verify(model.Password, clienteDb.Password))
+                return Unauthorized();
+
+            var jwt = GenerateJwtToken(clienteDb);
+
+            return Ok(new { jwt = jwt });
+        }
+
+        private string GenerateJwtToken(Cliente model)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes("Ry74cBQva5dThwbwchR9jhbtRFnJxWSZ");
+            var claims = new ClaimsIdentity(new Claim[]
+            {
+                new Claim(ClaimTypes.NameIdentifier, model.Id.ToString()),
+                new Claim(ClaimTypes.Role, model.Perfil.ToString())
+            });
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = claims,
+                Expires = DateTime.UtcNow.AddHours(8),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
+                SecurityAlgorithms.HmacSha256Signature)
+            };
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+        }
+
+        private void GerarLinks(Cliente model)
+        {
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
+            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "Delete"));
+        }
+
+
     }
 }
