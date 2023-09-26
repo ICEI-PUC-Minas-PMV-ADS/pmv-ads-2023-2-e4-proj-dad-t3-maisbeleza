@@ -9,16 +9,17 @@ namespace MaisBeleza.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage = "É necessário informar o nome!")]
         public string Nome { get; set; }
-        [Required]
+        [Required(ErrorMessage = "É necessário informar o email!")]
         public string Email { get; set; }
-        [Required]
+        [Required(ErrorMessage = "É necessário informar o telefone!")]
         public string Telefone { get; set; }
-        [Required]
+        [Required(ErrorMessage = "É necessário informar o perfil!")]
         public Perfil Perfil { get; set; }
 
-        [Required]
+        [Display(Name = "Senha")]
+        [Required(ErrorMessage = "É necessário informar a senha!")]
         [JsonIgnore]
         public string Password { get; set; }
 
