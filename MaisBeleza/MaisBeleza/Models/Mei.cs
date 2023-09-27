@@ -9,28 +9,39 @@ namespace MaisBeleza.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar o nome!")]
         public string NomeMei { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar o email!")]
         public string Email { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar o telefone!")]
         public string Telefone { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar a rua!")]
         public string Rua { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar o numero!")]
         public string Numero { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar o bairro!")]
         public string Bairro { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar a cidade!")]
         public string Cidade { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar o estado!")]
         public Estado Estado { get; set; }
+
         [Required]
         public Perfil Perfil { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar a senha!")]
         [JsonIgnore]
         public string Password { get; set; }
-        [Required]
+
+        [Required(ErrorMessage = "É necessário informar o horário!")]
         public string HorarioFuncionamento { get; set; }
 
         public ICollection<Servico> Servicos { get; set; }
