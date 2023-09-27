@@ -18,7 +18,7 @@ namespace MaisBeleza.Models
         [Required(ErrorMessage = "É necessário informar a descrição do serviço!")]
         public string Descricao { get; set; }
 
-        [Display(Name = "Duração")]
+        [Display(Name = "Duração (min)")]
         [Required(ErrorMessage = "É necessário informar a duração do serviço!")]
         public int Duracao { get; set; }
 

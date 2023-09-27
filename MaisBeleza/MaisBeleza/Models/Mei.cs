@@ -9,10 +9,12 @@ namespace MaisBeleza.Models
     {
         [Key]
         public int Id { get; set; }
-
+        
+        [Display(Name = "Nome")]
         [Required(ErrorMessage = "É necessário informar o nome!")]
         public string NomeMei { get; set; }
 
+        [Display(Name = "E-mail")]
         [Required(ErrorMessage = "É necessário informar o email!")]
         public string Email { get; set; }
 
@@ -22,6 +24,7 @@ namespace MaisBeleza.Models
         [Required(ErrorMessage = "É necessário informar a rua!")]
         public string Rua { get; set; }
 
+        [Display(Name = "Número")]
         [Required(ErrorMessage = "É necessário informar o numero!")]
         public string Numero { get; set; }
 
@@ -37,10 +40,12 @@ namespace MaisBeleza.Models
         [Required]
         public Perfil Perfil { get; set; }
 
+        [Display(Name = "Senha")]
         [Required(ErrorMessage = "É necessário informar a senha!")]
         [JsonIgnore]
         public string Password { get; set; }
 
+        [Display(Name = "Horário de funcionamento")]
         [Required(ErrorMessage = "É necessário informar o horário!")]
         public string HorarioFuncionamento { get; set; }
 
