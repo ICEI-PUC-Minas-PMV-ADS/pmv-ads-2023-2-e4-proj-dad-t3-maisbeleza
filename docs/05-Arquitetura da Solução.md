@@ -1,6 +1,6 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/blob/main/docs/04-Projeto%20de%20Interface.md"> Projeto de Interface</a></span>
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
@@ -8,32 +8,50 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 Figura 10 - Diagrama da arquitetura
 
+A escolha do SQL Server como banco de dados da API se deu por sua integração com o ASP.NET, simplificando o processo de desenvolvimento da API e tornando mais eficiente a administração de recursos da equipe.
+
 ## Diagrama de Classes
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Classes”.
+![Classe UML (12)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/91e6e69d-d058-4b25-aaa5-53868d3458dc)
 
-> - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
-> - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
+
+
+
+Figura 11 - Diagrama de classes
 
 ## Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/a2779bf0-b2dc-43c8-b048-29d8be24e7f6)
+![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/3c03d382-64c0-419c-8918-17a96e1c9b05)
+
 Figura 12 - Modelo entidade relacionamento
 
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
-![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4e4e3ba8-d6a5-4f0a-bfef-929debf75cb4)
+![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/5415b428-0ca4-481d-be11-fc756ee5359e)
+
 Figura 13 - Esquema relacional
 
 ## Modelo Físico
+Segue abaixo a representação do banco de dados:
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+![print_db](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/177cd1c7-afb4-41a5-adcd-b0b3e12dffec)
+
+Figura 14 - Tabelas de Agenda, Agendamento e Clientes
+
+![print-db-2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/0b71eee8-8950-4412-9071-71bcad8718de)
+
+Figura 15 - Tabelas de Faturamentos e Meis
+
+![print-db-3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/47dd2044-fc15-47c3-b865-57ea3af7e5e6)
+
+Figura 16 - Tabela de Serviços
+
 
 ## Tecnologias Utilizadas
 
@@ -45,7 +63,7 @@ As tecnologias listadas abaixo serão utilizadas para a implementação da solu�
 |Github | Repositório da documentação e código fonte do projeto; gerenciamento de funções e tarefas.  |
 |Git | Gestão do código fonte (versionamento).  |
 |Microsoft Visual Studio | Criação do código fonte. |
-|MongoDB | Criação e administração do banco de dados.  |
+|Microsoft SQL Server | Criação e administração do banco de dados.  |
 |Expo Dev | Criação do código da aplicação mobile. |
 |Lucidchart  | Criação dos diagramas e modelos. |
 |Marvel App  | Projeto de interface e wireframes. |

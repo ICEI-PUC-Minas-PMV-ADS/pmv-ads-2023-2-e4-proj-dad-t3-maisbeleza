@@ -2,10 +2,10 @@
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+-
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [0.1.0] - 01/10/2023
 #### Adicionado
-- Adicionado ...
+- Criação da API e do banco de dados.
