@@ -42,6 +42,7 @@ namespace MaisBeleza_Test
             var resposta = Assert.IsAssignableFrom<List<Faturamento>>(res.Value);
             Assert.Equal(2, resposta.Count);
         }
+
         [Fact]
         public async void DevAdicionarUmItemQuandoChamarOCreate()
         {
@@ -114,7 +115,6 @@ namespace MaisBeleza_Test
             var res = Assert.IsType<OkObjectResult>(buscarId);
             var resposta = Assert.IsAssignableFrom<Faturamento>(res.Value);
             Assert.Equal(5, resposta.Id);
-
         }
 
         [Fact]
@@ -146,8 +146,8 @@ namespace MaisBeleza_Test
             Assert.IsType<NotFoundResult>(buscarId);
 
         }
-        [Fact]
 
+        [Fact]
         public async void DeveDarErroDeBadRequestQuandoASoliticacaoForInvalida()
         {
             var listFaturamento = new List<Faturamento>();
@@ -167,8 +167,6 @@ namespace MaisBeleza_Test
             var alterarId = await faturamentosController.Update(id, faturamento9);
 
             Assert.IsType<BadRequestResult>(alterarId);
-
-
         }
 
         [Fact]
@@ -216,9 +214,6 @@ namespace MaisBeleza_Test
             var idAlterado = await faturamentosController.Update(alteracaoId, faturamentoNovo);
 
             Assert.IsType<NoContentResult>(idAlterado);
-
-
-
         }
 
         [Fact]
@@ -241,12 +236,7 @@ namespace MaisBeleza_Test
             var deletarFaturamento = await faturamentosController.Delete(6);
 
             Assert.IsType<NotFoundResult>(deletarFaturamento);
-
-
         }
-
-
-
     }
 }
 
