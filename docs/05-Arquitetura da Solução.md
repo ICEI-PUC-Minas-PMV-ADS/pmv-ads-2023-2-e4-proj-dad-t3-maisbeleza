@@ -52,6 +52,17 @@ Figura 15 - Tabelas de Faturamentos e Meis
 
 Figura 16 - Tabela de Serviços
 
+## Rotas e recursos
+
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4541c69f-0d68-4581-a671-7136824ffe99)
+
+![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/51788340-aae0-4a7a-8a4c-9d721c3d90f8)
+
+![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4cfd5cb3-b4e8-4064-bf88-740b31d11b94)
+
+![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/f6390dbb-f7fb-4a9a-87ef-3f1e466562a2)
+
+Figura 17 - Rotas Swagger
 
 ## Tecnologias Utilizadas
 
@@ -69,7 +80,7 @@ As tecnologias listadas abaixo serão utilizadas para a implementação da solu�
 |Marvel App  | Projeto de interface e wireframes. |
 |React, React Native, React Native Paper, ASP.NET Core MVC | Bibliotecas e framework utilizados.  |
 |C#, HTML, CSS, JavaScript, JSON (JavaScript Object Notation)	| Linguagens de programação utilizadas na criação do código fonte da aplicação. |
-|Insomnia | Testes. |
+|Insomnia, MSTest | Testes. |
 
 A ilustração de como as tecnologias estão relacionadas e como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário, pode ser visualizada na figura 10, Diagrama da arquitetura.
 
