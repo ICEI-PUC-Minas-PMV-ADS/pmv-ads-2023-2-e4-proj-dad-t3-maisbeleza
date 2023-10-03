@@ -38,7 +38,7 @@ namespace MaisBeleza.Models
 
         public DbSet<Agendamento> Agendamentos { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
-        public DbSet<Faturamento> Faturamentos { get; set; }
+        public virtual DbSet<Faturamento> Faturamentos { get; set; }
         public DbSet<Mei> Meis { get; set; }
         public DbSet<Servico> Servicos { get; set; }
         public DbSet<Agenda> Agendas { get; set; }

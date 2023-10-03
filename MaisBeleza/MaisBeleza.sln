@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaisBeleza", "MaisBeleza\MaisBeleza.csproj", "{AC1F5EE6-110E-4A21-84C1-EF860102F416}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaisBelezaTests", "MaisBelezaTests\MaisBelezaTests.csproj", "{4F44A795-9826-47C5-8C71-F387765E7FC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaisBelezaTests", "MaisBelezaTests\MaisBelezaTests.csproj", "{4F44A795-9826-47C5-8C71-F387765E7FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaisBeleza_Test", "MaisBeleza_Test\MaisBeleza_Test.csproj", "{C3E377EA-8ECA-494E-A10E-3720A945B31F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4F44A795-9826-47C5-8C71-F387765E7FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F44A795-9826-47C5-8C71-F387765E7FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F44A795-9826-47C5-8C71-F387765E7FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E377EA-8ECA-494E-A10E-3720A945B31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E377EA-8ECA-494E-A10E-3720A945B31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E377EA-8ECA-494E-A10E-3720A945B31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E377EA-8ECA-494E-A10E-3720A945B31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
