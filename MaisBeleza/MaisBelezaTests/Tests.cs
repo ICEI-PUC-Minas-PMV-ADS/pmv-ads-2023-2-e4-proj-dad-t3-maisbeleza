@@ -27,7 +27,7 @@ namespace MaisBeleza.Tests
                 var meis = new List<Mei>
                 {
                     new Mei { Id = 10, NomeMei = "Mei 1", Email = "mei1@gmail.com", Telefone = "3199999-9999", Rua = "A", Numero = "10a", Bairro = "B", Cidade = "BH", Estado = Estado.BA, Perfil = Perfil.Administrador, Password = "abc123", HorarioFuncionamento = "8h às 12h" },
-                    new Mei { Id = 12, NomeMei = "Mei 2", Email = "mei2@gmail.com", Telefone = "3199999-9999", Rua = "A", Numero = "10a", Bairro = "B", Cidade = "BH", Estado = Estado.BA, Perfil = Perfil.Administrador, Password = "abc123", HorarioFuncionamento = "8h às 12h" },
+                    new Mei { Id = 12, NomeMei = "Mei 2", Email = "mei2@gmail.com", Telefone = "3198888-8888", Rua = "C", Numero = "20a", Bairro = "D", Cidade = "RJ", Estado = Estado.BA, Perfil = Perfil.Administrador, Password = "abc123", HorarioFuncionamento = "8h às 18h" },
                 };
                 dbContext.Meis.AddRange(meis);
                 dbContext.SaveChanges();
