@@ -11,7 +11,7 @@ Os artefatos do projeto serão desenvolvidos a partir das plataformas listadas a
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
 |Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/main/src |
 |Documentos do projeto  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza |
-|Projeto de interface e wireframes | Marvel | |
+|Projeto de interface e wireframes | Marvel | https://marvelapp.com/prototype/c14f97f/screen/92853921 |
 |Gerenciamento do projeto  | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/483 |
 
 ## Controle de Versão

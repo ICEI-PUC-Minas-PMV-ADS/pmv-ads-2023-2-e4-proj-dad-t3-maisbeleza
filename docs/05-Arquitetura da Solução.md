@@ -4,7 +4,7 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/972b7ce3-0d1b-4767-96c7-20c5cb93e6e2)
+![Mais Beleza](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/f2c4908d-575a-49b3-9d74-2edbd32d89bf)
 
 Figura 10 - Diagrama da arquitetura
 
@@ -15,9 +15,6 @@ A escolha do SQL Server como banco de dados da API se deu por sua integração c
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
 ![Classe UML (12)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/91e6e69d-d058-4b25-aaa5-53868d3458dc)
-
-
-
 
 Figura 11 - Diagrama de classes
 
@@ -52,6 +49,17 @@ Figura 15 - Tabelas de Faturamentos e Meis
 
 Figura 16 - Tabela de Serviços
 
+## Rotas e recursos
+
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4541c69f-0d68-4581-a671-7136824ffe99)
+
+![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/51788340-aae0-4a7a-8a4c-9d721c3d90f8)
+
+![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4cfd5cb3-b4e8-4064-bf88-740b31d11b94)
+
+![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/f6390dbb-f7fb-4a9a-87ef-3f1e466562a2)
+
+Figura 17 - Rotas Swagger
 
 ## Tecnologias Utilizadas
 
@@ -67,9 +75,9 @@ As tecnologias listadas abaixo serão utilizadas para a implementação da solu�
 |Expo Dev | Criação do código da aplicação mobile. |
 |Lucidchart  | Criação dos diagramas e modelos. |
 |Marvel App  | Projeto de interface e wireframes. |
-|React, React Native, React Native Paper, ASP.NET Core MVC | Bibliotecas e framework utilizados.  |
+|Bootstrap, React Native, React Native Paper, ASP.NET Core MVC | Bibliotecas e framework utilizados.  |
 |C#, HTML, CSS, JavaScript, JSON (JavaScript Object Notation)	| Linguagens de programação utilizadas na criação do código fonte da aplicação. |
-|Insomnia | Testes. |
+|Insomnia, MSTest, xUnit | Testes. |
 
 A ilustração de como as tecnologias estão relacionadas e como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário, pode ser visualizada na figura 10, Diagrama da arquitetura.
 
