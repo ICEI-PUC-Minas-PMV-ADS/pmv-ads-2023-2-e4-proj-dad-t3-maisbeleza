@@ -7,6 +7,7 @@ using MaisBeleza.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.ConstrainedExecution;
 
 namespace MaisBeleza.Tests
 {
@@ -16,7 +17,7 @@ namespace MaisBeleza.Tests
         private static DbContextOptions<AppDbContext>? _dbContextOptions;
 
         [ClassInitialize]
-        public static void ClassInitialize(TestContext context)
+        public static void ClassInitialize(TestContext context) //Inicializa um banco de dados em memória para ser usado durante os testes
         {
             _dbContextOptions = new DbContextOptionsBuilder<AppDbContext>()
                 .UseInMemoryDatabase(databaseName: "TestDb")
@@ -35,7 +36,7 @@ namespace MaisBeleza.Tests
         }
 
         [TestMethod]
-        public async Task GetAll_ReturnsListOfMeis() //Retorna a lista de MEIs registrados
+        public async Task GetAll_ReturnsListOfMeis() //Retorna a lista de MEIs registrados (Testa o GetAll)
         {
             // Arrange
             using (var dbContext = new AppDbContext(_dbContextOptions))
@@ -57,7 +58,7 @@ namespace MaisBeleza.Tests
 
 
         [TestMethod]
-        public async Task GetById_NonExistingId_ReturnsNotFound() //Faz a pesquisa de um ID que não existe
+        public async Task GetById_NonExistingId_ReturnsNotFound() //Faz a pesquisa de um ID que não existe (Testa o GetByID)
         {
             // Arrange
             using (var dbContext = new AppDbContext(_dbContextOptions))
@@ -77,7 +78,7 @@ namespace MaisBeleza.Tests
     public class AgendamentoTests
     {
         [TestMethod]
-        public void Agendamento_ValidProperties_ReturnsValid() //Faz um registro de agendamento válido
+        public void Agendamento_ValidProperties_ReturnsValid() //Faz um registro de agendamento válido (Testa se um registro válido é considerado válido)
         {
             // Arrange
             var agendamento = new Agendamento
@@ -99,7 +100,7 @@ namespace MaisBeleza.Tests
         }
 
         [TestMethod]
-        public void Agendamento_InvalidProperties_ReturnsInvalid() //Tenta fazer um registro de um agendamento com valor nulo (null)
+        public void Agendamento_InvalidProperties_ReturnsInvalid() //Tenta fazer um registro de um agendamento com valor nulo (Testa se um registro inválido é considerado inválido)
         {
             // Arrange
             var agendamento = new Agendamento
@@ -121,7 +122,7 @@ namespace MaisBeleza.Tests
         }
 
         [TestMethod]
-        public async Task GetAll_ReturnsListOfAgendamentos() //Retorna a lista de agendamentos
+        public async Task GetAll_ReturnsListOfAgendamentos() //Retorna a lista de agendamentos (Testa o GetAll)
         {
             // Arrange
             var options = new DbContextOptionsBuilder<AppDbContext>()
