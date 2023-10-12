@@ -75,8 +75,8 @@ As tecnologias listadas abaixo serão utilizadas para a implementação da solu�
 |Expo Dev | Criação do código da aplicação mobile. |
 |Lucidchart  | Criação dos diagramas e modelos. |
 |Marvel App  | Projeto de interface e wireframes. |
-|Bootstrap, React Native, React Native Paper, ASP.NET Core MVC | Bibliotecas e framework utilizados.  |
-|C#, HTML, CSS, JavaScript, JSON (JavaScript Object Notation)	| Linguagens de programação utilizadas na criação do código fonte da aplicação. |
+|Bootstrap, React, React Native, React Native Paper, ASP.NET Core MVC | Bibliotecas e framework utilizados.  |
+|C#, CSS, JavaScript, JSON (JavaScript Object Notation)	| Linguagens de programação utilizadas na criação do código fonte da aplicação. |
 |Insomnia, MSTest, xUnit | Testes. |
 
 A ilustração de como as tecnologias estão relacionadas e como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário, pode ser visualizada na figura 10, Diagrama da arquitetura.
