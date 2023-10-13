@@ -102,5 +102,5 @@ Com base nessas características e nas respectivas sub-características, identif
 ![Qualidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/628a1a0d-d5b3-45d2-b8ab-ee6d78e41de1)
 
 Fonte: ISO/IEC 25010, 2011.
-Figura xx - Qualidade de software
 
+Figura xx - Qualidade de software
