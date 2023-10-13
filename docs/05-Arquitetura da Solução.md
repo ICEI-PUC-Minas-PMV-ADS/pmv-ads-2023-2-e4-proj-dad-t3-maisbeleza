@@ -104,3 +104,14 @@ Com base nessas características e nas respectivas sub-características, identif
 Fonte: ISO/IEC 25010, 2011.
 
 Figura xx - Qualidade de software
+
+### Descrição das subcaracterísticas escolhidas:
+
+- Funcionalidade apropriada: Indica qual o grau em que as funções do sistema facilitam a realização de tarefas e objetivos para os quais o sistema foi especificado.
+- Comportamento em relação ao tempo: Mede o tempo que o software leva para processar suas funções.
+- Coexistência: Avalia o grau no qual o produto pode desempenhar as funções requeridas eficientemente enquanto compartilha ambiente e recursos comuns com outros produtos sem impacto negativo nos outros produtos.
+- Reconhecimento de adequação: Mede o grau em que os usuários reconhecem que o produto é apropriado para suas necessidades.
+- Maturidade: Medida da freqüência com que um software apresenta defeitos.
+- Confidencialidade: Avalia o grau em que as informações e funções do sistema estejam acessíveis por quem tenha a devida autorização para isso.
+- Modificabilidade: grau em que um produto ou sistema pode ser modificado de forma eficaz e eficiente sem introduzir defeitos ou degradando a qualidade do produto existente.
+- Portabilidade: grau em que um produto ou sistema pode ser adaptado de forma eficaz e eficiente para diferentes hardwares, softwares ou outros ambientes operacionais em evolução ou de uso.
