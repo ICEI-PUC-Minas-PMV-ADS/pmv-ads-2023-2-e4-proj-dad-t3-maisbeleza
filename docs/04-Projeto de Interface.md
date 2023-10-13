@@ -9,7 +9,7 @@ O projeto de interface foi elaborado considerando os dois tipos de usuários que
 
 ## Diagrama de Fluxo
 
-O diagrama abaixo apresenta o estudo do fluxo de interação do usuário com o sistema interativo.
+O diagrama abaixo apresenta o estudo do fluxo de interação do usuário com a aplicação.
 
 ### Web
 
