@@ -124,9 +124,9 @@ Fonte: ISO/IEC 25010, 2011, tradução nossa.
 |-------------------|-------------------|-------------------|-------------------|
 |Funcionalidade Apropriada |Taxa de Conclusão de Tarefas.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| |
 |Comportamento em Relação ao Tempo  |Tempo de Resposta Médio. |O tempo médio que o sistema leva para processar uma solicitação do usuário. | |
-|Coexistência |Taxa de Desempenho em Ambiente Compartilhado.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
-|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
-|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
-|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
-|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
-|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
+|Coexistência |Taxa de Desempenho em Ambiente Compartilhado.  |Porcentagem de tempo em que o produto mantém um desempenho aceitável enquanto compartilha recursos com outros produtos no mesmo ambiente.| | |
+|Reconhecimento de Adequação |Pesquisas de Satisfação do Usuário.  | Percentual de usuários que indicam, por meio de pesquisas, que o produto atende às suas necessidades.| | |
+|Maturidade |Taxa de Defeitos Reportados.  |Número de defeitos relatados em relação ao tempo, demonstrando a estabilidade ao longo do tempo.| | |
+|Confidencialidade |Nível de Acesso Não Autorizado. |Número de tentativas de acesso não autorizado ao sistema em relação ao total de tentativas, indicando a eficácia das medidas de segurança.| | |
+|Modificabilidade |Tempo Médio de Implementação de Modificações.  |Tempo médio necessário para implementar modificações no sistema sem introduzir novos defeitos.| | |
+|Adaptabilidade |Número de Plataformas/Dispositivos Suportados. |Número total de diferentes plataformas, dispositivos ou ambientes operacionais para os quais o sistema pode ser adaptado sem perda significativa de funcionalidade.| | |
