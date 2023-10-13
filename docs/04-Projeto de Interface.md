@@ -28,7 +28,7 @@ Protótipos usados em design de interface para sugerir a estrutura de um site we
  
 ### Web
 
-Para consultar o wireframe interativo, <a href="	https://marvelapp.com/prototype/c14f97f/screen/92853921">clique aqui</a>.
+Para consultar o wireframe interativo, <a href="https://marvelapp.com/prototype/c14f97f/screen/92853921">clique aqui</a>.
 
 ![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/15961245-fe74-4ace-90da-60729c0cf6ed)
 
