@@ -5,9 +5,9 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
-Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Desenvolver uma interface de software que seja intuitiva, eficiente e agradável para os usuários é essencial para o sucesso de qualquer aplicação. Para alcançar esse objetivo, foi necessário um processo cuidadoso que levou em consideração os requisitos funcionais, não funcionais e as histórias de usuários. É fundamental entender completamente o que os usuários precisam fazer e garantir que a interface facilite essas ações de forma lógica e intuitiva. As histórias de usuários nos ajudou a entender o contexto em que a interface será usada e a criar uma solução que se alinhe às necessidades e expectativas dos usuários.
 
-Utilizada pelo usuário MEI para administração de seu negócio.
+O projeto de interface foi elaborado considerando os dois tipos de usuários que utilizarão a aplicação: o Microempreendedor Individual, que fará a gestão do seu negócio utilizando a interface web, e o Cliente, que gerenciará seus agendamentos e pesquisará por seerivços e profissionais utilizando a interface mobile.
 
 ## Diagrama de Fluxo
 
