@@ -105,6 +105,8 @@ Figura xx - Características de qualidade de software observadas pela equipe no 
 
 ### Descrição das subcaracterísticas escolhidas:
 
+As subcaracterísticas de qualidade escolhidas garantem uma análise abrangente, orientando melhorias contínuas na qualidade da aplicação.
+
 - Funcionalidade apropriada: Indica qual o grau em que as funções do sistema facilitam a realização de tarefas e objetivos para os quais o sistema foi especificado.
 - Comportamento em relação ao tempo: Mede o tempo que o software leva para processar suas funções.
 - Coexistência: Avalia o grau no qual o produto pode desempenhar as funções requeridas eficientemente enquanto compartilha ambiente e recursos comuns com outros produtos sem impacto negativo nos outros produtos.
@@ -115,8 +117,6 @@ Figura xx - Características de qualidade de software observadas pela equipe no 
 - Adaptabilidade: grau em que um produto ou sistema pode ser adaptado de forma eficaz e eficiente para diferentes hardwares, softwares ou outros ambientes operacionais em evolução ou em uso.
 
 Fonte: ISO/IEC 25010, 2011, tradução nossa.
-
-As subcaracterísticas de qualidade escolhidas garantem uma análise abrangente, orientando melhorias contínuas na qualidade da aplicação.
 
 ### Métricas:
 
