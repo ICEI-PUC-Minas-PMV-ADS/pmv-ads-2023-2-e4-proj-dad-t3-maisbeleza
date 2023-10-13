@@ -122,11 +122,11 @@ Fonte: ISO/IEC 25010, 2011, tradução nossa.
 
 |Subcaracterística  | Métrica           |Descrição              | Resultado            |
 |-------------------|-------------------|-------------------|-------------------|
-|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| |
-|Comportamento em Relação ao Tempo  |Tempo de Resposta Médio. |O tempo médio que o sistema leva para processar uma solicitação do usuário. | |
-|Coexistência |Taxa de Desempenho em Ambiente Compartilhado.  |Porcentagem de tempo em que o produto mantém um desempenho aceitável enquanto compartilha recursos com outros produtos no mesmo ambiente.| | |
-|Reconhecimento de Adequação |Pesquisas de Satisfação do Usuário.  | Percentual de usuários que indicam, por meio de pesquisas, que a aplicação atende às suas necessidades.| | |
-|Maturidade |Taxa de Defeitos Reportados.  |Número de defeitos relatados em relação ao tempo, demonstrando a estabilidade ao longo do tempo.| | |
-|Confidencialidade |Todas as Senhas Cadastradas Pelos Usuários são Armazenadas com Criptografia. |Indicação da eficácia da medida de segurança.| | |
-|Modificabilidade |Tempo Médio de Implementação de Modificações.  |Tempo médio necessário para implementar modificações no sistema sem introduzir novos defeitos.| | |
-|Adaptabilidade |Número de Plataformas/Dispositivos Suportados. |Número total de diferentes plataformas, dispositivos ou ambientes operacionais para os quais o sistema pode ser adaptado sem perda significativa de funcionalidade.| | |
+|Funcionalidade Apropriada |Taxa de conclusão de tarefas.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| |
+|Comportamento em Relação ao Tempo  |Tempo de resposta médio. |O tempo médio que o sistema leva para processar uma solicitação do usuário. | |
+|Coexistência |Taxa de desempenho em ambiente compartilhado.  |Porcentagem de tempo em que o produto mantém um desempenho aceitável enquanto compartilha recursos com outros produtos no mesmo ambiente.| | |
+|Reconhecimento de Adequação |Pesquisas de satisfação do usuário.  | Percentual de usuários que indicam, por meio de pesquisas, que a aplicação atende às suas necessidades.| | |
+|Maturidade |Taxa de defeitos reportados.  |Número de defeitos relatados em relação ao tempo, demonstrando a estabilidade ao longo do tempo.| | |
+|Confidencialidade |Todas as senhas cadastradas pelos usuários são armazenadas com criptografia. |Indicação da eficácia da medida de segurança.| | |
+|Modificabilidade |Tempo médio de implementação de modificações.  |Tempo médio necessário para implementar modificações no sistema sem introduzir novos defeitos.| | |
+|Adaptabilidade |Número de plataformas/dispositivos suportados. |Número total de diferentes plataformas, dispositivos ou ambientes operacionais para os quais o sistema pode ser adaptado sem perda significativa de funcionalidade.| | |
