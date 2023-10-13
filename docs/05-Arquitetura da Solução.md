@@ -101,7 +101,7 @@ Com base nessas características e nas respectivas sub-características, identif
 
 ![Qualidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/628a1a0d-d5b3-45d2-b8ab-ee6d78e41de1)
 
-Fonte: ISO/IEC 25010, 2011.
+Fonte: ISO/IEC 25010, 2011, tradução nossa.
 
 Figura xx - Qualidade de software
 
@@ -116,4 +116,4 @@ Figura xx - Qualidade de software
 - Modificabilidade: grau em que um produto ou sistema pode ser modificado de forma eficaz e eficiente sem introduzir defeitos ou degradando a qualidade do produto existente.
 - Adaptabilidade: grau em que um produto ou sistema pode ser adaptado de forma eficaz e eficiente para diferentes hardwares, softwares ou outros ambientes operacionais em evolução ou de uso.
 
-Fonte: ISO/IEC 25010, 2011.
+Fonte: ISO/IEC 25010, 2011, tradução nossa.
