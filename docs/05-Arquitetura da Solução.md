@@ -97,8 +97,6 @@ Explique como a hospedagem e o lançamento da plataforma foi feita.
 
 A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
 
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
-
 ![Qualidade](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/628a1a0d-d5b3-45d2-b8ab-ee6d78e41de1)
 
 Fonte: ISO/IEC 25010, 2011, tradução nossa.
@@ -117,6 +115,8 @@ Figura xx - Qualidade de software
 - Adaptabilidade: grau em que um produto ou sistema pode ser adaptado de forma eficaz e eficiente para diferentes hardwares, softwares ou outros ambientes operacionais em evolução ou em uso.
 
 Fonte: ISO/IEC 25010, 2011, tradução nossa.
+
+As subcaracterísticas de qualidade escolhidas garantem uma análise abrangente, orientando melhorias contínuas na qualidade da aplicação.
 
 ### Métricas:
 
