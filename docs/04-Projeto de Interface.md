@@ -28,17 +28,19 @@ Protótipos usados em design de interface para sugerir a estrutura de um site we
  
 ### Web
 
+Para consultar o wireframe interativo, <a href="	https://marvelapp.com/prototype/c14f97f/screen/92853921">clique aqui</a>.
+
 ![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/15961245-fe74-4ace-90da-60729c0cf6ed)
 
 Figura xx - Tela Home, apresenta as informações mais relevantes sobre a aplicação.
 
 ![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/659038e3-7b92-4b3b-b2a4-054bb980a613)
 
-Figura xx - Tela Login, onde o usuário já cadastrado insere suas infomrações para acessar a aplicação.
+Figura xx - Tela Login, onde o usuário já cadastrado insere suas informações para acessar a aplicação.
 
 ![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/30b1e21d-1fec-4c6b-88e4-1c467cd4acac)
 
-Figura xx - Tela Cadastro, onde o usuário faz o seu cadastro apra ter acesso a aplicação.
+Figura xx - Tela Cadastro, onde o usuário faz o seu cadastro para ter acesso a aplicação.
 
 ![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/60d3a03d-08ac-49e6-9a54-66716ca8db2f)
 
@@ -54,4 +56,4 @@ Figura xx - Tela Agenda, onde o usuário MEI consulta seus agendamentos.
 
 ![7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/7cb8418d-000f-49d1-bf36-5c670dac8ef0)
 
-Figura xx - Tela Perfil, onde o usuário MEI consulta, edita e exclui suas informações registradas no seu cadastro.
+Figura xx - Tela Perfil, onde o usuário MEI consulta, edita e exclui as informações registradas no seu cadastro.
