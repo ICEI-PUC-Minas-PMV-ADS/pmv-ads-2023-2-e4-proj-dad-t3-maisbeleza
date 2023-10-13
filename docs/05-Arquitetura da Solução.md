@@ -117,3 +117,16 @@ Figura xx - Qualidade de software
 - Adaptabilidade: grau em que um produto ou sistema pode ser adaptado de forma eficaz e eficiente para diferentes hardwares, softwares ou outros ambientes operacionais em evolução ou em uso.
 
 Fonte: ISO/IEC 25010, 2011, tradução nossa.
+
+### Métricas:
+
+|Subcaracterística  | Métrica           |Descrição              | Resultado            |
+|-------------------|-------------------|-------------------|-------------------|
+|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| |
+|Comportamento em Relação ao Tempo  |Tempo de Resposta Médio. |O tempo médio que o sistema leva para processar uma solicitação do usuário. | |
+|Coexistência |Taxa de Desempenho em Ambiente Compartilhado.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
+|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
+|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
+|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
+|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
+|Funcionalidade Apropriada |Taxa de Conclusão de Tarefas  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| | |
