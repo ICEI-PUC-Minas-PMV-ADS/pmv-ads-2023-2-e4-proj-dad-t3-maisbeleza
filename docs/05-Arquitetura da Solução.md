@@ -114,4 +114,6 @@ Figura xx - Qualidade de software
 - Maturidade: Medida da freqüência com que um software apresenta defeitos.
 - Confidencialidade: Avalia o grau em que as informações e funções do sistema estejam acessíveis por quem tenha a devida autorização para isso.
 - Modificabilidade: grau em que um produto ou sistema pode ser modificado de forma eficaz e eficiente sem introduzir defeitos ou degradando a qualidade do produto existente.
-- Portabilidade: grau em que um produto ou sistema pode ser adaptado de forma eficaz e eficiente para diferentes hardwares, softwares ou outros ambientes operacionais em evolução ou de uso.
+- Adaptabilidade: grau em que um produto ou sistema pode ser adaptado de forma eficaz e eficiente para diferentes hardwares, softwares ou outros ambientes operacionais em evolução ou de uso.
+
+Fonte: ISO/IEC 25010, 2011.
