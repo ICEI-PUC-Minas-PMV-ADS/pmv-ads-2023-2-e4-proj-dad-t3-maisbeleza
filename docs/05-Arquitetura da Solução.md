@@ -101,7 +101,7 @@ A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, d
 
 Fonte: ISO/IEC 25010, 2011, tradução nossa.
 
-Figura xx - Qualidade de software
+Figura xx - Características de qualidade de software observadas pela equipe no desenvolvimento da aplicação.
 
 ### Descrição das subcaracterísticas escolhidas:
 
