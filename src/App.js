@@ -5,15 +5,17 @@ import Features from './components/Features';
 import Footer from './components/Footer';
 import Menu from './components/Navbar';
 import Frase from './components/Frase';
+import Servicos from './pages/Servicos'
 
 
 const App = () => {
   return (
     <div className="App">
       <Menu />
-      <Header />
+      <Servicos/>
+      {/* <Header />
       <Frase />
-      <Features />
+      <Features /> */}
       <Footer />
     </div>
   );
