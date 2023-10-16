@@ -14,9 +14,11 @@ function App  () {
     const baseUrl = "https://localhost:7075/api/servicos";
 
     const [data, setData] = useState ([]);
+    const [updateData, setUpdateData] = useState(true);
 
     const[modalIncluir, setModalIncluir] = useState(false);
     const[modalEditar, setModalEditar] = useState(false);
+    const[modalExcluir, setModalExcluir] = useState(false);
     const [servicoSelecionado, setServicoSelecionado]=useState ({
         id: '',
         nomeServico:'',
@@ -25,10 +27,10 @@ function App  () {
         meiId: 1
     })
 
-    const selecionarServico=(servicos,opcao) => {
+    const selecionarServico=(servicos, opcao) => {
         setServicoSelecionado(servicos);
-        (opcao === "Editar") &&
-        AbrirFecharModalEditar();
+        (opcao === "Editar") ?
+        AbrirFecharModalEditar(): AbrirFecharModalExcluir();
     }
 
     const handleChange = e=>{
@@ -49,25 +51,43 @@ function App  () {
     }
     
     useEffect(()=>{
-      pedidoGet();
-    })
+      if (updateData){
+        pedidoGet();
+        setUpdateData(false);  
+      }
+    }, [updateData])
 
     const pedidoPost = async()=>{
       delete servicoSelecionado.id;
       await axios.post(baseUrl, servicoSelecionado)
       .then(response => {
         setData(data.concat(response.data));
+        setUpdateData(true);  
         AbrirFecharModalIncluir();
       }).catch(error=>{
         console.log(error);
       })
   }
 
+    const pedidoDelete=async()=>{
+      await axios.delete(baseUrl+ "/" +servicoSelecionado.id)
+        .then(response => {
+          setData(data.filter(servicos => servicos.id !== response.data)); 
+          AbrirFecharModalExcluir();
+          setUpdateData(true); 
+        }).catch(error => {
+          console.log(error);
+        })
+    }
+
     const AbrirFecharModalIncluir = () => {
-      setModalIncluir(!modalIncluir)
+      setModalIncluir(!modalIncluir);
     }
     const AbrirFecharModalEditar = () => {
-      setModalEditar(!modalEditar)
+      setModalEditar(!modalEditar);
+    }
+    const AbrirFecharModalExcluir = () => {
+      setModalExcluir(!modalExcluir);
     }
 
     const pedidoPut = async () => {
@@ -84,7 +104,7 @@ function App  () {
           return servicos; 
         }));
 
-        
+        setUpdateData(true);  
         AbrirFecharModalEditar();
       } catch (error) {
         console.log(error);
@@ -104,7 +124,7 @@ function App  () {
         <tr className='tabela'>
           <th>Procedimento</th>
           <th>Descrição</th>
-          <th>Duração</th>
+          <th>Duração (min)</th>
           <th>Valor</th>
         </tr>
       </thead>
@@ -115,10 +135,9 @@ function App  () {
           <td>{servicos.descricao}</td>
           <td>{servicos.duracao}</td>
           <td>{servicos.valor}</td>
-          <td>{servicos.meiId}</td>
             <td>
             <button className="btn btn-primary" onClick={()=>selecionarServico(servicos,"Editar")}>Editar</button>{"  "}
-            <button className="btn btn-secondary" onClick={()=>selecionarServico(servicos,"Excluir")}>Excluir</button>{"   "}
+            <button className="btn btn-secondary" onClick={()=>selecionarServico(servicos,"Excluir")}>Excluir</button>
             </td>
           </tr>
         ))}
@@ -172,6 +191,18 @@ function App  () {
         <button className ="btn btn-danger"  onClick={() =>AbrirFecharModalEditar()}>Cancelar</button>
       </ModalFooter>
     </Modal>
+
+      <Modal isOpen={modalExcluir}>
+          <ModalBody>
+            Confirmar a exclusão deste serviço: {servicoSelecionado && servicoSelecionado.nomeServico} ?
+          </ModalBody>
+          <ModalFooter>
+            <button className='btn btn-danger' onClick={()=> pedidoDelete}> Sim </button>
+            <button className='btn btn-secondary' onClick={()=> AbrirFecharModalExcluir}> Não </button>
+      </ModalFooter>
+      </Modal>
+
+
     </div>
   );
 }
