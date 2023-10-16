@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Primeira from '../assets/img/3.jpg';
 import Segunda from '../assets/img/2.jpg';
 import Terceira from '../assets/img/1.jpg';
-import '../App.css';
+import '../App.css'; 
 
 
 function Features() {
