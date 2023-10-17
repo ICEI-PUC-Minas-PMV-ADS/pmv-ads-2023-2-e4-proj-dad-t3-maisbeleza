@@ -11,6 +11,8 @@ function App() {
     const baseUrl = "https://localhost:7075/api/agendamentos";
 
     const [data, setData] = useState([]);
+    const [updateData, setUpdateData] = useState(true);
+
     const [modalIncluir, setModalIncluir] = useState(false);
     const [modalEditar, setModalEditar] = useState(false);
     const [modalExcluir, setModalExcluir] = useState(false);
@@ -63,6 +65,7 @@ function App() {
         await axios.post(baseUrl, agendamentoSelecionado)
             .then(response => {
                 setData(data.concat(response.data));
+                setUpdateData(true);
                 abrirFecharModalIncluir();
             }).catch(error => {
                 console.log(error);
@@ -82,6 +85,7 @@ function App() {
                         agendamento.clienteId = resposta.clienteId;
                     }
                 });
+                setUpdateData(true);
                 abrirFecharModalEditar();
             }).catch(error => {
                 console.log(error);
@@ -89,9 +93,10 @@ function App() {
     }
 
     const pedidoDelete = async () => {
-        await axios.delete(baseUrl+"/"+agendamentoSelecionado.id)
+        await axios.delete(baseUrl + "/" + agendamentoSelecionado.id)
             .then(response => {
                 setData(data.filter(agendamento => agendamento.id !== response.data));
+                setUpdateData(true);
                 abrirFecharModalExcluir();
             }).catch(error => {
                 console.log(error);
@@ -99,10 +104,11 @@ function App() {
     }
 
     useEffect(() => {
-        pedidoGet();
-    })
-
-
+        if (updateData) {
+            pedidoGet();
+            setUpdateData(false);
+        }
+    }, [updateData])
 
     return (
         <div className="agendamento-container">
