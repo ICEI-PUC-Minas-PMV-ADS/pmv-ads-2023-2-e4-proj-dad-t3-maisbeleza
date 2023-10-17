@@ -18,6 +18,7 @@ const styles = {
     marginBottom: '0',
     paddingTop: '10px',
     paddingBottom: '1px',
+    position: 'fixed',
   },
 };
 
