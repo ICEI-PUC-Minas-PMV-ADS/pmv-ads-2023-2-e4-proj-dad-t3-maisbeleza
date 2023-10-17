@@ -7,7 +7,7 @@ import Menu from './components/Navbar';
 import Frase from './components/Frase';
 
 
-const App = () => {
+const Home = () => {
   return (
     <div className="App">
       <Menu />
@@ -19,4 +19,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Home;
