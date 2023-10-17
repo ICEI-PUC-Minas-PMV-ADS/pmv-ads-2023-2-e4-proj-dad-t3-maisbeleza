@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import '../App.css';
 import Menu from "../components/Navbar";
-import Footer from "../components/Footer";
+import Footer from "../components/Footer2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
@@ -116,16 +116,16 @@ function App() {
             <h3>Agenda</h3>
             <header>
                 {' '}
-                <button className="btn btn-success" onClick={() => abrirFecharModalIncluir()}>Incluir agendamento</button> {' '}
+                <button onClick={() => abrirFecharModalIncluir()}>Incluir agendamento</button> {' '}
             </header>
             <table className="table table-bordered">
                 <thead>
                     <tr>
-                        <th>Id</th>
+                        <th>Código</th>
                         <th>Data</th>
                         <th>Horário</th>
-                        <th>MeiId</th>
-                        <th>ClienteId</th>
+                        <th>Profissional</th>
+                        <th>Cliente</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -147,20 +147,20 @@ function App() {
             </table>
 
             <Modal isOpen={modalIncluir} >
-                <ModalHeader>Incluir novo Agendamento </ModalHeader>
+                <ModalHeader>Incluir novo agendamento </ModalHeader>
                 <ModalBody>
                     <div className="form-group">
                         <label>Data: </label>
                         <input type="date" className="form-control mb-2" name="data" onChange={handleChange} />
                         <p />
                         <label>Horário: </label>
-                        <input className="form-control mb-2" name="horario" onChange={handleChange} />
+                        <input className="form-control mb-2" name="horario" placeholder="00:00" onChange={handleChange} />
                         <p />
                         <label>Profissional: </label>
-                        <input type="number" className="form-control mb-2" name="meiId" onChange={handleChange} />
+                        <input type="number" className="form-control mb-2" name="meiId" placeholder="Digite o código do profissional" onChange={handleChange} />
                         <p />
                         <label>Cliente: </label>
-                        <input type="number" className="form-control mb-2" name="clienteId" onChange={handleChange} />
+                        <input type="number" className="form-control mb-2" name="clienteId" placeholder="Digite o código do cliente" onChange={handleChange} />
                     </div>
                 </ModalBody>
                 <ModalFooter>
@@ -173,7 +173,7 @@ function App() {
                 <ModalHeader>Editar agendamento: </ModalHeader>
                 <ModalBody>
                     <div className="form-group">
-                        <label>Id: </label><br />
+                        <label>Código: </label><br />
                         <input className="form-control mb-2" readOnly value={agendamentoSelecionado && agendamentoSelecionado.id} /><br />
                         <label>Data: </label>
                         <input className="form-control mb-2" name="data" onChange={handleChange}
@@ -201,7 +201,7 @@ function App() {
 
             <Modal isOpen={modalExcluir}>
                 <ModalBody>
-                    Confirmar a exclusão deste agendamento: {agendamentoSelecionado && agendamentoSelecionado.id} ?
+                    Você confirma a exclusão do agendamento de código {agendamentoSelecionado && agendamentoSelecionado.id} ?
                 </ModalBody>
                 <ModalFooter>
                     <button className='btn btn-danger' onClick={() => pedidoDelete()}> Sim </button>
