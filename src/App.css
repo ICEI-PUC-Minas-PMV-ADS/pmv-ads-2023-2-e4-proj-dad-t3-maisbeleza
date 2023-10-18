@@ -66,7 +66,6 @@ body {
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .banner-content p {
     font-size: 14px;
@@ -164,69 +163,20 @@ body {
 .agendamento-container header button{
     height: 40px;
     width: 200px;
-    padding: 10px;
     border-radius: 5px;
     border: 1px solid #DCDCE6;
     transition: border-color 0.5s;
     background: #81007F;
     color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
 }
 
 .agendamento-container header button:hover{
   opacity: 0.8;  
 }
 
-.agendamento-container h1 {
-    margin-top: 20px;
-    margin-bottom: 24px;
-}
-
-.agendamento-container ul {
-    display: grid;
-    padding: 0 25px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 35px;
-    list-style: none;
-}
-
-.agendamento-container ul li{
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
-    position: relative;
-}
-
-.agendamento-container ul li button {
-    position: absolute;
-    right: 25px;
-    top: 25px;
-    border: 0;
-    background: transparent;  
-}
-
-.agendamento-container ul li button + button{
-    top: 50px;  
-}
-
-.agendamento-container ul li button:hover{
-    opacity: 0.8;  
-}
-
-.agendamento-container ul li strong{
-    display: block;
-    margin-bottom: 16px;
-    color: #41414D;
-}
-
-.agendamento-container ul li p + strong{
-    margin-top: 32px;
-}
-
-.agendamento-container ul li p {
-    color: #737380;
-    line-height: 21px;
-    font-size: 16px;
-}
+/*TABELA*/
 
 .agendamento-container h3 {
   margin-top: 20px;
@@ -238,8 +188,55 @@ body {
 }
 
 .agendamento-container table {
-    width: 100%;
     max-width: 1000px;
     padding: 30px 0;
     margin: 32px auto;
+    border-width: 2px; 
+    border-style: solid;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
+}
+
+.agendamento-container table thead th {
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #d8bfd8;
+    border-bottom: 1px solid #DCDCE6;
+}
+
+.agendamento-container table tbody td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #DCDCE6;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .agendamento-container table tbody td {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .agendamento-container table thead th{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .agendamento-container table tbody td {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 468px) {
+  .table-responsive{
+    overflow-x: scroll;
+
+    width: 350px;
+  }
 }

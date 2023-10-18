@@ -118,6 +118,7 @@ function App() {
                 {' '}
                 <button onClick={() => abrirFecharModalIncluir()}>Incluir agendamento</button> {' '}
             </header>
+            <div className="table-responsive">
             <table className="table table-bordered">
                 <thead>
                     <tr>
@@ -126,6 +127,7 @@ function App() {
                         <th>Horário</th>
                         <th>Profissional</th>
                         <th>Cliente</th>
+                        <th>Gestão</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -145,6 +147,7 @@ function App() {
                     }
                 </tbody>
             </table>
+            </div>
 
             <Modal isOpen={modalIncluir} >
                 <ModalHeader>Incluir novo agendamento </ModalHeader>
