@@ -13,3 +13,5 @@ SEBRAE. A taxa de sobrevivência das empresas no Brasil. <b>Sebrae</b>, 27 jan. 
 SEBRAE. APP Sebrae: Baixe agora e tenha o Sebrae na palma da sua mão. <b>Sebrae</b>, 25 out. 2021. Disponível em: https://sebrae.com.br/sites/PortalSebrae/ufs/ce/artigos/app-sebrae-baixe-agora-e-tenha-o-sebrae-na-palma-da-sua-mao,81605ae1737bc710VgnVCM100000d701210aRCRD. Acesso em: 08 set. 2023.
 
 SENA, Victor. Veja as profissões que lideram o número de MEIs no Brasil. <b>Exame</b>, 21 nov. 2020. Disponível em: https://exame.com/carreira/veja-as-profissoes-que-lideram-o-numero-de-meis-no-brasil/. Acesso em: 17 ago. 2023.
+
+THE INTERNATIONAL ORGANIZATION FOR STANDARDIZATION; THE INTERNATIONAL ELECTROTECHNICAL COMMISSION. <b>International Standard ISO/IEC 25010</b>: Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality Models. Geneva, 2011. Disponível em: https://www.iso.org/standard/35733.html/. Acesso em: 13 out. 2023.
