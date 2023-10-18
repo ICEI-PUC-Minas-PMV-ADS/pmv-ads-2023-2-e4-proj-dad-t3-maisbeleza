@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Menu from './components/Navbar';
 import Frase from './components/Frase';
 import Servicos from './pages/Servicos'
+import Faturamento from './pages/Faturamentos/faturamento'
 
 
 const App = () => {
@@ -13,9 +14,10 @@ const App = () => {
     <div className="App">
       <Menu />
       <Servicos/>
-      {/* <Header />
+      <Header />
       <Frase />
-      <Features /> */}
+      <Features />
+      <Faturamento/>
       <Footer />
     </div>
   );
