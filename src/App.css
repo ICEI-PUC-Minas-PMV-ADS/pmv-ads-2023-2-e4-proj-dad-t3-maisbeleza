@@ -130,7 +130,7 @@ body {
 
 .feature-text:hover {
   color: #81007F;
-  cursor: pointer;
+  cursor: default;
 }
 
 .bg-blueviolet {
@@ -239,4 +239,37 @@ body {
 
     width: 350px;
   }
+}
+
+/*SERVIÇOS*/
+
+.titulo{
+  text-align:center;
+  margin-top:70px;
+  background-color: blueviolet;
+  color:white;
+}
+
+.servicos{
+  background-color: beige;
+}
+
+.table{
+  margin-top: 300px;
+  height:130px;
+  width:80%;
+  margin:0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: blue;
+  text-align: center;
+}
+
+.botaoInicial{
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+  color:white;
+  border-radius: 10px;
+  padding-inline: 10px;
 }

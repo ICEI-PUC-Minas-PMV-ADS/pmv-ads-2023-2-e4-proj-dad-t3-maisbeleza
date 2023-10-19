@@ -1,15 +1,11 @@
 import React, { useEffect,useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
-import './style.css';
+import '../App.css';
 import {Modal, ModalBody,ModalFooter,ModalHeader} from 'reactstrap';
 
 
-
-
-
-
-function App  () {
+function Servicos  () {
 
     const baseUrl = "https://localhost:7075/api/servicos";
 
@@ -114,7 +110,7 @@ function App  () {
  
     <div className = "Servicos">
       <br/>
-      <h3>Cadastro de Serviços</h3>
+      <h3 className = "titulo">Cadastro de Serviços</h3>
       <header>
       {' '}
         <button className="botaoInicial" onClick={()=>AbrirFecharModalIncluir()}>Adicionar serviço</button> {' '}
@@ -207,4 +203,4 @@ function App  () {
   );
 }
 
-export default App;
+export default Servicos;
