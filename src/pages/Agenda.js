@@ -84,6 +84,7 @@ function App() {
                         agendamento.meiId = resposta.meiId;
                         agendamento.clienteId = resposta.clienteId;
                     }
+                    return agendamento;
                 });
                 setUpdateData(true);
                 abrirFecharModalEditar();
