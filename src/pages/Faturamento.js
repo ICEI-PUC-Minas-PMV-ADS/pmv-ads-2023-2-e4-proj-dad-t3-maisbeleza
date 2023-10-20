@@ -1,10 +1,10 @@
 import React, { useEffect,useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
-import './faturamento.css';
+import '../App.css';
 import {Modal, ModalBody,ModalFooter,ModalHeader} from 'reactstrap';
-import  Menu from '../../components/Navbar';
-import Footer from '../../components/Footer';
+import  Menu from '../components/Navbar';
+import Footer from '../components/Footer2';
 
 
 
@@ -106,7 +106,7 @@ function Faturamento () {
     };
   return (
 
-    <div className = "faturamento-container">
+    <div className = "cadastro-container">
         <Menu/>
       <br/>
       <h3>Cadastro de Faturamento</h3>
