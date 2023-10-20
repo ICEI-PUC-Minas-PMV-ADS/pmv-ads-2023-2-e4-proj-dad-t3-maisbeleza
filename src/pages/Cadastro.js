@@ -14,14 +14,6 @@ function Cadastro() {
     const [data, setData] = useState([]);
     const [updateData, setUpdateData] = useState(true);
     const [modalIncluir, setModalIncluir] = useState(false);
-    const [modalEditar, setModalEditar] = useState(false);
-    const [modalExcluir, setModalExcluir] = useState(false);
-    const [modalLogin, setModalLogin] = useState(false);
-
-    const [loginData, setLoginData] = useState({
-        id: '',
-        password: '',
-    });
 
     const [meiSelecionado, setMeiSelecionado] = useState(
         {
@@ -42,11 +34,6 @@ function Cadastro() {
 
     )
 
-    const selecionarMei = (mei, opcao) => {
-        setMeiSelecionado(mei);
-        (opcao === 'editar') ?
-            abrirFecharModalEditar() : abrirFecharModalExcluir();
-    }
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -54,7 +41,7 @@ function Cadastro() {
             ...meiSelecionado,
             [name]: value,
         });
-    };
+    }
 
 
 
@@ -62,16 +49,7 @@ function Cadastro() {
         setModalIncluir(!modalIncluir);
     }
 
-    const abrirFecharModalEditar = () => {
-        setModalEditar(!modalEditar);
-    }
 
-    const abrirFecharModalExcluir = () => {
-        setModalExcluir(!modalExcluir);
-    }
-    const abrirFecharModalLogin = () => {
-        setModalLogin(!modalLogin);
-    };
     const pedidoGet = async () => {
         await axios.get(baseUrl)
             .then(response => {

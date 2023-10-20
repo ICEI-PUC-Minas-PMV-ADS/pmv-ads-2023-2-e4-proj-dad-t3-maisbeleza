@@ -17,7 +17,6 @@ function App() {
   const [modalEditar, setModalEditar] = useState(false);
   const [modalExcluir, setModalExcluir] = useState(false);
 
-
   const [meiSelecionado, setMeiSelecionado] = useState(
     {
       id: '',
