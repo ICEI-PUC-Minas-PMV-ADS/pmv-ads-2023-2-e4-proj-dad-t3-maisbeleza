@@ -23,12 +23,15 @@ h3{
     text-align: center;
 }
 
+.faturamento-container table thead th {
+    background-color: rgb(219, 168, 231) ;
+}
 
 
 .botaoInicial{
     margin-top: 100px;
     margin-bottom: 10px;
-    margin-left: 45%;
+    margin-left: 68%;
     background-color: rgb(182, 36, 219);
     color:white;
     border-radius: 10px;
@@ -48,4 +51,7 @@ h3{
       font-size: 14px;
     }
   }
+
+
+  
   

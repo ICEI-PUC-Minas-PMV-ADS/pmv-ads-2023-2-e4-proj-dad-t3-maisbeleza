@@ -106,7 +106,7 @@ function Faturamento () {
     };
   return (
 
-    <div className = "faturamento">
+    <div className = "faturamento-container">
         <Menu/>
       <br/>
       <h3>Cadastro de Faturamento</h3>
@@ -129,7 +129,7 @@ function Faturamento () {
             <td>{faturamentos.valorTotal}</td>
             <td>
             <button className="btn btn-primary" onClick={()=>selecionarFaturamento(faturamentos,"Editar")}>Editar</button>{"  "}
-            <button className="btn btn-secondary" onClick={()=>selecionarFaturamento(faturamentos,"Excluir")}>Excluir</button>{"   "}
+            <button className="btn btn-danger" onClick={()=>selecionarFaturamento(faturamentos,"Excluir")}>Excluir</button>{"   "}
             </td>
           </tr>
         ))}
@@ -147,8 +147,8 @@ function Faturamento () {
         </div>
       </ModalBody>
       <ModalFooter>
-        <button className ="btn btn-primary" onClick={() =>pedidoPost()}>Incluir</button>{"   "}
-        <button className ="btn btn-danger"  onClick={() =>AbrirFecharModalIncluir()}>Cancelar</button>
+        <button className ="btn btn-success" onClick={() =>pedidoPost()}>Incluir</button>{"   "}
+        <button className ="btn btn-secondary"  onClick={() =>AbrirFecharModalIncluir()}>Cancelar</button>
       </ModalFooter>
     </Modal>
     <Modal isOpen ={modalEditar} >
@@ -165,17 +165,17 @@ function Faturamento () {
         </div>      
       </ModalBody>
       <ModalFooter>
-        <button className ="btn btn-primary" onClick={() =>pedidoPut()}>Salvar</button>{"   "}
-        <button className ="btn btn-danger"  onClick={() =>AbrirFecharModalEditar()}>Cancelar</button>
+        <button className ="btn btn-success" onClick={() =>pedidoPut()}>Salvar</button>{"   "}
+        <button className ="btn btn-secondary"  onClick={() =>AbrirFecharModalEditar()}>Cancelar</button>
       </ModalFooter>
       </Modal>
       <Modal isOpen={modalExcluir}>
           <ModalBody>
-            Confirmar a exclusão do faturamento do dia: {faturamentoSelecionado && faturamentoSelecionado.data} ?
+            Deseja realmente excluir este faturamento ?
           </ModalBody>
           <ModalFooter>
             <button className='btn btn-danger' onClick={()=> pedidoDelete()}> Sim </button>
-            <button className='btn btn-secondary' onClick={()=> AbrirFecharModalExcluir}> Não </button>
+            <button className='btn btn-secondary' onClick={()=> AbrirFecharModalExcluir()}> Não </button>
       </ModalFooter>
     </Modal>
     <Footer/>
