@@ -1,15 +1,13 @@
 import React, { useEffect,useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
-import './style.css';
+import '../App.css';
+import Menu from "../components/Navbar";
+import Footer from "../components/Footer2";
 import {Modal, ModalBody,ModalFooter,ModalHeader} from 'reactstrap';
 
 
-
-
-
-
-function App  () {
+function Servicos  () {
 
     const baseUrl = "https://localhost:7075/api/servicos";
 
@@ -112,20 +110,22 @@ function App  () {
     };
   return (
  
-    <div className = "Servicos">
-      <br/>
-      <h3>Cadastro de Serviços</h3>
-      <header>
-      {' '}
-        <button className="botaoInicial" onClick={()=>AbrirFecharModalIncluir()}>Adicionar serviço</button> {' '}
+    <div className = "cadastro-container">
+       <Menu />
+            <h3>Serviços</h3>
+            <header>
+                {' '}
+        <button  onClick={()=>AbrirFecharModalIncluir()}>Incluir serviço</button> {' '}
       </header>
+    <div className="table-responsive">
     <table className= "table table-bordered">
       <thead>
-        <tr className='tabela'>
+        <tr>
           <th>Procedimento</th>
           <th>Descrição</th>
           <th>Duração (min)</th>
           <th>Valor</th>
+          <th>Gestão</th>
         </tr>
       </thead>
       <tbody>
@@ -143,6 +143,8 @@ function App  () {
         ))}
       </tbody>
     </table>
+    </div>
+
     <Modal isOpen ={modalIncluir} >
       <ModalHeader>Incluir novo Serviço: </ModalHeader>
       <ModalBody>
@@ -197,14 +199,14 @@ function App  () {
             Confirmar a exclusão deste serviço: {servicoSelecionado && servicoSelecionado.nomeServico} ?
           </ModalBody>
           <ModalFooter>
-            <button className='btn btn-danger' onClick={()=> pedidoDelete}> Sim </button>
-            <button className='btn btn-secondary' onClick={()=> AbrirFecharModalExcluir}> Não </button>
+            <button className='btn btn-danger' onClick={()=> pedidoDelete()}> Sim </button>
+            <button className='btn btn-secondary' onClick={()=> AbrirFecharModalExcluir()}> Não </button>
       </ModalFooter>
       </Modal>
 
-
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default Servicos;

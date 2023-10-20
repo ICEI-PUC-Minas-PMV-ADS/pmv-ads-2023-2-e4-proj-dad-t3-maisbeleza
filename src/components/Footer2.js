@@ -18,11 +18,7 @@ const styles = {
     marginBottom: '0',
     paddingTop: '10px',
     paddingBottom: '1px',
-<<<<<<< HEAD
-    position:'fixed'
-=======
-    /*position: 'fixed',*/
->>>>>>> origin/rubia-teste2
+    position: 'fixed',
   },
 };
 
