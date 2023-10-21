@@ -125,7 +125,7 @@ function Faturamento () {
       <tbody>
         {data.map(faturamentos=>(
           <tr key = {faturamentos.id}>
-            <td>{faturamentos.data}</td>
+            <td>{new Date(faturamentos.data).toLocaleDateString()}</td>
             <td>{faturamentos.valorTotal}</td>
             <td>
             <button className="btn btn-primary" onClick={()=>selecionarFaturamento(faturamentos,"Editar")}>Editar</button>{"  "}
@@ -156,11 +156,11 @@ function Faturamento () {
       <ModalBody>
         <div className = "form-group">
           <label>Data: </label>
-          <input type = "datetime" className = "form-control mb-2" name ="data" onChange={handleChange}
-            value = {faturamentoSelecionado && faturamentoSelecionado.data} />
+          <input type = "date" className = "form-control mb-2" name ="data" onChange={handleChange}
+            value = {faturamentoSelecionado && faturamentoSelecionado.data.split("T")[0]} />
           <p/>
           <label>Valor: </label>
-          <input type = "decimal" className = "form-control mb-2" name ="valorTotal" onChange={handleChange}
+          <input type = "number" className = "form-control mb-2" name ="valorTotal" onChange={handleChange}
               value = {faturamentoSelecionado && faturamentoSelecionado.valorTotal} />
         </div>      
       </ModalBody>
