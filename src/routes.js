@@ -6,6 +6,8 @@ import Servicos from './pages/Servicos';
 import Login from './pages/Login';
 import Perfil from './pages/Perfil';
 import Cadastro from './pages/Cadastro'
+import Faturamento from "./pages/Faturamento";
+
 
 export default function WebRoute() {
     return (
@@ -17,8 +19,7 @@ export default function WebRoute() {
                 <Route path="/login" element={<Login />} />
                 <Route path="/perfil" element={<Perfil />} />
                 <Route path="/cadastro" element={<Cadastro />} />
-
-
+                <Route path="/faturamento" element={<Faturamento />} />
             </Routes>
         </BrowserRouter>
     );
