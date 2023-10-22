@@ -6,5 +6,11 @@
 
 Figura xx - Identidade visual
 
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/865f5cd1-bb94-47dc-897c-a9e60c71e7e9)
 
-Figura xx - Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual e aspectos de responsividade.
+Figura xx - Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual.
+
+![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/28eec944-ad5f-4007-90e6-0ca5ef1e90d5)
+![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/e338235a-3a46-4e97-9bae-e807925dede6)
+
+Figura xx - Aspectos de responsividade.
