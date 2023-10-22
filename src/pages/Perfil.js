@@ -173,7 +173,7 @@ function App() {
               <td>{Mei.horarioFuncionamento}</td>
               <td>
                 <button className='btn btn-primary' onClick={() => selecionarMei(Mei, 'editar')}>Editar</button> {"  "}
-                <button className='btn btn-danger' onClick={() => selecionarMei(Mei, 'excluir')}>Excluir</button>
+                <button className='btn btn-secondary' onClick={() => selecionarMei(Mei, 'excluir')}>Excluir</button>
               </td>
             </tr>
           ))}

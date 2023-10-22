@@ -109,17 +109,17 @@ function Faturamento () {
     <div className = "cadastro-container">
         <Menu/>
       <br/>
-      <h3>Cadastro de Faturamento</h3>
+      <h3>Faturamento</h3>
       <header>
       {' '}
-        <button className="botaoInicial" onClick={()=>AbrirFecharModalIncluir()}>Adicionar faturamento</button> {' '}
+        <button className="botaoInicial" onClick={()=>AbrirFecharModalIncluir()}>Incluir faturamento</button> {' '}
       </header>
     <table className= "table table-bordered">
       <thead>
         <tr className='tabela'>
           <th>Data</th>
-          <th>Valor</th>
-          <th>Operação</th>
+          <th>Valor (R$)</th>
+          <th>Gestão</th>
         </tr>
       </thead>
       <tbody>
@@ -129,7 +129,7 @@ function Faturamento () {
             <td>{faturamentos.valorTotal}</td>
             <td>
             <button className="btn btn-primary" onClick={()=>selecionarFaturamento(faturamentos,"Editar")}>Editar</button>{"  "}
-            <button className="btn btn-danger" onClick={()=>selecionarFaturamento(faturamentos,"Excluir")}>Excluir</button>{"   "}
+            <button className="btn btn-secondary" onClick={()=>selecionarFaturamento(faturamentos,"Excluir")}>Excluir</button>{"   "}
             </td>
           </tr>
         ))}

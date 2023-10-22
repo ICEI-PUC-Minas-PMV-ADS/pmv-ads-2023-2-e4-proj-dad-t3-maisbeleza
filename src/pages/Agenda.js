@@ -141,7 +141,7 @@ function App() {
                             <td>{agendamento.clienteId}</td>
                             <td>
                                 <button className="btn btn-primary" onClick={() => selecionarAgendamento(agendamento, "Editar")}>Editar</button> {" "}
-                                <button className="btn btn-danger" onClick={() => selecionarAgendamento(agendamento, "Excluir")}>Excluir</button>
+                                <button className="btn btn-secondary" onClick={() => selecionarAgendamento(agendamento, "Excluir")}>Excluir</button>
                             </td>
                         </tr>
                     ))

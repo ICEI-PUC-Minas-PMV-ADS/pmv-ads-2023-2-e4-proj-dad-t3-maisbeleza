@@ -125,7 +125,7 @@ function Servicos() {
           <th>Procedimento</th>
           <th>Descrição</th>
           <th>Duração (min)</th>
-          <th>Valor</th>
+          <th>Valor (R$)</th>
           <th>Gestão</th>
         </tr>
       </thead>
