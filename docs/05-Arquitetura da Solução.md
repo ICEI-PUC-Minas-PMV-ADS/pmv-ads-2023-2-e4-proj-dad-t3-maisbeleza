@@ -51,7 +51,7 @@ Figura 16 - Tabela de Serviços
 
 ## Rotas e recursos
 
-![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4541c69f-0d68-4581-a671-7136824ffe99)
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/ceb50ca6-636b-4105-b1b2-739c581ee39f)
 
 ![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/51788340-aae0-4a7a-8a4c-9d721c3d90f8)
 
