@@ -17,7 +17,7 @@ namespace MaisBeleza.Tests
         private static DbContextOptions<AppDbContext>? _dbContextOptions;
 
         [ClassInitialize]
-        public static void ClassInitialize(TestContext context) //Inicializa um banco de dados em memÛria para ser usado durante os testes
+        public static void ClassInitialize(TestContext context) //Inicializa um banco de dados em mem√≥ria para ser usado durante os testes
         {
             _dbContextOptions = new DbContextOptionsBuilder<AppDbContext>()
                 .UseInMemoryDatabase(databaseName: "TestDb")
@@ -27,8 +27,8 @@ namespace MaisBeleza.Tests
             {
                 var meis = new List<Mei>
                 {
-                    new Mei { Id = 10, NomeMei = "Mei 1", Email = "mei1@gmail.com", Telefone = "3199999-9999", Rua = "A", Numero = "10a", Bairro = "B", Cidade = "BH", Estado = Estado.BA, Perfil = Perfil.Administrador, Password = "abc123", HorarioFuncionamento = "8h ‡s 12h" },
-                    new Mei { Id = 12, NomeMei = "Mei 2", Email = "mei2@gmail.com", Telefone = "3198888-8888", Rua = "C", Numero = "20a", Bairro = "D", Cidade = "RJ", Estado = Estado.BA, Perfil = Perfil.Administrador, Password = "abc123", HorarioFuncionamento = "8h ‡s 18h" },
+                    new Mei { Id = 10, NomeMei = "Mei 1", Email = "mei1@gmail.com", Telefone = "3199999-9999", Rua = "A", Numero = "10a", Bairro = "B", Cidade = "BH", Estado = "MG", Perfil = Perfil.Administrador, Password = "abc123", HorarioFuncionamento = "8h √†s 12h" },
+                    new Mei { Id = 12, NomeMei = "Mei 2", Email = "mei2@gmail.com", Telefone = "3198888-8888", Rua = "C", Numero = "20a", Bairro = "D", Cidade = "RJ", Estado = "RJ", Perfil = Perfil.Administrador, Password = "abc123", HorarioFuncionamento = "8h √†s 18h" },
                 };
                 dbContext.Meis.AddRange(meis);
                 dbContext.SaveChanges();
@@ -58,7 +58,7 @@ namespace MaisBeleza.Tests
 
 
         [TestMethod]
-        public async Task GetById_NonExistingId_ReturnsNotFound() //Faz a pesquisa de um ID que n„o existe (Testa o GetByID)
+        public async Task GetById_NonExistingId_ReturnsNotFound() //Faz a pesquisa de um ID que n√£o existe (Testa o GetByID)
         {
             // Arrange
             using (var dbContext = new AppDbContext(_dbContextOptions))
@@ -78,7 +78,7 @@ namespace MaisBeleza.Tests
     public class AgendamentoTests
     {
         [TestMethod]
-        public void Agendamento_ValidProperties_ReturnsValid() //Faz um registro de agendamento v·lido (Testa se um registro v·lido È considerado v·lido)
+        public void Agendamento_ValidProperties_ReturnsValid() //Faz um registro de agendamento v√°lido (Testa se um registro v√°lido √© considerado v√°lido)
         {
             // Arrange
             var agendamento = new Agendamento
@@ -87,7 +87,8 @@ namespace MaisBeleza.Tests
                 Data = DateTime.Now,
                 Horario = "10:00",
                 MeiId = 1,
-                ClienteId = 2
+                ClienteId = 2,
+                ServicoId = 1
             };
 
             // Act
@@ -100,14 +101,14 @@ namespace MaisBeleza.Tests
         }
 
         [TestMethod]
-        public void Agendamento_InvalidProperties_ReturnsInvalid() //Tenta fazer um registro de um agendamento com valor nulo (Testa se um registro inv·lido È considerado inv·lido)
+        public void Agendamento_InvalidProperties_ReturnsInvalid() //Tenta fazer um registro de um agendamento com valor nulo (Testa se um registro inv√°lido √© considerado inv√°lido)
         {
             // Arrange
             var agendamento = new Agendamento
             {
                 Id = 1,
                 Data = DateTime.Now,
-                Horario = null,  // Horario È obrigatÛrio
+                Horario = null,  // Horario √© obrigat√≥rio
                 MeiId = 1,
                 ClienteId = 2
             };
@@ -142,7 +143,7 @@ namespace MaisBeleza.Tests
         }
 
         [TestMethod]
-        public void AppDbContext_EnsureDatabaseCreated() //Testa a criaÁ„o do banco de dados
+        public void AppDbContext_EnsureDatabaseCreated() //Testa a cria√ß√£o do banco de dados
         {
             // Arrange
             var options = new DbContextOptionsBuilder<AppDbContext>()
