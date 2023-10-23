@@ -124,6 +124,7 @@ function Servicos() {
     <table className= "table table-bordered">
       <thead>
         <tr>
+          <th>Código</th>
           <th>Procedimento</th>
           <th>Descrição</th>
           <th>Duração (min)</th>
@@ -134,6 +135,7 @@ function Servicos() {
       <tbody>
         {data.map(servicos=>(
           <tr key = {servicos.id}>
+            <td>{servicos.id}</td>
             <td>{servicos.nomeServico}</td>
           <td>{servicos.descricao}</td>
           <td>{servicos.duracao}</td>
