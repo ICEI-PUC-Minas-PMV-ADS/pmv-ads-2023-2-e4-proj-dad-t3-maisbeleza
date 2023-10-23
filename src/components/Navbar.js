@@ -21,8 +21,10 @@ function Menu() {
             <Nav.Link as={Link} to="/agenda" className="text-white">Agenda</Nav.Link>
             <Nav.Link as={Link} to="/servicos" className="text-white">Serviços</Nav.Link>
             <Nav.Link as={Link} to="/faturamento" className="text-white">Faturamento</Nav.Link>
+            <Nav.Link as={Link} to="/perfil" className="text-white">Perfil</Nav.Link>
             <Nav.Link as={Link} to="/cadastro" className="text-white">Cadastro</Nav.Link>
             <Nav.Link as={Link} to="/login" className="text-white">Login</Nav.Link>
+            <Nav.Link as={Link} to="/" className="text-white">Sair</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
