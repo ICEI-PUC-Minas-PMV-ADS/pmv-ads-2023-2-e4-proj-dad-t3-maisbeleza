@@ -111,17 +111,17 @@ function Faturamento () {
     <div className = "cadastro-container">
         <Menu/>
       <br/>
-      <h3>Cadastro de Faturamento</h3>
+      <h3>Faturamento</h3>
       <header>
       {' '}
-        <button className="botaoInicial" onClick={()=>AbrirFecharModalIncluir()}>Adicionar faturamento</button> {' '}
+        <button className="botaoInicial" onClick={()=>AbrirFecharModalIncluir()}>Incluir faturamento</button> {' '}
       </header>
     <table className= "table table-bordered">
       <thead>
         <tr className='tabela'>
           <th>Data</th>
-          <th>Valor</th>
-          <th>Operação</th>
+          <th>Valor (R$)</th>
+          <th>Gestão</th>
         </tr>
       </thead>
       <tbody>

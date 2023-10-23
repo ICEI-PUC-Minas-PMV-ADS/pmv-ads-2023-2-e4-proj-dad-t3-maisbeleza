@@ -23,7 +23,9 @@ function App() {
         horario: '',
         meiId: 1,
         clienteId: 1,
-    })
+        servicoId: 1
+    });
+
 
     const selecionarAgendamento = (agendamento, opcao) => {
         setAgendamentoSelecionado(agendamento);
@@ -83,6 +85,7 @@ function App() {
                         agendamento.horario = resposta.horario;
                         agendamento.meiId = resposta.meiId;
                         agendamento.clienteId = resposta.clienteId;
+                        agendamento.servicoId = resposta.servicoId;
                     }
                     return agendamento;
                 });
@@ -128,6 +131,7 @@ function App() {
                         <th>Horário</th>
                         <th>Profissional</th>
                         <th>Cliente</th>
+                        <th>Serviço</th>
                         <th>Gestão</th>
                     </tr>
                 </thead>
@@ -139,9 +143,10 @@ function App() {
                             <td>{agendamento.horario}</td>
                             <td>{agendamento.meiId}</td>
                             <td>{agendamento.clienteId}</td>
+                            <td>{agendamento.servicoId}</td>
                             <td>
                                 <button className="btn btn-primary" onClick={() => selecionarAgendamento(agendamento, "Editar")}>Editar</button> {" "}
-                                <button className="btn btn-danger" onClick={() => selecionarAgendamento(agendamento, "Excluir")}>Excluir</button>
+                                <button className="btn btn-secondary" onClick={() => selecionarAgendamento(agendamento, "Excluir")}>Excluir</button>
                             </td>
                         </tr>
                     ))
@@ -165,6 +170,9 @@ function App() {
                         <p />
                         <label>Cliente: </label>
                         <input type="number" className="form-control mb-2" name="clienteId" placeholder="Digite o código do cliente" onChange={handleChange} />
+                        <p />
+                        <label>Serviço: </label>
+                        <input type="number" className="form-control mb-2" name="servicoId" placeholder="Digite o código do serviço" onChange={handleChange} />
                     </div>
                 </ModalBody>
                 <ModalFooter>
@@ -195,6 +203,9 @@ function App() {
                         <input type="number" className="form-control mb-2" name="clienteId" onChange={handleChange}
                             value={agendamentoSelecionado && agendamentoSelecionado.clienteId} />
                         <br />
+                        <label>Serviço: </label>
+                        <input type="number" className="form-control mb-2" name="servicoId" onChange={handleChange}
+                            value={agendamentoSelecionado && agendamentoSelecionado.servicoId} />
                     </div>
                 </ModalBody>
                 <ModalFooter>
