@@ -91,14 +91,20 @@ namespace MaisBeleza.Controllers
             modeloDb.Cidade = model.Cidade;
             modeloDb.Estado = model.Estado;
             modeloDb.Perfil = model.Perfil;
-            modeloDb.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
             modeloDb.HorarioFuncionamento = model.HorarioFuncionamento;
+
+            // Verifique se a senha foi fornecida antes de chamar a função HashPassword
+            if (!string.IsNullOrEmpty(model.Password))
+            {
+                modeloDb.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
+            }
 
             _context.Meis.Update(modeloDb);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
+
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
