@@ -40,7 +40,7 @@ function App() {
 
   const selecionarMei = (mei, opcao) => {
     setMeiSelecionado(mei);
-    (opcao === 'editar') ?
+    (opcao === 'Editar') ?
       abrirFecharModalEditar() : abrirFecharModalExcluir();
   }
 

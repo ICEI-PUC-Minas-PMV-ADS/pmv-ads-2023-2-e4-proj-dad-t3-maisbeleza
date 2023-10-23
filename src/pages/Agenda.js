@@ -119,13 +119,33 @@ function App() {
 
     async function fetchServiceName(servicoId) {
         try {
-          const response = await axios.get(`https://localhost:7075/api/servicos/${servicoId}`);
-          return response.data.nomeServico; // Supondo que a API retorna o nome do serviço
+            const response = await axios.get(`https://localhost:7075/api/servicos/${servicoId}`);
+            return response.data.nomeServico; // Supondo que a API retorna o nome do serviço
         } catch (error) {
-          console.error(error);
-          return ''; // Tratar erros adequadamente
+            console.error(error);
+            return ''; // Tratar erros adequadamente
         }
-      }
+    }
+
+    async function fetchMeiName(meiId) {
+        try {
+            const response = await axios.get(`https://localhost:7075/api/meis/${meiId}`);
+            return response.data.nomeMei; // Supondo que a API retorna o nome do serviço
+        } catch (error) {
+            console.error(error);
+            return ''; // Tratar erros adequadamente
+        }
+    }
+
+    async function fetchClienteName(clienteId) {
+        try {
+            const response = await axios.get(`https://localhost:7075/api/clientes/${clienteId}`);
+            return response.data.nome; // Supondo que a API retorna o nome do serviço
+        } catch (error) {
+            console.error(error);
+            return ''; // Tratar erros adequadamente
+        }
+    }
 
     return (
         <div className="cadastro-container">
@@ -154,12 +174,16 @@ function App() {
                                 <td>{agendamento.id}</td>
                                 <td>{new Date(agendamento.data).toLocaleDateString()}</td>
                                 <td>{agendamento.horario}</td>
-                                <td>{agendamento.meiId}</td>
-                                <td>{agendamento.clienteId}</td>
+                                <td>{agendamento.meiId ? (
+                                    <MeiName meiId={agendamento.meiId} />
+                                ) : null}</td>
+                                <td>{agendamento.clienteId ? (
+                                    <ClienteName clienteId={agendamento.clienteId} />
+                                ) : null}</td>
                                 <td>
-                                {agendamento.servicoId ? (
-                                <ServiceName servicoId={agendamento.servicoId} />
-                                  ) : null}
+                                    {agendamento.servicoId ? (
+                                        <ServiceName servicoId={agendamento.servicoId} />
+                                    ) : null}
                                 </td>
                                 <td>
                                     <IoMdCreate onClick={() => selecionarAgendamento(agendamento, "Editar")} size={20} color=" #81007F" title="Editar" />{"   "}
@@ -171,7 +195,7 @@ function App() {
                     </tbody>
                 </table>
             </div>
-                        
+
             <Modal isOpen={modalIncluir} >
                 <ModalHeader>Incluir novo agendamento </ModalHeader>
                 <ModalBody>
@@ -246,18 +270,46 @@ function App() {
     );
     function ServiceName({ servicoId }) {
         const [serviceName, setServiceName] = useState('');
-    
+
         useEffect(() => {
-          if (servicoId) {
-            fetchServiceName(servicoId).then(result => {
-              setServiceName(result);
-            });
-          }
+            if (servicoId) {
+                fetchServiceName(servicoId).then(result => {
+                    setServiceName(result);
+                });
+            }
         }, [servicoId]);
-    
+
         return <span>{serviceName}</span>;
-      }
     }
+
+    function MeiName({ meiId }) {
+        const [meiName, setMeiName] = useState('');
+
+        useEffect(() => {
+            if (meiId) {
+                fetchMeiName(meiId).then(result => {
+                    setMeiName(result);
+                });
+            }
+        }, [meiId]);
+
+        return <span>{meiName}</span>;
+    }
+
+    function ClienteName({ clienteId }) {
+        const [clienteName, setClienteName] = useState('');
+
+        useEffect(() => {
+            if (clienteId) {
+                fetchClienteName(clienteId).then(result => {
+                    setClienteName(result);
+                });
+            }
+        }, [clienteId]);
+
+        return <span>{clienteName}</span>;
+    }
+}
 
 
 export default App;
