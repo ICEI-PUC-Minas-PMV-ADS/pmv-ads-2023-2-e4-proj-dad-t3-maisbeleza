@@ -24,9 +24,9 @@ function App() {
         id: '',
         data: '',
         horario: '',
-        meiId: 1,
-        clienteId: 1,
-        servicoId: 1
+        meiId: 0,
+        clienteId: 0,
+        servicoId: 0
     });
 
 
@@ -66,6 +66,13 @@ function App() {
     }
 
     const pedidoPost = async () => {
+
+        if (!agendamentoSelecionado.data || !agendamentoSelecionado.horario || 
+            !agendamentoSelecionado.meiId || !agendamentoSelecionado.clienteId || 
+            !agendamentoSelecionado.servicoId) {
+            console.log("Por favor, preencha todos os campos obrigatórios.");
+            return;
+        }
         delete agendamentoSelecionado.id;
         await axios.post(baseUrl, agendamentoSelecionado)
             .then(response => {
