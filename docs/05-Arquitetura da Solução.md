@@ -22,7 +22,7 @@ Figura 11 - Diagrama de classes
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/3c03d382-64c0-419c-8918-17a96e1c9b05)
+![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/6b4b77a9-33df-41e8-a598-55c2cac654af)
 
 Figura 12 - Modelo entidade relacionamento
 
