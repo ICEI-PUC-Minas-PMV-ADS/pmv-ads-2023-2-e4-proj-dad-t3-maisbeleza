@@ -115,7 +115,7 @@ function App() {
     }, [updateData])
 
     return (
-        <div className="agendamento-container">
+        <div className="cadastro-container">
             <Menu />
             <h3>Agenda</h3>
             <header>
