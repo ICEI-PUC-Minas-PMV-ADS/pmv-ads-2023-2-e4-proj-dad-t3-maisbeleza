@@ -6,7 +6,7 @@
 
 Figura xx - Identidade visual
 
-![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/865f5cd1-bb94-47dc-897c-a9e60c71e7e9)
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/9e54fc9f-f56a-4b17-adbb-a6e949eaf69f)
 
 Figura xx - Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual.
 
