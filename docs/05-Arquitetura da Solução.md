@@ -30,7 +30,7 @@ Figura 12 - Modelo entidade relacionamento
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
-![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/5415b428-0ca4-481d-be11-fc756ee5359e)
+![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/0877534f-47f5-44f8-ae4d-54abcd3d3e70)
 
 Figura 13 - Esquema relacional
 
