@@ -57,7 +57,7 @@ Figura 16 - Tabela de Serviços
 
 ![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4cfd5cb3-b4e8-4064-bf88-740b31d11b94)
 
-![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/f6390dbb-f7fb-4a9a-87ef-3f1e466562a2)
+![Schema](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4dfcaf13-a59f-4df3-9a5b-aa6568c0f837)
 
 Figura 17 - Rotas Swagger
 
