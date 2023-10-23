@@ -117,6 +117,16 @@ function App() {
         }
     }, [updateData])
 
+    async function fetchServiceName(servicoId) {
+        try {
+          const response = await axios.get(`https://localhost:7075/api/servicos/${servicoId}`);
+          return response.data.nomeServico; // Supondo que a API retorna o nome do serviço
+        } catch (error) {
+          console.error(error);
+          return ''; // Tratar erros adequadamente
+        }
+      }
+
     return (
         <div className="cadastro-container">
             <Menu />
@@ -146,7 +156,11 @@ function App() {
                                 <td>{agendamento.horario}</td>
                                 <td>{agendamento.meiId}</td>
                                 <td>{agendamento.clienteId}</td>
-                                <td>{agendamento.servicoId}</td>
+                                <td>
+                                {agendamento.servicoId ? (
+                                <ServiceName servicoId={agendamento.servicoId} />
+                                  ) : null}
+                                </td>
                                 <td>
                                     <IoMdCreate onClick={() => selecionarAgendamento(agendamento, "Editar")} size={20} color=" #81007F" title="Editar" />{"   "}
                                     <IoIosTrash onClick={() => selecionarAgendamento(agendamento, "Excluir")} size={20} color="red" title="Excluir" />{"   "}
@@ -157,7 +171,7 @@ function App() {
                     </tbody>
                 </table>
             </div>
-
+                        
             <Modal isOpen={modalIncluir} >
                 <ModalHeader>Incluir novo agendamento </ModalHeader>
                 <ModalBody>
@@ -230,6 +244,20 @@ function App() {
             <Footer />
         </div>
     );
-}
+    function ServiceName({ servicoId }) {
+        const [serviceName, setServiceName] = useState('');
+    
+        useEffect(() => {
+          if (servicoId) {
+            fetchServiceName(servicoId).then(result => {
+              setServiceName(result);
+            });
+          }
+        }, [servicoId]);
+    
+        return <span>{serviceName}</span>;
+      }
+    }
+
 
 export default App;
