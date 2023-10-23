@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import '../App.css';
 import {Modal, ModalBody,ModalFooter,ModalHeader} from 'reactstrap';
+import { IoMdCreate } from "react-icons/io";
+import {IoIosTrash} from 'react-icons/io';
 import  Menu from '../components/Navbar';
 import Footer from '../components/Footer2';
 
@@ -128,8 +130,8 @@ function Faturamento () {
             <td>{new Date(faturamentos.data).toLocaleDateString()}</td>
             <td>{faturamentos.valorTotal}</td>
             <td>
-            <button className="btn btn-primary" onClick={()=>selecionarFaturamento(faturamentos,"Editar")}>Editar</button>{"  "}
-            <button className="btn btn-secondary" onClick={()=>selecionarFaturamento(faturamentos,"Excluir")}>Excluir</button>{"   "}
+            <IoMdCreate  onClick={()=>selecionarFaturamento(faturamentos,"Editar")} size = {20} color = " #81007F" title="Editar"/>{"   "}
+            <IoIosTrash onClick={()=>selecionarFaturamento(faturamentos,"Excluir")} size = {20} color = "red" title="Excluir"/>{"   "}
             </td>
           </tr>
         ))}
