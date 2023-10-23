@@ -10,7 +10,7 @@ using System.Text;
 
 namespace MaisBeleza.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ClientesController : ControllerBase
@@ -52,7 +52,7 @@ namespace MaisBeleza.Controllers
         {
 
             var model = await _context.Clientes
-                
+                .Include(t => t.Agendamentos)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();

@@ -1,15 +1,27 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+<span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/blob/main/docs/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/blob/main/docs/03-Metodologia.md"> Metodologia</a>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/blob/main/docs/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.md"> Arquitetura da Solução</a>
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Implementação do sistema descrita por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos aos artefatos criados (código fonte), além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+|ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
+|------|-----------------------------------------|----|
+|RF-001| A aplicação deve permitir ao usuário cadastrar uma conta. |   | 
+|RF-002| A aplicação deve permitir ao usuário cadastrado logar em sua conta. |  | 
+|RF-003| A aplicação deve permitir ao usuário cadastrado sair da sua conta.  |   |
+|RF-004| A aplicação deve permitir ao usuário gerenciar a sua conta. |  |
+|RF-005| A aplicação deve permitir ao cliente fazer agendamentos. | |
+|RF-006| A aplicação deve permitir ao cliente gerenciar seus agendamentos. |  |
+|RF-007| A aplicação deve permitir ao microempreendedor individual aceitar ou negar agendamentos. |   |
+|RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda.   |  |
+|RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços.  | |
+|RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento.  |  |
+|RNF-001| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.  |  |
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+# Instruções de acesso
+
+Para ter acesso a aplicação web, <a href="/">clique aqui</a>. Para fazer o login no sistema, utilize os dados abaixo:
+
+Email:
+<br>
+Senha:

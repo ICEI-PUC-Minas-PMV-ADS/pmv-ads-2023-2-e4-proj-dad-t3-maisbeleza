@@ -21,7 +21,7 @@ namespace MaisBeleza.Models
         [Required]
         public string Cidade { get; set; }
         [Required]
-        public Estado Estado { get; set; }
+        public string Estado { get; set; }
         [Required]
         public Perfil Perfil { get; set; }
         [Required]

@@ -9,3 +9,7 @@
 ### [0.1.0] - 01/10/2023
 #### Adicionado
 - Criação da API e do banco de dados.
+
+### [0.2.0] - 29/10/2023
+#### Adicionado
+- Criação do Front-end Web e integração com a API.

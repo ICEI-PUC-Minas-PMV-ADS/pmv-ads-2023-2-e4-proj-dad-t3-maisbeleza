@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MaisBeleza.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class AgendamentosController : ControllerBase
@@ -40,7 +40,6 @@ namespace MaisBeleza.Controllers
         {
 
             var model = await _context.Agendamentos
-                .Include(t => t.Servicos).ThenInclude(t => t.Servico)
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
@@ -82,31 +81,6 @@ namespace MaisBeleza.Controllers
             model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
             model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
             model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "Delete"));
-        }
-
-        [HttpPost("{id}/servicos")]
-        public async Task<ActionResult> AddServico(int id, Agenda model)
-        {
-            if (id != model.AgendamentoId) return BadRequest();
-            _context.Agendas.Add(model);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetById", new { id = model.AgendamentoId }, model);
-        }
-
-        [HttpDelete("{id}/servicos/{servicoId}")]
-        public async Task<ActionResult> DeleteServico(int id, int servicoId)
-        {
-            var model = await _context.Agendas
-                .Where(c => c.AgendamentoId == id && c.ServicoId == servicoId)
-                .FirstOrDefaultAsync();
-
-            if (model == null) return NotFound();
-
-            _context.Agendas.Remove(model);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
         }
     }
 }
