@@ -5,6 +5,9 @@ import Footer from "../components/Footer2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
+import { IoMdCreate } from "react-icons/io";
+import { IoIosTrash } from 'react-icons/io';
+
 
 function App() {
 
@@ -123,36 +126,36 @@ function App() {
                 <button onClick={() => abrirFecharModalIncluir()}>Incluir agendamento</button> {' '}
             </header>
             <div className="table-responsive">
-            <table className="table table-bordered">
-                <thead>
-                    <tr>
-                        <th>Código</th>
-                        <th>Data</th>
-                        <th>Horário</th>
-                        <th>Profissional</th>
-                        <th>Cliente</th>
-                        <th>Serviço</th>
-                        <th>Gestão</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {data.map(agendamento => (
-                        <tr key={agendamento.id}>
-                            <td>{agendamento.id}</td>
-                            <td>{agendamento.data}</td>
-                            <td>{agendamento.horario}</td>
-                            <td>{agendamento.meiId}</td>
-                            <td>{agendamento.clienteId}</td>
-                            <td>{agendamento.servicoId}</td>
-                            <td>
-                                <button className="btn btn-primary" onClick={() => selecionarAgendamento(agendamento, "Editar")}>Editar</button> {" "}
-                                <button className="btn btn-secondary" onClick={() => selecionarAgendamento(agendamento, "Excluir")}>Excluir</button>
-                            </td>
+                <table className="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Data</th>
+                            <th>Horário</th>
+                            <th>Profissional</th>
+                            <th>Cliente</th>
+                            <th>Serviço</th>
+                            <th>Gestão</th>
                         </tr>
-                    ))
-                    }
-                </tbody>
-            </table>
+                    </thead>
+                    <tbody>
+                        {data.map(agendamento => (
+                            <tr key={agendamento.id}>
+                                <td>{agendamento.id}</td>
+                                <td>{new Date(agendamento.data).toLocaleDateString()}</td>
+                                <td>{agendamento.horario}</td>
+                                <td>{agendamento.meiId}</td>
+                                <td>{agendamento.clienteId}</td>
+                                <td>{agendamento.servicoId}</td>
+                                <td>
+                                    <IoMdCreate onClick={() => selecionarAgendamento(agendamento, "Editar")} size={20} color=" #81007F" title="Editar" />{"   "}
+                                    <IoIosTrash onClick={() => selecionarAgendamento(agendamento, "Excluir")} size={20} color="red" title="Excluir" />{"   "}
+                                </td>
+                            </tr>
+                        ))
+                        }
+                    </tbody>
+                </table>
             </div>
 
             <Modal isOpen={modalIncluir} >

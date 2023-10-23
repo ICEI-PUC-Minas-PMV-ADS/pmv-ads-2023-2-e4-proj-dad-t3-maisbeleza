@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 import logoPerfil from "../assets/img/logoPerfil.png"
+import { IoMdCreate } from "react-icons/io";
+import { IoIosTrash } from 'react-icons/io';
 
 function App() {
 
@@ -27,7 +29,7 @@ function App() {
       numero: '',
       bairro: '',
       cidade: '',
-      estado: 0,
+      estado: '',
       perfil: 0,
       password: '',
       horarioFuncionamento: ''
@@ -99,6 +101,7 @@ function App() {
             mei.numero = resposta.numero;
             mei.bairro = resposta.bairro;
             mei.cidade = resposta.cidade;
+            mei.estado = resposta.estado;
             mei.password = resposta.password;
             mei.horarioFuncionamento = resposta.horarioFuncionamento;
           }
@@ -122,11 +125,6 @@ function App() {
       })
   }
 
-  // const estadosBrasileiros = [
-  //   'AC', 'AL', 'AP', 'AM', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MT', 'MS', 'MG',
-  //   'PA', 'PB', 'PR', 'PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO'
-  // ];
-
 
   useEffect(() => {
     if (updateData) {
@@ -138,7 +136,7 @@ function App() {
 
   return (
     <div className="App">
-        <Menu />
+      <Menu />
       <br />
       <h3> Perfil</h3>
       <header>
@@ -155,6 +153,7 @@ function App() {
             <th>Numero</th>
             <th>Bairro</th>
             <th>Cidade</th>
+            <th>Estado</th>
             <th>Horário de Funcionamento</th>
             <th>Operação</th>
           </tr>
@@ -170,10 +169,11 @@ function App() {
               <td>{Mei.numero}</td>
               <td>{Mei.bairro}</td>
               <td>{Mei.cidade}</td>
+              <td>{Mei.estado}</td>
               <td>{Mei.horarioFuncionamento}</td>
               <td>
-                <button className='btn btn-primary' onClick={() => selecionarMei(Mei, 'editar')}>Editar</button> {"  "}
-                <button className='btn btn-secondary' onClick={() => selecionarMei(Mei, 'excluir')}>Excluir</button>
+                <IoMdCreate onClick={() => selecionarMei(Mei, "Editar")} size={20} color=" #81007F" title="Editar" />{"   "}
+                <IoIosTrash onClick={() => selecionarMei(Mei, "Excluir")} size={20} color="red" title="Excluir" />{"   "}
               </td>
             </tr>
           ))}
@@ -213,16 +213,9 @@ function App() {
             <br />
             <input type='text' className='form-control' name='cidade' onChange={handleChange} />
 
-            {/* <label>Estado: </label>
+            <label>Estado: </label>
             <br />
-            <select className="form-control" name="estado" onChange={handleChange}>
-              <option value="">Selecione um estado</option>
-              <option value="AC">Acre</option>
-              <option value="AL">Alagoas</option>
-              <option value="AP">Amapá</option>
-
-            </select>*/}
-
+            <input type='text' className='form-control' name='estado' onChange={handleChange} />
 
             {/*<label>Perfil: </label>
             <br />
@@ -286,10 +279,17 @@ function App() {
             <input type='text' className='form-control' name='cidade' onChange={handleChange}
               value={meiSelecionado && meiSelecionado.cidade} />
 
+            <label>Estado: </label>
+            <br />
+            <input type='text' className='form-control' name='estado' onChange={handleChange}
+              value={meiSelecionado && meiSelecionado.estado} />
+
+            {/*<label>Perfil: </label>
+
             <label>Senha: </label>
             <br />
             <input type='text' className='form-control' name='password' onChange={handleChange}
-              value={meiSelecionado && meiSelecionado.password} />
+              value={meiSelecionado && meiSelecionado.password} />}*/}
 
             <label>Horario de Funcionamento: </label>
             <br />

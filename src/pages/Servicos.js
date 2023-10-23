@@ -5,6 +5,8 @@ import '../App.css';
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 import Menu from "../components/Navbar";
 import Footer from "../components/Footer2";
+import { IoMdCreate } from "react-icons/io";
+import {IoIosTrash} from 'react-icons/io';
 
 
 
@@ -137,8 +139,8 @@ function Servicos() {
           <td>{servicos.duracao}</td>
           <td>{servicos.valor}</td>
             <td>
-            <button className="btn btn-primary" onClick={()=>selecionarServico(servicos,"Editar")}>Editar</button>{"  "}
-            <button className="btn btn-secondary" onClick={()=>selecionarServico(servicos,"Excluir")}>Excluir</button>
+            <IoMdCreate  onClick={()=>selecionarServico(servicos,"Editar")} size = {20} color = " #81007F" title="Editar"/>{"   "}
+            <IoIosTrash onClick={()=>selecionarServico(servicos,"Excluir")} size = {20} color = "red" title="Excluir"/>{"   "}
             </td>
           </tr>
         ))}

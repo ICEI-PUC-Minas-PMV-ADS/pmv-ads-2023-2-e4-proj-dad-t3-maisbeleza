@@ -25,7 +25,7 @@ function Cadastro() {
             numero: '',
             bairro: '',
             cidade: '',
-            estado: 0,
+            estado: '',
             perfil: 0,
             password: '',
             horarioFuncionamento: ''
@@ -121,16 +121,10 @@ function Cadastro() {
                         <br />
                         <input type='text' className='form-control' name='cidade' onChange={handleChange} />
 
-                        {/* <label>Estado: </label>
-            <br />
-            <select className="form-control" name="estado" onChange={handleChange}>
-              <option value="">Selecione um estado</option>
-              <option value="AC">Acre</option>
-              <option value="AL">Alagoas</option>
-              <option value="AP">Amapá</option>
-
-            </select>*/}
-
+                        <label>Estado: </label>
+                        <br />
+                        <input type='text' className='form-control' name='estado' onChange={handleChange} />
+                        
 
                         {/*<label>Perfil: </label>
             <br />
