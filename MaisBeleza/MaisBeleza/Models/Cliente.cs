@@ -31,7 +31,9 @@ namespace MaisBeleza.Models
     {
         [Display(Name = "Administrador")]
         Administrador,
-        [Display(Name = "Usuário")]
-        Usuario
+        [Display(Name = "Usuário - MEI")]
+        UsuarioMei,
+        [Display(Name = "Usuário - Cliente")]
+        UsuarioCliente
     }
 }

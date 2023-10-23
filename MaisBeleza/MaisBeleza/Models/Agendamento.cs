@@ -24,6 +24,8 @@ namespace MaisBeleza.Models
         public int ClienteId { get; set; }
         public Cliente Cliente { get; set; }
 
-        public ICollection<Agenda> Servicos { get; set; }
+        public int ServicoId { get; set; }
+        public Servico Servico { get; set; }
+
     }
 }

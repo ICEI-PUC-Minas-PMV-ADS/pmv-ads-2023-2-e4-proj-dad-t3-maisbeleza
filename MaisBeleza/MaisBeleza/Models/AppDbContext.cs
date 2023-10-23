@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MaisBeleza.Controllers;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 using System.Reflection.Metadata;
@@ -22,17 +23,6 @@ namespace MaisBeleza.Models
             {
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;
             }
-
-            builder.Entity<Agenda>()
-            .HasKey(c => new { c.AgendamentoId, c.ServicoId });
-
-            builder.Entity<Agenda>()
-                .HasOne(c => c.Agendamento).WithMany(c => c.Servicos)
-                .HasForeignKey(c => c.AgendamentoId);
-
-            builder.Entity<Agenda>()
-                .HasOne(c => c.Servico).WithMany(c => c.Agendamentos)
-                .HasForeignKey(c => c.ServicoId);
         }
 
 
@@ -41,6 +31,5 @@ namespace MaisBeleza.Models
         public virtual DbSet<Faturamento> Faturamentos { get; set; }
         public DbSet<Mei> Meis { get; set; }
         public DbSet<Servico> Servicos { get; set; }
-        public DbSet<Agenda> Agendas { get; set; }
     }
 }
