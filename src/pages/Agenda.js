@@ -9,7 +9,7 @@ import { IoMdCreate } from "react-icons/io";
 import { IoIosTrash } from 'react-icons/io';
 
 
-function App() {
+function Agenda() {
 
     const baseUrl = "https://localhost:7075/api/agendamentos";
 
@@ -67,8 +67,8 @@ function App() {
 
     const pedidoPost = async () => {
 
-        if (!agendamentoSelecionado.data || !agendamentoSelecionado.horario || 
-            !agendamentoSelecionado.meiId || !agendamentoSelecionado.clienteId || 
+        if (!agendamentoSelecionado.data || !agendamentoSelecionado.horario ||
+            !agendamentoSelecionado.meiId || !agendamentoSelecionado.clienteId ||
             !agendamentoSelecionado.servicoId) {
             console.log("Por favor, preencha todos os campos obrigatórios.");
             return;
@@ -127,30 +127,30 @@ function App() {
     async function fetchServiceName(servicoId) {
         try {
             const response = await axios.get(`https://localhost:7075/api/servicos/${servicoId}`);
-            return response.data.nomeServico; // Supondo que a API retorna o nome do serviço
+            return response.data.nomeServico;
         } catch (error) {
             console.error(error);
-            return ''; // Tratar erros adequadamente
+            return '';
         }
     }
 
     async function fetchMeiName(meiId) {
         try {
             const response = await axios.get(`https://localhost:7075/api/meis/${meiId}`);
-            return response.data.nomeMei; // Supondo que a API retorna o nome do serviço
+            return response.data.nomeMei;
         } catch (error) {
             console.error(error);
-            return ''; // Tratar erros adequadamente
+            return '';
         }
     }
 
     async function fetchClienteName(clienteId) {
         try {
             const response = await axios.get(`https://localhost:7075/api/clientes/${clienteId}`);
-            return response.data.nome; // Supondo que a API retorna o nome do serviço
+            return response.data.nome;
         } catch (error) {
             console.error(error);
-            return ''; // Tratar erros adequadamente
+            return '';
         }
     }
 
@@ -319,4 +319,4 @@ function App() {
 }
 
 
-export default App;
+export default Agenda;
