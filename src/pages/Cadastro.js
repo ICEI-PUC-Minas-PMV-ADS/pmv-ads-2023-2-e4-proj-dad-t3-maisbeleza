@@ -4,6 +4,7 @@ import Menu from "../components/Navbar";
 import Footer from "../components/Footer2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 
 function Cadastro() {
@@ -32,22 +33,24 @@ function Cadastro() {
 
         }
 
-    )
+    );
+
+    const navigate = useNavigate();
 
 
-    const handleChange = (e) => {
+   const handleChange = (e) => {
         const { name, value } = e.target;
         setMeiSelecionado({
             ...meiSelecionado,
             [name]: value,
         });
-    }
+    };
 
 
 
     const abrirFecharModalIncluir = () => {
         setModalIncluir(!modalIncluir);
-    }
+    };
 
 
     const pedidoGet = async () => {
@@ -56,8 +59,9 @@ function Cadastro() {
                 setData(response.data);
             }).catch(error => {
                 console.log(error);
-            })
-    }
+            });
+        
+        };
 
     const pedidoPost = async () => {
         delete meiSelecionado.id;
@@ -67,10 +71,11 @@ function Cadastro() {
                 setUpdateData(true);
                 abrirFecharModalIncluir();
                 setRegistrationSuccess(true);
+                navigate('/login');
             }).catch(error => {
                 console.log(error);
-            })
-    }
+            });
+        };
 
 
     useEffect(() => {
@@ -78,7 +83,7 @@ function Cadastro() {
             pedidoGet();
             setUpdateData(false);
         }
-    }, [updateData])
+    }, [updateData]);
 
 
     return (
@@ -86,73 +91,69 @@ function Cadastro() {
             <Menu />
             <br />
             <h3> Cadastre-se</h3>
-            
+
+            <div className='form-group'>
+
+                <label>Nome: </label>
+                <br />
+                <input type='text' className='form-control' name='nomeMei' onChange={handleChange} />
+
+                <label>Email: </label>
+                <br />
+                <input type='text' className='form-control' name='email' onChange={handleChange} />
+
+                <label>Telefone: </label>
+                <br />
+                <input type='text' className='form-control' name='telefone' onChange={handleChange} />
+
+                <label>Rua: </label>
+                <br />
+                <input type='text' className='form-control' name='rua' onChange={handleChange} />
+
+                <label>Numero: </label>
+                <br />
+                <input type='text' className='form-control' name='numero' onChange={handleChange} />
+
+                <label>Bairro: </label>
+                <br />
+                <input type='text' className='form-control' name='bairro' onChange={handleChange} />
+
+                <label>Cidade: </label>
+                <br />
+                <input type='text' className='form-control' name='cidade' onChange={handleChange} />
+
+                <label>Estado: </label>
+                <br />
+                <input type='text' className='form-control' name='estado' onChange={handleChange} />
 
 
-        
-                
-                    <div className='form-group'>
+                {/*<label>Perfil: </label>
+                <br />
+                <input type='text' className='form-control' name='perfil' onChange={handleChange} />*/}
 
-                        <label>Nome: </label>
-                        <br />
-                        <input type='text' className='form-control' name='nomeMei' onChange={handleChange} />
+                <label>Senha: </label>
+                <br />
+                <input type='text' className='form-control' name='password' onChange={handleChange} />
 
-                        <label>Email: </label>
-                        <br />
-                        <input type='text' className='form-control' name='email' onChange={handleChange} />
+                <label>Horario de Funcionamento: </label>
+                <br />
+                <input type='text' className='form-control' name='horarioFuncionamento' onChange={handleChange} />
 
-                        <label>Telefone: </label>
-                        <br />
-                        <input type='text' className='form-control' name='telefone' onChange={handleChange} />
+                <br />
 
-                        <label>Rua: </label>
-                        <br />
-                        <input type='text' className='form-control' name='rua' onChange={handleChange} />
+            </div>
+            {registrationSuccess && (
+                <div className="alert alert-success">Cadastro realizado com sucesso!</div>
+            )}
 
-                        <label>Numero: </label>
-                        <br />
-                        <input type='text' className='form-control' name='numero' onChange={handleChange} />
 
-                        <label>Bairro: </label>
-                        <br />
-                        <input type='text' className='form-control' name='bairro' onChange={handleChange} />
+            <button className='btn btn-primary' onClick={() => pedidoPost()}>Cadastre-se</button> {"  "}
 
-                        <label>Cidade: </label>
-                        <br />
-                        <input type='text' className='form-control' name='cidade' onChange={handleChange} />
 
-                        <label>Estado: </label>
-                        <br />
-                        <input type='text' className='form-control' name='estado' onChange={handleChange} />
-                        
-
-                        {/*<label>Perfil: </label>
-            <br />
-            <input type='text' className='form-control' name='perfil' onChange={handleChange} />*/}
-
-                        <label>Senha: </label>
-                        <br />
-                        <input type='text' className='form-control' name='password' onChange={handleChange} />
-
-                        <label>Horario de Funcionamento: </label>
-                        <br />
-                        <input type='text' className='form-control' name='horarioFuncionamento' onChange={handleChange} />
-
-                        <br />
-                        
-                    </div>
-                    {registrationSuccess && (
-            <div className="alert alert-success">Cadastro realizado com sucesso!</div>
-        )}
-                
-                
-                    <button className='btn btn-primary' onClick={() => pedidoPost()}>Cadastre-se</button> {"  "}
-                
-           
             <Footer />
 
         </div>
-    );
-}
+        );
+    }
 
 export default Cadastro;
