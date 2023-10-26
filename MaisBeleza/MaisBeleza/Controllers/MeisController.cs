@@ -78,7 +78,7 @@ namespace MaisBeleza.Controllers
             if (id != model.Id) return BadRequest();
 
             var modeloDb = await _context.Meis.AsNoTracking()
-                .FirstOrDefaultAsync(c => c.Id == id);
+                .FirstOrDefaultAsync(c => c.Id == model.Id);
 
             if (modeloDb == null) return NotFound();
 
@@ -124,14 +124,14 @@ namespace MaisBeleza.Controllers
         [HttpPost("authenticate")]
         public async Task<ActionResult> Authenticate(AuthenticateDto model)
         {
-            var meiDb = await _context.Meis.FindAsync(model.Id);
+            var meiDb = await _context.Meis.FirstOrDefaultAsync(c => c.Email == model.Email);
 
             if (meiDb == null || !BCrypt.Net.BCrypt.Verify(model.Password, meiDb.Password))
                 return Unauthorized();
 
             var jwt = GenerateJwtToken(meiDb);
 
-            return Ok(new {jwt = jwt});
+            return Ok(new { jwt = jwt });
         }
 
         private string GenerateJwtToken(Mei model)
@@ -140,8 +140,8 @@ namespace MaisBeleza.Controllers
             var key = Encoding.ASCII.GetBytes("Ry74cBQva5dThwbwchR9jhbtRFnJxWSZ");
             var claims = new ClaimsIdentity(new Claim[]
             {
-                new Claim(ClaimTypes.NameIdentifier, model.Id.ToString()),
-                new Claim(ClaimTypes.Role, model.Perfil.ToString())
+        new Claim(ClaimTypes.NameIdentifier, model.Id.ToString()),
+        new Claim(ClaimTypes.Role, model.Perfil.ToString())
             });
 
             var tokenDescriptor = new SecurityTokenDescriptor
