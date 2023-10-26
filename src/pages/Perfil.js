@@ -9,7 +9,7 @@ import logoPerfil from "../assets/img/logoPerfil.png"
 import { IoMdCreate } from "react-icons/io";
 import { IoIosTrash } from 'react-icons/io';
 
-function App() {
+function Perfil() {
 
   const baseUrl = "https://localhost:7075/api/Meis";
 
@@ -135,16 +135,18 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="cadastro-container">
       <Menu />
       <br />
-      <h3> Perfil</h3>
-      <header>
-        <img src={logoPerfil} alt='cadastro' />
-      </header>
+      <div className="centrarConteudo">
+        <h3>Perfil</h3>
+        <header>
+          
+        </header>
+      </div>
       <table className='table table-bordered'>
         <thead>
-          <tr>
+          <tr className= 'tabela'>
             <th>Id</th>
             <th>Nome</th>
             <th>Email</th>
@@ -154,7 +156,7 @@ function App() {
             <th>Bairro</th>
             <th>Cidade</th>
             <th>Estado</th>
-            <th>Horário de Funcionamento</th>
+            <th>Expediente</th>
             <th>Operação</th>
           </tr>
         </thead>
@@ -248,7 +250,6 @@ function App() {
             <br />
             <input type='text' className='form-control' name='nomeMei' onChange={handleChange}
               value={meiSelecionado && meiSelecionado.nomeMei} />
-
             <label>Email: </label>
             <br />
             <input type='text' className='form-control' name='email' onChange={handleChange}
@@ -320,4 +321,4 @@ function App() {
   );
 }
 
-export default App;
+export default Perfil;
