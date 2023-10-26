@@ -5,7 +5,6 @@ import Footer from "../components/Footer2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
-import logoPerfil from "../assets/img/logoPerfil.png"
 import { IoMdCreate } from "react-icons/io";
 import { IoIosTrash } from 'react-icons/io';
 
@@ -137,27 +136,26 @@ function Perfil() {
   return (
     <div className="cadastro-container">
       <Menu />
-      <br />
       <div className="centrarConteudo">
         <h3>Perfil</h3>
         <header>
-          
+
         </header>
       </div>
       <table className='table table-bordered'>
         <thead>
-          <tr className= 'tabela'>
-            <th>Id</th>
+          <tr className='tabela'>
+            <th>Código</th>
             <th>Nome</th>
-            <th>Email</th>
+            <th>E-mail</th>
             <th>Telefone</th>
             <th>Rua</th>
-            <th>Numero</th>
+            <th>Número</th>
             <th>Bairro</th>
             <th>Cidade</th>
             <th>Estado</th>
-            <th>Expediente</th>
-            <th>Operação</th>
+            <th>Horário de funcionamento </th>
+            <th>Gestão</th>
           </tr>
         </thead>
         <tbody>
@@ -191,7 +189,7 @@ function Perfil() {
             <br />
             <input type='text' className='form-control' name='nomeMei' onChange={handleChange} />
 
-            <label>Email: </label>
+            <label>E-mail: </label>
             <br />
             <input type='text' className='form-control' name='email' onChange={handleChange} />
 
@@ -203,7 +201,7 @@ function Perfil() {
             <br />
             <input type='text' className='form-control' name='rua' onChange={handleChange} />
 
-            <label>Numero: </label>
+            <label>Número: </label>
             <br />
             <input type='text' className='form-control' name='numero' onChange={handleChange} />
 
@@ -225,9 +223,9 @@ function Perfil() {
 
             <label>Senha: </label>
             <br />
-            <input type='text' className='form-control' name='password' onChange={handleChange} />
+            <input type='password' className='form-control' name='password' onChange={handleChange} />
 
-            <label>Horario de Funcionamento: </label>
+            <label>Horário de funcionamento: </label>
             <br />
             <input type='text' className='form-control' name='horarioFuncionamento' onChange={handleChange} />
 
@@ -250,7 +248,7 @@ function Perfil() {
             <br />
             <input type='text' className='form-control' name='nomeMei' onChange={handleChange}
               value={meiSelecionado && meiSelecionado.nomeMei} />
-            <label>Email: </label>
+            <label>E-mail: </label>
             <br />
             <input type='text' className='form-control' name='email' onChange={handleChange}
               value={meiSelecionado && meiSelecionado.email} />
@@ -265,7 +263,7 @@ function Perfil() {
             <input type='text' className='form-control' name='rua' onChange={handleChange}
               value={meiSelecionado && meiSelecionado.rua} />
 
-            <label>Numero: </label>
+            <label>Número: </label>
             <br />
             <input type='text' className='form-control' name='numero' onChange={handleChange}
               value={meiSelecionado && meiSelecionado.numero} />
@@ -292,7 +290,7 @@ function Perfil() {
             <input type='text' className='form-control' name='password' onChange={handleChange}
               value={meiSelecionado && meiSelecionado.password} />}*/}
 
-            <label>Horario de Funcionamento: </label>
+            <label>Horário de funcionamento: </label>
             <br />
             <input type='text' className='form-control' name='horarioFuncionamento' onChange={handleChange}
               value={meiSelecionado && meiSelecionado.horarioFuncionamento} />
@@ -308,7 +306,7 @@ function Perfil() {
 
       <Modal isOpen={modalExcluir}>
         <ModalBody>
-          Confirma a exclusão{meiSelecionado && meiSelecionado.nome} ?
+          Confirma a exclusão da conta{meiSelecionado && meiSelecionado.nome} ?
         </ModalBody>
         <ModalFooter>
           <button className='btn btn-danger' onClick={() => pedidoDelete()}>Sim</button> {"  "}

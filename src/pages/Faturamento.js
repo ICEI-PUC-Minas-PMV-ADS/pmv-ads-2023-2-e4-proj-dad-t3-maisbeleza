@@ -107,10 +107,8 @@ function Faturamento () {
       }
     };
   return (
-
     <div className = "cadastro-container">
         <Menu/>
-      <br/>
       <h3>Faturamento</h3>
       <header>
       {' '}

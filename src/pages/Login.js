@@ -8,8 +8,6 @@ import { useNavigate } from 'react-router-dom';
 
 function Login() {
 
-  const [modalLogin, setModalLogin] = useState(false);
-
   const [loginData, setLoginData] = useState({
     id: '',
     password: '',

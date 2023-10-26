@@ -97,7 +97,7 @@ function Cadastro() {
                 <br />
                 <input type='text' className='form-control' name='nomeMei' onChange={handleChange} />
 
-                <label>Email: </label>
+                <label>E-mail: </label>
                 <br />
                 <input type='text' className='form-control' name='email' onChange={handleChange} />
 
@@ -109,7 +109,7 @@ function Cadastro() {
                 <br />
                 <input type='text' className='form-control' name='rua' onChange={handleChange} />
 
-                <label>Numero: </label>
+                <label>Número: </label>
                 <br />
                 <input type='text' className='form-control' name='numero' onChange={handleChange} />
 
@@ -134,7 +134,7 @@ function Cadastro() {
                 <br />
                 <input type='text' className='form-control' name='password' onChange={handleChange} />
 
-                <label>Horario de Funcionamento: </label>
+                <label>Horário de funcionamento: </label>
                 <br />
                 <input type='text' className='form-control' name='horarioFuncionamento' onChange={handleChange} />
 
