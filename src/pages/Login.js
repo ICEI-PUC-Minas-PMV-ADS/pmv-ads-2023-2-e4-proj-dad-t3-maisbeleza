@@ -4,6 +4,8 @@ import Menu from "../components/Navbar";
 import Footer from "../components/Footer2";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 
 
 function Login() {
@@ -22,6 +24,8 @@ function Login() {
         [name]: value,
       });
     };
+
+    const navigate = useNavigate();
   
     
     const fazerLogin = () => {
@@ -38,6 +42,7 @@ function Login() {
           if (authToken) {
             setToken(authToken);
             console.log("Login bem-sucedido. Token de autenticação:", authToken);
+            navigate('/');
           } else {
             console.error("Token de autenticação ausente na resposta do servidor.");
           }
