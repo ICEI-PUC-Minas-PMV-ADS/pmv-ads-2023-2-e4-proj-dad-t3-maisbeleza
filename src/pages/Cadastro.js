@@ -38,7 +38,7 @@ function Cadastro() {
     const navigate = useNavigate();
 
 
-   const handleChange = (e) => {
+    const handleChange = (e) => {
         const { name, value } = e.target;
         setMeiSelecionado({
             ...meiSelecionado,
@@ -60,8 +60,8 @@ function Cadastro() {
             }).catch(error => {
                 console.log(error);
             });
-        
-        };
+
+    };
 
     const pedidoPost = async () => {
         delete meiSelecionado.id;
@@ -75,7 +75,7 @@ function Cadastro() {
             }).catch(error => {
                 console.log(error);
             });
-        };
+    };
 
 
     useEffect(() => {
@@ -90,9 +90,8 @@ function Cadastro() {
         <div className="App">
             <Menu />
             <br />
-            <h3> Cadastre-se</h3>
-
-            <div className='form-group'>
+            <div className='cadastro-form'>
+                <h3> Cadastre-se </h3>
 
                 <label>Nome: </label>
                 <br />
@@ -140,6 +139,8 @@ function Cadastro() {
                 <input type='text' className='form-control' name='horarioFuncionamento' onChange={handleChange} />
 
                 <br />
+                <button className='btn-cadastro' onClick={() => pedidoPost()}>Cadastrar</button> {"  "}
+
 
             </div>
             {registrationSuccess && (
@@ -147,13 +148,13 @@ function Cadastro() {
             )}
 
 
-            <button className='btn btn-primary' onClick={() => pedidoPost()}>Cadastre-se</button> {"  "}
+
 
 
             <Footer />
 
         </div>
-        );
-    }
+    );
+}
 
 export default Cadastro;
