@@ -83,7 +83,7 @@ function Login() {
           />
         </div>
         <br />
-        <button className='btn-login' onClick={() => fazerLogin()}>Login</button>
+        <button className='btn-login' onClick={() => fazerLogin()}>Entrar</button>
 
       </div>
       <Footer />
