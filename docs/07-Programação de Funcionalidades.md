@@ -6,17 +6,17 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir ao usuário cadastrar uma conta. |   | 
-|RF-002| A aplicação deve permitir ao usuário cadastrado logar em sua conta. |  | 
-|RF-003| A aplicação deve permitir ao usuário cadastrado sair da sua conta.  |   |
-|RF-004| A aplicação deve permitir ao usuário gerenciar a sua conta. |  |
+|RF-001| A aplicação deve permitir ao usuário cadastrar uma conta. |  Cadastro.js | 
+|RF-002| A aplicação deve permitir ao usuário cadastrado logar em sua conta. | Login.js | 
+|RF-003| A aplicação deve permitir ao usuário cadastrado sair da sua conta.  |  Navbar.js |
+|RF-004| A aplicação deve permitir ao usuário gerenciar a sua conta. | Perfil.js |
 |RF-005| A aplicação deve permitir ao cliente fazer agendamentos. | |
 |RF-006| A aplicação deve permitir ao cliente gerenciar seus agendamentos. |  |
 |RF-007| A aplicação deve permitir ao microempreendedor individual aceitar ou negar agendamentos. |   |
-|RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda.   |  |
-|RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços.  | |
-|RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento.  |  |
-|RNF-001| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.  |  |
+|RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda.   | Agenda.js |
+|RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços.  | Servicos.js |
+|RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento.  | Faturamento.js  |
+|RNF-001| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.  | App.css  |
 
 # Instruções de acesso
 
