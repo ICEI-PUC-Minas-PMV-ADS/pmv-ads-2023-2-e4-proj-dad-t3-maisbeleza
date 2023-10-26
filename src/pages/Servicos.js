@@ -160,11 +160,11 @@ function Servicos() {
           <label>Descrição: </label>
           <input  className = "form-control mb-2" name ="descricao" onChange={handleChange}/>
           <p/>
-          <label>Duração: </label>
+          <label>Duração (min): </label>
           <input  type = "number" className = "form-control mb-2" name ="duracao" onChange={handleChange}/>
         </div>
         <p/>
-          <label>Valor: </label>
+          <label>Valor (R$): </label>
           <input type="decimal" className="form-control mb-2" name="valor" onChange={handleChange} />
         </ModalBody>
         <ModalFooter>
@@ -184,11 +184,11 @@ function Servicos() {
             <input className="form-control mb-2" name="descricao" onChange={handleChange}
               value={servicoSelecionado && servicoSelecionado.descricao} />
             <p />
-            <label>Duração: </label>
+            <label>Duração (min): </label>
             <input type="number" className="form-control mb-2" name="duracao" onChange={handleChange}
               value={servicoSelecionado && servicoSelecionado.duracao} />
             <p />
-            <label>Valor: </label>
+            <label>Valor (R$): </label>
             <input type="decimal" className="form-control mb-2" name="valor" onChange={handleChange}
               value={servicoSelecionado && servicoSelecionado.valor} />
           </div>

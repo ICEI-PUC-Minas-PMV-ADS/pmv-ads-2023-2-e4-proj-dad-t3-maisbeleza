@@ -144,13 +144,13 @@ function Faturamento () {
           <label>Data: </label>
           <input type = "date" className = "form-control mb-2" name ="data" onChange={handleChange}/>
           <p/>
-          <label>Valor: </label>
+          <label>Valor (R$): </label>
           <input type = "number" className = "form-control mb-2" name ="valorTotal" onChange={handleChange}/>
         </div>
       </ModalBody>
       <ModalFooter>
-        <button className ="btn btn-success" onClick={() =>pedidoPost()}>Incluir</button>{"   "}
-        <button className ="btn btn-secondary"  onClick={() =>AbrirFecharModalIncluir()}>Cancelar</button>
+        <button className ="btn btn-primary" onClick={() =>pedidoPost()}>Incluir</button>{"   "}
+        <button className ="btn btn-danger"  onClick={() =>AbrirFecharModalIncluir()}>Cancelar</button>
       </ModalFooter>
     </Modal>
     <Modal isOpen ={modalEditar} >
@@ -161,14 +161,14 @@ function Faturamento () {
           <input type = "date" className = "form-control mb-2" name ="data" onChange={handleChange}
             value = {faturamentoSelecionado && faturamentoSelecionado.data.split("T")[0]} />
           <p/>
-          <label>Valor: </label>
+          <label>Valor (R$): </label>
           <input type = "number" className = "form-control mb-2" name ="valorTotal" onChange={handleChange}
               value = {faturamentoSelecionado && faturamentoSelecionado.valorTotal} />
         </div>      
       </ModalBody>
       <ModalFooter>
-        <button className ="btn btn-success" onClick={() =>pedidoPut()}>Salvar</button>{"   "}
-        <button className ="btn btn-secondary"  onClick={() =>AbrirFecharModalEditar()}>Cancelar</button>
+        <button className ="btn btn-primary" onClick={() =>pedidoPut()}>Salvar</button>{"   "}
+        <button className ="btn btn-danger"  onClick={() =>AbrirFecharModalEditar()}>Cancelar</button>
       </ModalFooter>
       </Modal>
       <Modal isOpen={modalExcluir}>

@@ -204,7 +204,7 @@ function Agenda() {
             </div>
 
             <Modal isOpen={modalIncluir} >
-                <ModalHeader>Incluir novo agendamento </ModalHeader>
+                <ModalHeader>Incluir novo Agendamento </ModalHeader>
                 <ModalBody>
                     <div className="form-group">
                         <label>Data: </label>
