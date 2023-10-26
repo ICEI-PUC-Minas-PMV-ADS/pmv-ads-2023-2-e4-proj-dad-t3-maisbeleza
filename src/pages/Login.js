@@ -9,96 +9,91 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Login() {
-    
-    const [modalLogin, setModalLogin] = useState(false);
-  
-    const [loginData, setLoginData] = useState({
-      email: '',
-      password: '',
+
+  const [loginData, setLoginData] = useState({
+    email: '',
+    password: '',
+  });
+
+  const handleLoginChange = (e) => {
+    const { name, value } = e.target;
+    setLoginData({
+      ...loginData,
+      [name]: value,
     });
-  
-    const handleLoginChange = (e) => {
-      const { name, value } = e.target;
-      setLoginData({
-        ...loginData,
-        [name]: value,
-      });
+  };
+
+  const navigate = useNavigate();
+
+
+  const fazerLogin = () => {
+    const loginEndpoint = "https://localhost:7075/api/Meis/authenticate";
+
+    const credentials = {
+      email: loginData.email,
+      password: loginData.password,
     };
 
-    const navigate = useNavigate();
-  
-    
-    const fazerLogin = () => {
-      const loginEndpoint = "https://localhost:7075/api/Meis/authenticate";
-  
-      const credentials = {
-        email: loginData.email,
-        password: loginData.password,
-      };
-  
-      axios.post(loginEndpoint, credentials)
-        .then(response => {
-          const authToken = response.data.jwt;
-          if (authToken) {
-            setToken(authToken);
-            console.log("Login bem-sucedido. Token de autenticação:", authToken);
-            navigate('/');
-          } else {
-            console.error("Token de autenticação ausente na resposta do servidor.");
-          }
-        })
-        .catch(error => {
-          console.error("Erro ao fazer login:", error);
-        });
-    };
-  
-    const [, setToken] = useState(null);
-  
-    const abrirFecharModalLogin = () => {
-      setModalLogin(!modalLogin);
-    };
-  
-    return (
-      <div className="Login">
-        <Menu />
-        <br />
+    axios.post(loginEndpoint, credentials)
+      .then(response => {
+        const authToken = response.data.jwt;
+        if (authToken) {
+          setToken(authToken);
+          console.log("Login bem-sucedido. Token de autenticação:", authToken);
+          navigate('/');
+        } else {
+          console.error("Token de autenticação ausente na resposta do servidor.");
+        }
+      })
+      .catch(error => {
+        console.error("Erro ao fazer login:", error);
+      });
+  };
+
+  const [, setToken] = useState(null);
+
+
+  return (
+    <div className="Login">
+      <Menu />
+      <br />
+      <div className='login-form'>
         <h3>Login</h3>
-  
-     
-            <div className='form-group'>
-              <label>Email: </label>
-              <br />
-              <input
-                type='text'
-                className='form-control'
-                name='email'
-                value={loginData.email}
-                onChange={handleLoginChange}
-              />
-  
-              <label>Senha: </label>
-              <br />
-              <input
-                type='password'
-                className='form-control'
-                name='password'
-                value={loginData.password}
-                onChange={handleLoginChange}
-              />
-            </div>
-    
-            <button className='btn btn-primary' onClick={() => fazerLogin()}>Login</button>
-            <button className='btn btn-danger' onClick={() => abrirFecharModalLogin()}>Cancelar</button>
-        
-            <Footer />
+
+
+        <div>
+          <label>E-mail: </label>
+          <br />
+          <input
+            type='text'
+            className='form-control'
+            name='email'
+            value={loginData.email}
+            onChange={handleLoginChange}
+          />
+
+          <label>Senha: </label>
+          <br />
+          <input
+            type='password'
+            className='form-control'
+            name='password'
+            value={loginData.password}
+            onChange={handleLoginChange}
+          />
+        </div>
+        <br />
+        <button className='btn-login' onClick={() => fazerLogin()}>Login</button>
+
       </div>
-    );
-  }
-  
-  export default Login;
-  
-  
-  
-  
-  
-  
+      <Footer />
+    </div>
+  );
+}
+
+export default Login;
+
+
+
+
+
