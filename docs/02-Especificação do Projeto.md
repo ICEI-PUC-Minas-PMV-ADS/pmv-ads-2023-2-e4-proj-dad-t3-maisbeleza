@@ -45,7 +45,9 @@ Como forma de melhoria a aplicação distribuída Mais Beleza tem o intuito de t
 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
-### Processo 1 – Cadastro (web) 
+### Processo 1 – Cadastro (mei) 
+
+Este processo realiza o cadastro,login e acesso a página de perfil e gerenciamento da conta no sistema Web. 
 
 Referente ao RF-001 / RF-002 / RF-003 / RF-004:
 
