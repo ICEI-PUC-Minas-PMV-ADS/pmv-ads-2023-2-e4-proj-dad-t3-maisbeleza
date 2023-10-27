@@ -62,4 +62,4 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |xUnit e MSTest| Testes de unidade. | 
 |Screen Recorder| Gravação da tela do usuário nos testes de software e usabilidade. | 
 |Typeform| Formulário online de pesquisa aplicado aos usuários que fizeram os testes de usabilidade. | 
-| | Testes de integração. | 
+|xUnit | Testes de integração. | 
