@@ -79,6 +79,15 @@ Referente ao RF-009:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/07a9db36-6a01-4d44-a775-01f4d51c6336)
 
+### Processo 5 – Faturamento (Mei)
+
+O processo descrito abaixo demonstra a funcionalidade de cadastrar faturamentos do usuário Mei com a opção de incluir, editar e excluir.
+
+Referente ao RF-010:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/a0ad25a7-bb0d-4a48-8a62-17fa6d79a021)
+
+
 
 
 ## Indicadores de Desempenho
