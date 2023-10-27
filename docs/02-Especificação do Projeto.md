@@ -37,7 +37,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Atualmente muitos profissionais do ramo da beleza, tem buscado se formalizar através do Microempreendedor Individual, conhecido como Mei, devido aos benefícios do registro. E consequentemente acaba gerando maiores responsabilidades com seu negócio. Alguns microempreendedores acabam fechando a sua empresa, devido à ineficácia de gestão. 
+
+Como forma de melhoria a aplicação distribuída Mais Beleza tem o intuito de tornar mais prático e como efeito facilitar a organização de sua empresa. Com o registros de serviços prestados, controle de faturamento, organização da agenda com os horários dos clientes registrados.
 
 ### Descrição Geral da Proposta
 
