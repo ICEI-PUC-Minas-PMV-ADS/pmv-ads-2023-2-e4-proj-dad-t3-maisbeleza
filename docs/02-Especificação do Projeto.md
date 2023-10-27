@@ -45,13 +45,23 @@ Como forma de melhoria a aplicação distribuída Mais Beleza tem o intuito de t
 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
-### Processo 1 – Cadastro (mei) 
+### Processo 1 – Cadastro (Mei) 
 
 O processo descrito abaixo realiza o cadastro, login e acesso a página de perfil e gerenciamento da conta no sistema Web.
 
 Referente ao RF-001 / RF-002 / RF-003 / RF-004:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/5315064f-5122-40db-ac4a-d9d6388dd1c7)
+
+### Processo 2 – Agendamento 
+
+O processo descrito abaixo demonstra a funcionalidade de agenda do usuário Mei com a opção de negar e aceitar agendamento realizado por usuário Cliente.
+
+Referente ao RF-005 / RF-006 / RF-007 / RF-008:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/9330f9f9-4944-42d9-8d88-59eb427731fd)
+
+
 
 
 
