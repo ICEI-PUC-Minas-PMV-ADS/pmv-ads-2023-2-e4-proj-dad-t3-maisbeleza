@@ -6,10 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-
-
 function Login() {
-
   const [loginData, setLoginData] = useState({
     email: '',
     password: '',
@@ -25,7 +22,6 @@ function Login() {
 
   const navigate = useNavigate();
 
-
   const fazerLogin = () => {
     const loginEndpoint = "https://localhost:7075/api/Meis/authenticate";
 
@@ -40,7 +36,22 @@ function Login() {
         if (authToken) {
           setToken(authToken);
           console.log("Login bem-sucedido. Token de autenticação:", authToken);
-          navigate('/');
+          navigate('/profile', { state: { authToken } });
+          // Agora, após o login bem-sucedido, faça uma solicitação para obter as informações do usuário
+          axios.get("https://localhost:7075/api/meis/profile", {
+            headers: {
+              Authorization: `Bearer ${authToken}`,
+            }
+          })
+            .then(userResponse => {
+              const userData = userResponse.data;
+              console.log("Informações do usuário logado:", userData);
+              // Faça o que for necessário com as informações do usuário
+              navigate('/perfil', { state: { authToken } });
+            })
+            .catch(error => {
+              console.error("Erro ao obter informações do usuário:", error);
+            });
         } else {
           console.error("Token de autenticação ausente na resposta do servidor.");
         }
@@ -52,15 +63,12 @@ function Login() {
 
   const [, setToken] = useState(null);
 
-
   return (
     <div className="Login">
       <Menu />
       <br />
       <div className='login-form'>
         <h3>Login</h3>
-
-
         <div>
           <label>E-mail: </label>
           <br />
@@ -84,7 +92,6 @@ function Login() {
         </div>
         <br />
         <button className='btn-login' onClick={() => fazerLogin()}>Entrar</button>
-
       </div>
       <Footer />
     </div>
@@ -92,8 +99,3 @@ function Login() {
 }
 
 export default Login;
-
-
-
-
-
