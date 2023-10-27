@@ -134,6 +134,30 @@ namespace MaisBeleza.Controllers
             return Ok(new { jwt = jwt });
         }
 
+        [Authorize]
+        [HttpGet("profile")]
+        public async Task<ActionResult> GetProfile()
+        {
+            // Obtém o ID do usuário a partir do token (a partir das Claims)
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized();
+            }
+
+            // Busca as informações do usuário com base no ID
+            var user = await _context.Meis.FirstOrDefaultAsync(c => c.Id == int.Parse(userId));
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            
+
+            return Ok(user);
+        }
         private string GenerateJwtToken(Mei model)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
