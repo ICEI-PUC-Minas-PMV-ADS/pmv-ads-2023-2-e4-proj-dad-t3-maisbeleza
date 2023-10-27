@@ -71,18 +71,15 @@ Referente ao RF-005 / RF-006 / RF-007 / RF-008:
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/9330f9f9-4944-42d9-8d88-59eb427731fd)
 
 
+### Processo 4 – Serviço (Mei)
+
+O processo descrito abaixo demonstra a funcionalidade de cadastrar serviços do usuário Mei com a opção de incluir, editar e excluir.
+
+Referente ao RF-009:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/07a9db36-6a01-4d44-a775-01f4d51c6336)
 
 
-
-
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
 
 ## Indicadores de Desempenho
 
