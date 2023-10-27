@@ -53,7 +53,16 @@ Referente ao RF-001 / RF-002 / RF-003 / RF-004:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/5315064f-5122-40db-ac4a-d9d6388dd1c7)
 
-### Processo 2 – Agendamento 
+### Processo 2 – Cadastro (Cliente) 
+
+O processo descrito abaixo realiza o cadastro, login e acesso a página de perfil e gerenciamento da conta no sistema mobile.
+
+Referente ao RF-001 / RF-002 / RF-003 / RF-004:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/6a17d859-a2fb-491b-9fcf-48fe2e9906a1)
+
+
+### Processo 3 – Agendamento 
 
 O processo descrito abaixo demonstra a funcionalidade de agenda do usuário Mei com a opção de negar e aceitar agendamento realizado por usuário Cliente.
 
