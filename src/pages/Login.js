@@ -36,7 +36,7 @@ function Login() {
         if (authToken) {
           setToken(authToken);
           console.log("Login bem-sucedido. Token de autenticação:", authToken);
-          navigate('/profile', { state: { authToken } });
+          navigate('/perfil', { state: { authToken } });
           // Agora, após o login bem-sucedido, faça uma solicitação para obter as informações do usuário
           axios.get("https://localhost:7075/api/meis/profile", {
             headers: {
@@ -47,7 +47,7 @@ function Login() {
               const userData = userResponse.data;
               console.log("Informações do usuário logado:", userData);
               // Faça o que for necessário com as informações do usuário
-              navigate('/perfil', { state: { authToken } });
+              
             })
             .catch(error => {
               console.error("Erro ao obter informações do usuário:", error);
