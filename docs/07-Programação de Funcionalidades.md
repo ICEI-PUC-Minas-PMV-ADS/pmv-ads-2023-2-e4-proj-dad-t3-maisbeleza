@@ -17,11 +17,3 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 |RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços.  | Servicos.js |
 |RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento.  | Faturamento.js  |
 |RNF-001| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.  | App.css  |
-
-# Instruções de acesso
-
-Para ter acesso a aplicação web, <a href="/">clique aqui</a>. Para fazer o login no sistema, utilize os dados abaixo:
-
-Email:
-<br>
-Senha:
