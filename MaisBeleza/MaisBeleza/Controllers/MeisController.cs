@@ -136,7 +136,7 @@ namespace MaisBeleza.Controllers
 
         [Authorize]
         [HttpGet("profile")]
-        public async Task<ActionResult> GetProfile()
+        public async Task<ActionResult> GetProfile() 
         {
             // Obtém o ID do usuário a partir do token (a partir das Claims)
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
