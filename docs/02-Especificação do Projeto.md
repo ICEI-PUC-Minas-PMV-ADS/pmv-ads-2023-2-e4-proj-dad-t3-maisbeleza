@@ -47,7 +47,7 @@ Apresente aqui uma descrição da sua proposta abordando seus limites e suas lig
 
 ### Processo 1 – Cadastro (mei) 
 
-Este processo realiza o cadastro,login e acesso a página de perfil e gerenciamento da conta no sistema Web. 
+O processo descrito abaixo realiza o cadastro, login e acesso a página de perfil e gerenciamento da conta no sistema Web.
 
 Referente ao RF-001 / RF-002 / RF-003 / RF-004:
 
