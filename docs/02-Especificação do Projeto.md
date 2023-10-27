@@ -45,9 +45,15 @@ Como forma de melhoria a aplicação distribuída Mais Beleza tem o intuito de t
 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – Cadastro (web) 
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+Referente ao RF-001 / RF-002 / RF-003 / RF-004:
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/5315064f-5122-40db-ac4a-d9d6388dd1c7)
+
+
+
+
 
 ![Processo 1](img/02-bpmn-proc1.png)
 
