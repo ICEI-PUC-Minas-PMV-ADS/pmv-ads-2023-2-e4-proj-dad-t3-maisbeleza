@@ -92,12 +92,18 @@ Referente ao RF-010:
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. 
 
-Usar o seguinte modelo: 
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+| Indicador | Objetivos |     Descrição | Cálculo   | Fonte de dados | Perspectiva | Meta |
+|-----------------|-----------|---------------------|--------------|-----------------|--------------|--------|
+| Número de cadastros de MEIs na aplicação web | Acompanhar o crescimento da utilização da aplicação web por microempreendedores| Avaliar a quantidade de cadastros de usuários | Número mensal de cadastros| Banco de dados | Evolução do produto | Ter um número cada vez maior de cadastros|
+| Eficiência| Avaliar se a aplicação web está cumprindo suas funções corretamente | Monitorar a eficiência da aplicação web em relação ao registro de informações fornecidas pelo usuário | | Banco de dados | Qualidade do produto | Sem taxa de erro |
+| Número de cadastros de clientes na aplicação mobile | Acompanhar o crescimento da utilização da aplicação mobile | Avaliar a quantidade de cadastros de usuários | Número mensal de cadastros| Banco de dados | Evolução do produto | Ter um número cada vez maior de cadastros|
+| Eficiência| Avaliar se a aplicação mobile está cumprindo suas funções corretamente | Monitorar a eficiência da aplicação mobile em relação ao registro de informações fornecidas pelo usuário | | Banco de dados | Qualidade do produto | Aplicativo funcionando corretamente |
+| Número de downloads do Aplicativo | Acompanhar o crescimento do aplicativo | Avaliar a quantidades de downloads do aplicativo | Número mensal de downloads| Playstore e Apple Store | Evolução do produto | Média de 100 downloads mensais |
+|Avaliações do aplicativo           | Monitorar o nível de aceitação do aplicativo | Calcular a média de feedback dos usuários que utilizam o aplicativo | Nota média dada pelos usuários por período  | Playstore e Apple Store | Qualidade do produto | Avaliação média de 4 estrelas |
+
 
 ## Requisitos
 
