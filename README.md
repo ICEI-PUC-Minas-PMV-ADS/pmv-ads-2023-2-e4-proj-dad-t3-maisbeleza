@@ -23,7 +23,8 @@ O objetivo deste projeto é a criação de uma aplicação distribuída, voltada
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Branch API: Main
+Branch Front-end Web: frontend-web
 
 # Documentação
 
