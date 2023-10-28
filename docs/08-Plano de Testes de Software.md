@@ -60,6 +60,6 @@ Enumere quais cenários de testes foram selecionados para teste. Neste tópico o
 |------|-----------------------------------------|
 |Insomnia| Teste de registros e rotas da API. | 
 |xUnit e MSTest| Testes de unidade. | 
-|Screen Recorder| Gravação da tela do usuário nos testes de usabilidade. | 
-|Typeform| Formulário online de pesquisa aplicado aos usuários que fizeram os testes de usabilidade. | 
+|Screen Recorder| Gravação da tela do usuário nos testes de software. | 
+|Typeform| Formulário online de pesquisa aplicado aos usuários que fizeram o teste de usabilidade. | 
 |xUnit | Testes de integração. | 
