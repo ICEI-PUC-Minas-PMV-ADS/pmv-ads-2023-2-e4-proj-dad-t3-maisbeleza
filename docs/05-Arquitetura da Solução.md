@@ -38,9 +38,10 @@ Figura 13 - Esquema relacional
 ## Modelo Físico
 Segue abaixo a representação do banco de dados:
 
-![print_db](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/177cd1c7-afb4-41a5-adcd-b0b3e12dffec)
+![Captura de tela 2023-10-28 114137](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/4e471285-7e5a-432c-85de-4f9c773cf575)
 
-Figura 14 - Tabelas de Agenda, Agendamento e Clientes
+
+Figura 14 - Tabelas Agendamentos e Clientes
 
 ![print-db-2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/0b71eee8-8950-4412-9071-71bcad8718de)
 
