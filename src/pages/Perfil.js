@@ -36,26 +36,31 @@ function Perfil() {
   }, [authToken, userData, location]); 
 
   return (
-    
     <div>
       <Menu />
-      <h1>Perfil do Usuário</h1>
+
+
+    <div className='profile-container'>
+    <h1 className="headerperfil">Perfil do Usuário</h1>
+
       {userData && (
-        <div>
-          <p>Nome: {userData.nomeMei}</p>
-          <p>Email: {userData.email}</p>
-          <p>Telefone: {userData.telefone}</p>
-          <p>Rua: {userData.rua}</p>
-          <p>Email: {userData.email}</p>
-          <p>Número: {userData.numero}</p>
-          <p>Bairro: {userData.bairro}</p>
-          <p>cidade: {userData.cidade}</p>
-          <p>Estado: {userData.estado}</p>
-          <p>Horário funcionamento: {userData.horarioFuncionamento}</p>
-          
-        </div>
+        <div class="user-data">
+      <p class="data-item">Nome: {userData.nomeMei}</p>
+      <p class="data-item">Email: {userData.email}</p>
+      <p class="data-item">Telefone: {userData.telefone}</p>
+      <p class="data-item">Rua: {userData.rua}</p>
+      <p class="data-item">Email: {userData.email}</p>
+      <p class="data-item">Número: {userData.numero}</p>
+      <p class="data-item">Bairro: {userData.bairro}</p>
+      <p class="data-item">Cidade: {userData.cidade}</p>
+      <p class="data-item">Estado: {userData.estado}</p>
+      <p class="data-item">Horário de Funcionamento: {userData.horarioFuncionamento}</p>
+    </div>
       )}
-       <Footer />
+      
+       
+    </div>
+    <Footer />
     </div>
   );
 }
