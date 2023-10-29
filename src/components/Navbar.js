@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import Logo from '../assets/img/Logo.png';
 import { Link } from 'react-router-dom';
 
+
 function Menu() {
   const handleLogout = () => {
     // Limpar o token de autenticação do localStorage
