@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/blob/main/docs/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/blob/main/docs/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>
 
-| **Caso de Teste** 	| **CT-01 – Cadastro de usuário** 	|
+| **Caso de Teste** 	| **CT-01 - Cadastro de usuário** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - A aplicação deve permitir ao usuário cadastrar uma conta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
