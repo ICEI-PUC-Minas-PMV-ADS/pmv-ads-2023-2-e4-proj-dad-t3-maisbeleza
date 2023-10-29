@@ -1,7 +1,7 @@
 # Plano de Testes de Usabilidade
 
  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/969fdb15-82ff-4c93-8573-d2cf4a4c7958)
-Figura()  - Plano de testes de usabilidade.
+Figura 35 - Plano de testes de usabilidade.
 
 ## Planejamento
 
