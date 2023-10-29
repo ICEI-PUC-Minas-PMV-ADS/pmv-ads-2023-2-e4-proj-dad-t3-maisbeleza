@@ -46,7 +46,7 @@ namespace MaisBeleza.Controllers
                 Bairro = model.Bairro,
                 Cidade = model.Cidade,
                 Estado = model.Estado,
-                Perfil = model.Perfil,  
+                Perfil = model.Perfil,
                 Password = BCrypt.Net.BCrypt.HashPassword(model.Password),
                 HorarioFuncionamento = model.HorarioFuncionamento
             };
@@ -78,7 +78,7 @@ namespace MaisBeleza.Controllers
             if (id != model.Id) return BadRequest();
 
             var modeloDb = await _context.Meis.AsNoTracking()
-                .FirstOrDefaultAsync(c => c.Id == id);
+                .FirstOrDefaultAsync(c => c.Id == model.Id);
 
             if (modeloDb == null) return NotFound();
 
@@ -124,24 +124,48 @@ namespace MaisBeleza.Controllers
         [HttpPost("authenticate")]
         public async Task<ActionResult> Authenticate(AuthenticateDto model)
         {
-            var meiDb = await _context.Meis.FindAsync(model.Id);
+            var meiDb = await _context.Meis.FirstOrDefaultAsync(c => c.Email == model.Email);
 
             if (meiDb == null || !BCrypt.Net.BCrypt.Verify(model.Password, meiDb.Password))
                 return Unauthorized();
 
             var jwt = GenerateJwtToken(meiDb);
 
-            return Ok(new {jwt = jwt});
+            return Ok(new { jwt = jwt });
         }
 
+        [Authorize]
+        [HttpGet("profile")]
+        public async Task<ActionResult> GetProfile()
+        {
+            // Obtém o ID do usuário a partir do token (a partir das Claims)
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized();
+            }
+
+            // Busca as informações do usuário com base no ID
+            var user = await _context.Meis.FirstOrDefaultAsync(c => c.Id == int.Parse(userId));
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+
+
+            return Ok(user);
+        }
         private string GenerateJwtToken(Mei model)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes("Ry74cBQva5dThwbwchR9jhbtRFnJxWSZ");
             var claims = new ClaimsIdentity(new Claim[]
             {
-                new Claim(ClaimTypes.NameIdentifier, model.Id.ToString()),
-                new Claim(ClaimTypes.Role, model.Perfil.ToString())
+        new Claim(ClaimTypes.NameIdentifier, model.Id.ToString()),
+        new Claim(ClaimTypes.Role, model.Perfil.ToString())
             });
 
             var tokenDescriptor = new SecurityTokenDescriptor
