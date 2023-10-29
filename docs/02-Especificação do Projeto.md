@@ -53,6 +53,8 @@ Referente ao RF-001 / RF-002 / RF-003 / RF-004:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/5315064f-5122-40db-ac4a-d9d6388dd1c7)
 
+Figura 2 - Processo de cadastro do usuário Mei
+
 ### Processo 2 – Cadastro (Cliente) 
 
 O processo descrito abaixo realiza o cadastro, login e acesso a página de perfil e gerenciamento da conta no sistema mobile.
@@ -61,6 +63,7 @@ Referente ao RF-001 / RF-002 / RF-003 / RF-004:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/6a17d859-a2fb-491b-9fcf-48fe2e9906a1)
 
+Figura 3 - Processo de cadastro do usuário Cliente
 
 ### Processo 3 – Agendamento 
 
@@ -70,6 +73,7 @@ Referente ao RF-005 / RF-006 / RF-007 / RF-008:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/9330f9f9-4944-42d9-8d88-59eb427731fd)
 
+Figura 4 - Processo de gerenciamento de agendamento
 
 ### Processo 4 – Serviço (Mei)
 
@@ -79,6 +83,8 @@ Referente ao RF-009:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/07a9db36-6a01-4d44-a775-01f4d51c6336)
 
+Figura 5 - Processo de cadastro de serviços pelo usuário Mei
+
 ### Processo 5 – Faturamento (Mei)
 
 O processo descrito abaixo demonstra a funcionalidade de cadastrar faturamentos do usuário Mei com a opção de incluir, editar e excluir.
@@ -87,7 +93,7 @@ Referente ao RF-010:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/a0ad25a7-bb0d-4a48-8a62-17fa6d79a021)
 
-
+Figura 6 - Processo de cadastro de faturamento pelo usuário Mei
 
 
 ## Indicadores de Desempenho
@@ -126,7 +132,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 A técnica de priorização de requisitos utilizada foi a Escala de Três Níveis, com os valores "Alta", "Média" e "Baixa", associada ao quadrante de priorização, que estabeleu a importância e urgência dos requisitos.
 
 ![Quadrante_4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/2f150beb-d294-4274-a42e-013f822aedb0)
-Figura 02 - Quadrante de priorização de requisitos
+Figura 07 - Quadrante de priorização de requisitos
 
 ### Requisitos não Funcionais
 
@@ -150,13 +156,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Diagrama de Casos de Uso
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/d3c83268-beeb-46bf-8d7d-2b6c91cb59ed)
-Figura 03 - Diagrama de Casos de Uso
+Figura 08 - Diagrama de Casos de Uso
 
 # Matriz de Rastreabilidade
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/3d4a303d-6a6b-43ae-8b55-739557365349)
 
-Figura 04 - Matriz de Rastreabilidade
+Figura 09 - Matriz de Rastreabilidade
 
 
 # Gerenciamento de Projeto
@@ -167,12 +173,12 @@ De acordo com o PMBoK v6, as dez áreas que constituem os pilares para gerenciar
 
 ![Gráfico de Gantt](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/98122346/12e1051b-816b-4547-89c9-d46222b70fb7)
 
- Figura 05 - Diagrama de Gantt
+ Figura 10 - Diagrama de Gantt
 
 ## Gerenciamento de Equipe
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100742971/8d63657d-3d1a-421a-bb26-8f750e8e1711)
 
-Figura 06 - Gerenciamento da equipe
+Figura 11 - Gerenciamento da equipe
 
 Equipe Front-End:
 
