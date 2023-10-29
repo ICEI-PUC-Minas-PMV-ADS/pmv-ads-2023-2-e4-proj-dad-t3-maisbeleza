@@ -46,7 +46,7 @@ namespace MaisBeleza.Controllers
                 Bairro = model.Bairro,
                 Cidade = model.Cidade,
                 Estado = model.Estado,
-                Perfil = model.Perfil,  
+                Perfil = model.Perfil,
                 Password = BCrypt.Net.BCrypt.HashPassword(model.Password),
                 HorarioFuncionamento = model.HorarioFuncionamento
             };
@@ -91,20 +91,14 @@ namespace MaisBeleza.Controllers
             modeloDb.Cidade = model.Cidade;
             modeloDb.Estado = model.Estado;
             modeloDb.Perfil = model.Perfil;
+            modeloDb.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
             modeloDb.HorarioFuncionamento = model.HorarioFuncionamento;
-
-            // Verifique se a senha foi fornecida antes de chamar a função HashPassword
-            if (!string.IsNullOrEmpty(model.Password))
-            {
-                modeloDb.Password = BCrypt.Net.BCrypt.HashPassword(model.Password);
-            }
 
             _context.Meis.Update(modeloDb);
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
-
 
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
@@ -142,7 +136,7 @@ namespace MaisBeleza.Controllers
 
         [Authorize]
         [HttpGet("profile")]
-        public async Task<ActionResult> GetProfile() 
+        public async Task<ActionResult> GetProfile()
         {
             // Obtém o ID do usuário a partir do token (a partir das Claims)
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -160,7 +154,7 @@ namespace MaisBeleza.Controllers
                 return NotFound();
             }
 
-            
+
 
             return Ok(user);
         }
