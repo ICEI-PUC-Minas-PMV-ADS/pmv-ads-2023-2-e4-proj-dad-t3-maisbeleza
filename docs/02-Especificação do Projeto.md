@@ -92,9 +92,6 @@ Referente ao RF-010:
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. 
-
-
 | Indicador | Objetivos |     Descrição | Cálculo   | Fonte de dados | Perspectiva | Meta |
 |-----------------|-----------|---------------------|--------------|-----------------|--------------|--------|
 | Número de cadastros de MEIs na aplicação web | Acompanhar o crescimento da utilização da aplicação web por microempreendedores| Avaliar a quantidade de cadastros de usuários | Número mensal de cadastros| Banco de dados | Evolução do produto | Ter um número cada vez maior de cadastros|
