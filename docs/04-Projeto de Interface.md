@@ -31,11 +31,13 @@ Para consultar o wireframe interativo, <a href="https://marvelapp.com/prototype/
 
 Figura 16 - Tela Home, apresenta as informações mais relevantes sobre a aplicação.
 
-![Captura de tela 2023-10-29 153433](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/724936ce-e07b-48c0-88e7-1f2774b1fb11)
+![Captura de tela 2023-10-29 154359](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/fe89ef73-e233-4f04-b191-8ad211821508)
+
 
 Figura 17 - Tela Login, onde o usuário já cadastrado insere suas informações para acessar a aplicação.
 
-![Captura de tela 2023-10-29 153359](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/7505c24c-09b4-42c1-aba6-8ae2803c12fd)
+
+![Captura de tela 2023-10-29 154302](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/7e0c8a22-64a0-4722-a751-97721b126eee)
 
 
 Figura 18 - Tela Cadastro, onde o usuário faz o seu cadastro para ter acesso a aplicação.
