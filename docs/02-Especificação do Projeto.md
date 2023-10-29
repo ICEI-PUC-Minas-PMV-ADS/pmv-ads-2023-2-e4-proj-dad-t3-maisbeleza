@@ -39,11 +39,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 Atualmente, muitos profissionais do ramo da beleza tem buscado se formalizar através do Microempreendedor Individual, conhecido como Mei, devido aos benefícios do registro. Consequentemente, isso acaba gerando maiores responsabilidades com o seu negócio. Alguns microempreendedores acabam fechando a sua empresa devido à ineficácia de gestão. 
 
-Como forma de melhoria, a aplicação distribuída Mais Beleza tem o intuito de tornar mais prático e como efeito facilitar a organização de pequenas empresas, com os registros de serviços prestados, controle de faturamento e organização da agenda com os horários dos clientes registrados.
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Como forma de melhoria, a aplicação distribuída Mais Beleza tem o intuito de tornar mais prático e como efeito facilitar a organização de pequenas empresas, com os registros de serviços prestados, controle de faturamento e organização da agenda com os horários dos clientes registrados.
+
 
 ### Processo 1 – Cadastro (Mei) 
 
