@@ -24,7 +24,7 @@ Para a gestão do código fonte será utilizado um processo baseado no Gitflow, 
 
 Fonte: Atlassian, [<i>s. d.</i>]
 
-Figura 07 - Fluxo de controle do código fonte com Git
+Figura 12 - Fluxo de controle do código fonte com Git
 
 O projeto utilizará os seguintes nomes de branches:
 
@@ -45,7 +45,7 @@ As tarefas (issues) são, ainda, etiquetadas em função da natureza da atividad
 
 ![Labels](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/bac37d2d-b7de-4f04-bdd9-8708b4a04e2f)
 
-Figura 08 - Tela do esquema de cores e categorias das etiquetas
+Figura 13 - Tela do esquema de cores e categorias das etiquetas
 
 ## Gerenciamento de Projeto
 
@@ -76,7 +76,7 @@ O quadro kanban do grupo no GitHub está disponível no link https://github.com/
 
 ![Backlog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/ca969790-912a-4bc6-ac17-68e8b1a844cf)
 
-Figura 09 - Tela do kanban no GitHub utilizada pelo grupo
+Figura 14 - Tela do kanban no GitHub utilizada pelo grupo
 
 ### Ferramentas
 
