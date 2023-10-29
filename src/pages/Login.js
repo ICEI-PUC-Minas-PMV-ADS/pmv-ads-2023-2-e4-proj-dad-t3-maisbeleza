@@ -20,8 +20,9 @@ function Login() {
     });
   };
 
+  
   const navigate = useNavigate();
-
+  
   const fazerLogin = () => {
     const loginEndpoint = "https://localhost:7075/api/Meis/authenticate";
 
@@ -36,7 +37,7 @@ function Login() {
         if (authToken) {
           setToken(authToken);
           console.log("Login bem-sucedido. Token de autenticação:", authToken);
-          navigate('/perfil', { state: { authToken } });
+          localStorage.setItem('authToken', authToken);
           // Agora, após o login bem-sucedido, faça uma solicitação para obter as informações do usuário
           axios.get("https://localhost:7075/api/meis/profile", {
             headers: {
@@ -44,6 +45,7 @@ function Login() {
             }
           })
             .then(userResponse => {
+              navigate('/perfil', { state: { authToken } });
               const userData = userResponse.data;
               console.log("Informações do usuário logado:", userData);
               // Faça o que for necessário com as informações do usuário

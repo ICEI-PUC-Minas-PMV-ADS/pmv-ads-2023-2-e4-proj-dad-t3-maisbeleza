@@ -7,22 +7,33 @@ import Footer from "../components/Footer2";
 function Perfil() {
   const [userData, setUserData] = useState(null);
   const location = useLocation();
-  const authToken = location.state?.authToken;
+  const authToken = localStorage.getItem('authToken');
+
+  // Função para carregar o token do localStorage quando o componente é montado
   useEffect(() => {
-    // solicitação para obter as informações do usuário com base no token
-    axios.get("https://localhost:7075/api/meis/profile", {
-      headers: {
-        Authorization: `Bearer ${authToken}`, 
-      }
-    })
-      .then(response => {
-        const userData = response.data;
-        setUserData(userData);
+    if (!authToken) {
+
+      // Redirecionar o usuário de volta para a página de login se o token não estiver presente
+      window.location.href = '/login';
+      return;
+    }
+
+    if (!userData) {
+      // Solicitação para obter as informações do usuário com base no token
+      axios.get("https://localhost:7075/api/meis/profile", {
+        headers: {
+          Authorization: `Bearer ${authToken}`, 
+        }
       })
-      .catch(error => {
-        console.error("Erro ao obter informações do usuário:", error);
-      });
-  }, [authToken]);
+        .then(response => {
+          const userData = response.data;
+          setUserData(userData);
+        })
+        .catch(error => {
+          console.error("Erro ao obter informações do usuário:", error);
+        });
+    }
+  }, [authToken, userData, location]); 
 
   return (
     

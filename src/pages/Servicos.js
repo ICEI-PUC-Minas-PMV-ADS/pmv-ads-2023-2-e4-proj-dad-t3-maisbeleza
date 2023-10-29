@@ -25,7 +25,7 @@ function Servicos() {
     nomeServico: '',
     descricao: '',
     valor: '',
-    meiId: 1
+    meiId: 5
   })
 
   const selecionarServico = (servicos, opcao) => {

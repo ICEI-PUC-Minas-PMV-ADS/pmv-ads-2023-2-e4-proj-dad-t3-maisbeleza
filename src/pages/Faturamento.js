@@ -24,7 +24,7 @@ function Faturamento () {
       id: '',
       data: '',
       valorTotal: '',
-      meiId: 1
+      meiId: 5
     })
 
     const selecionarFaturamento=(faturamentos,opcao) => {
