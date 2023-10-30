@@ -23,7 +23,7 @@ O objetivo deste projeto é a criação de uma aplicação distribuída, voltada
 
 ## Instruções de utilização
 
-Para ter acesso aos códigos da aplicação, utilize as branches abaixo:
+Para ter acesso aos códigos da aplicação distribuída, utilize as branches abaixo:
 
 * API: Main
 * Front-end Web: frontend-web
