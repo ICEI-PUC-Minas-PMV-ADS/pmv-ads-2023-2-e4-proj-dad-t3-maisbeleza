@@ -25,7 +25,7 @@ Figura 35 - Plano de testes de usabilidade.
 |CLIENTE| Entender os principais atritos quando os usuários tentam cadastrar uma conta. |
 |CLIENTE| Entender os principais atritos quando os usuários tentam logar em sua conta. |
 |CLIENTE| Entender os principais atritos quando os usuários querem sair de sua conta. |
-|CLIENTE| Eficiência dos usuários em visualizar os serviço(s) oferecido(s) pelo(s) profissionai(s) |   
+|CLIENTE| Eficiência dos usuários em visualizar os serviço(s) oferecido(s) pelo(s) profissional(is). |   
 |CLIENTE| Eficiência dos usuários em realizar agendamento(s). |
 |CLIENTE| Eficiência dos usuários em gerenciar seu(s) agendamento(s). |
 
@@ -65,7 +65,7 @@ Para o ciclo de testes definimos como prioridade o perfil:  Mulheres e Homens.
 
 Teste 1: O usuário acessará o link-Web com acesso ao site e com instruções de testes objetivos para se realizar na tela.  Após finalizar as tarefas designadas, estará disponível o formulário com perguntas e respostas sobre a sua opinião e satisfação da aplicação Mais Beleza.
 
-Teste 2: O usuário utilizara o protótipo da aplicação móvel com acesso a com instruções de testes objetivos para se realizar na tela. Após finalizar as tarefas designadas, estará disponível o formulário com perguntas e respostas sobre a sua opinião e satisfação da aplicação Mais Beleza.
+Teste 2: O usuário utilizará o protótipo da aplicação móvel e receberá instruções de testes objetivos para se realizar na tela. Após finalizar as tarefas designadas, estará disponível o formulário com perguntas e respostas sobre a sua opinião e satisfação da aplicação Mais Beleza.
 
 
 ## Alinhamento
