@@ -121,8 +121,10 @@ function Agenda() {
                 setData(data.filter(agendamento => agendamento.id !== response.data));
                 setUpdateData(true);
                 abrirFecharModalExcluir();
+                toast.success('Um agendamento foi cancelado!');
             }).catch(error => {
                 console.log(error);
+                toast.error('Erro ao cancelar o agendamento.');
             })
     }
 
