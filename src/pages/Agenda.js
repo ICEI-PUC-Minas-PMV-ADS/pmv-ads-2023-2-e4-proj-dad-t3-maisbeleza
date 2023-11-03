@@ -236,7 +236,7 @@ function Agenda() {
                         <label>Código: </label><br />
                         <input className="form-control mb-2" readOnly value={agendamentoSelecionado && agendamentoSelecionado.id} /><br />
                         <label>Data: </label>
-                        <input className="form-control mb-2" name="data" onChange={handleChange}
+                        <input type = "date" className="form-control mb-2" name="data" onChange={handleChange}
                             value={agendamentoSelecionado && agendamentoSelecionado.data.split("T")[0]} />
                         <br />
                         <label>Horário: </label>
