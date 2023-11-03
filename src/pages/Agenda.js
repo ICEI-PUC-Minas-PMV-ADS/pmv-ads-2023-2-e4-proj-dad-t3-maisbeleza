@@ -211,7 +211,7 @@ function Agenda() {
                         <input type="date" className="form-control mb-2" name="data" onChange={handleChange} />
                         <p />
                         <label>Horário: </label>
-                        <input className="form-control mb-2" name="horario" placeholder="00:00" onChange={handleChange} />
+                        <input type="time" className="form-control mb-2" name="horario" placeholder="00:00" onChange={handleChange} />
                         <p />
                         <label>Profissional: </label>
                         <input type="number" className="form-control mb-2" name="meiId" placeholder="Digite o código do profissional" onChange={handleChange} />
@@ -240,7 +240,7 @@ function Agenda() {
                             value={agendamentoSelecionado && agendamentoSelecionado.data.split("T")[0]} />
                         <br />
                         <label>Horário: </label>
-                        <input type="text" className="form-control mb-2" name="horario" onChange={handleChange}
+                        <input type="time" className="form-control mb-2" name="horario" onChange={handleChange}
                             value={agendamentoSelecionado && agendamentoSelecionado.horario} />
                         <br />
                         <label>Profissional: </label>
