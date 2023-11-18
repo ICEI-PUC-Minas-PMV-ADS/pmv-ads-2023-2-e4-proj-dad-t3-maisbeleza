@@ -99,7 +99,7 @@ namespace MaisBeleza.Controllers
         [HttpPost("authenticate")]
         public async Task<ActionResult> Authenticate(AuthenticateDto model)
         {
-            var clienteDb = await _context.Clientes.FindAsync(model.Id);
+            var clienteDb = await _context.Clientes.FirstOrDefaultAsync(c => c.Email == model.Email);
 
             if (clienteDb == null || !BCrypt.Net.BCrypt.Verify(model.Password, clienteDb.Password))
                 return Unauthorized();
