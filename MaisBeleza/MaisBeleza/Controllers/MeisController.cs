@@ -15,7 +15,7 @@ using System.Text.Json.Serialization;
 namespace MaisBeleza.Controllers
 {
     //[Authorize]
-    [Route("api/[controller]")]
+    [Route("/")]
     [ApiController]
     public class MeisController : ControllerBase
     {
