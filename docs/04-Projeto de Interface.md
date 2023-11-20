@@ -63,3 +63,58 @@ Figura 21 - Tela Agenda, onde o usuário MEI consulta seus agendamentos.
 
 
 Figura 22 - Tela Perfil, onde o usuário MEI consulta, edita e exclui as informações registradas no seu cadastro.
+
+
+### Mobile
+
+Para consultar o wireframe interativo, <a href="https://marvelapp.com/prototype/7b7871c/screen/93086705">clique aqui</a>.
+
+
+![print tela1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/6188b21e-4617-4e3b-8f78-c80d992b0196)
+
+Figura 23 - Tela inicial - apresentando os botões de Cadastro e Login
+
+
+![print tela1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/162c59f6-ad95-4653-9ecc-7dd71c6c8884)
+
+Figura 24- Tela de Cadastro - onde o usuário faz seu cadastro para ter acesso a aplicação
+
+
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/dd2fd2fe-e51a-4d90-a12b-e0adee90f0c7)
+
+Figura 25- Tela de Login - onde o usuário já cadastrado insere suas informações para acessar a aplicação
+
+
+![tela-inicio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/4e6c92b9-94e7-42f7-928e-5cd62cd66421)
+
+Figura 26- Tela Home - onde o usuário há uma breve apresentação das funcionalidades do aplicativo.
+
+
+![agendamentos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/a4b4f01d-2c75-4333-a71c-6bef8133c08f)
+
+Figura 27- Tela de Agendamento - onde o usuário consegue realizar seus agendamentos.
+
+
+![profissionais](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/90627c73-9ce5-414c-bda6-04ad8e35e1ca)
+
+Figura 28 - Tela de Profissionais - onde o usuário consegue visualizar os profissionais, e as informações destes.
+
+
+![servicos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/66b19af7-05fe-4f6e-84c1-14c91f25a2dc)
+
+Figura 29- Tela de Serviços - onde o usuário consegue ver os serviços cadastrados pelos profissionais. 
+
+
+![agenda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/8b3faa92-c370-4537-bef1-5578f7df388b)
+
+Figura 30- Tela de Agenda - onde o usuário consegue visualizar seus agendamentos, editá-los e excluí-los.
+
+
+![perfil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/dfd82449-07aa-456b-8d1a-e0dcce40e244)
+
+Tela 31- Tela de Perfil - onde o usuário consegue visualizar e editar seus dados.
+
+
+
+
+
