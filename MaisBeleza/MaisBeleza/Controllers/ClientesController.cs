@@ -99,7 +99,7 @@ namespace MaisBeleza.Controllers
         [HttpPost("authenticate")]
         public async Task<ActionResult> Authenticate(AuthenticateDto model)
         {
-            var clienteDb = await _context.Clientes.FindAsync(model.Id);
+            var clienteDb = await _context.Clientes.FirstOrDefaultAsync(c => c.Email == model.Email);
 
             if (clienteDb == null || !BCrypt.Net.BCrypt.Verify(model.Password, clienteDb.Password))
                 return Unauthorized();
@@ -107,6 +107,31 @@ namespace MaisBeleza.Controllers
             var jwt = GenerateJwtToken(clienteDb);
 
             return Ok(new { jwt = jwt });
+        }
+
+        [Authorize]
+        [HttpGet("profile")]
+        public async Task<ActionResult> GetProfile()
+        {
+            // Obtém o ID do usuário a partir do token (a partir das Claims)
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            if (string.IsNullOrEmpty(userId))
+            {
+                return Unauthorized();
+            }
+
+            // Busca as informações do usuário com base no ID
+            var user = await _context.Clientes.FirstOrDefaultAsync(c => c.Id == int.Parse(userId));
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+
+
+            return Ok(user);
         }
 
         private string GenerateJwtToken(Cliente model)
