@@ -11,7 +11,7 @@ using System.Text;
 namespace MaisBeleza.Controllers
 {
     //[Authorize]
-    [Route("/")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ClientesController : ControllerBase
     {

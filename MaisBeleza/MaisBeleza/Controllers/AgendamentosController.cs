@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace MaisBeleza.Controllers
 {
     //[Authorize]
-    [Route("/")]
+    [Route("api/[controller]")]
     [ApiController]
     public class AgendamentosController : ControllerBase
     {
