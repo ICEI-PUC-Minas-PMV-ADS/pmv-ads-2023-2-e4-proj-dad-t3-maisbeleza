@@ -6,7 +6,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ![Mais Beleza](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/49ce7ee6-c617-4ccd-bd3a-7684dc04e6b8)
 
-Figura 23 - Diagrama da arquitetura
+Figura 33 - Diagrama da arquitetura
 
 A escolha do SQL Server como banco de dados da API se deu por sua integração com o ASP.NET, simplificando o processo de desenvolvimento da API e tornando mais eficiente a administração de recursos da equipe.
 
@@ -17,7 +17,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 ![Classe UML (13)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/0c9ad807-85c7-4ef9-a4e8-ebeba1863870)
 
 
-Figura 24 - Diagrama de classes
+Figura 34 - Diagrama de classes
 
 ## Modelo ER
 
@@ -25,7 +25,7 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 ![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/6b4b77a9-33df-41e8-a598-55c2cac654af)
 
-Figura 25 - Modelo entidade relacionamento
+Figura 35 - Modelo entidade relacionamento
 
 ## Esquema Relacional
 
@@ -33,22 +33,22 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 ![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/0877534f-47f5-44f8-ae4d-54abcd3d3e70)
 
-Figura 26 - Esquema relacional
+Figura 36 - Esquema relacional
 
 ## Modelo Físico
 Segue abaixo a representação do banco de dados:
 
 ![Captura de tela 2023-10-28 114137](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/4e471285-7e5a-432c-85de-4f9c773cf575)
 
-Figura 27 - Tabelas Agendamentos e Clientes
+Figura 37 - Tabelas Agendamentos e Clientes
 
 ![print-db-2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/0b71eee8-8950-4412-9071-71bcad8718de)
 
-Figura 28 - Tabelas de Faturamentos e Meis
+Figura 38 - Tabelas de Faturamentos e Meis
 
 ![print-db-3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/47dd2044-fc15-47c3-b865-57ea3af7e5e6)
 
-Figura 29 - Tabela de Serviços
+Figura 39 - Tabela de Serviços
 
 ## Rotas e recursos
 
@@ -60,7 +60,7 @@ Figura 29 - Tabela de Serviços
 
 ![Schema](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4dfcaf13-a59f-4df3-9a5b-aa6568c0f837)
 
-Figura 30 - Rotas Swagger
+Figura 40 - Rotas Swagger
 
 ## Tecnologias Utilizadas
 
@@ -102,7 +102,7 @@ A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, d
 
 Fonte: ISO/IEC 25010, 2011, tradução nossa.
 
-Figura 31 - Características de qualidade de software observadas pela equipe no desenvolvimento da aplicação.
+Figura 41 - Características de qualidade de software observadas pela equipe no desenvolvimento da aplicação.
 
 ### Descrição das subcaracterísticas escolhidas:
 
