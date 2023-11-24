@@ -4,9 +4,9 @@
 
 Para ter acesso aos códigos da aplicação distribuída, utilize as branches abaixo:
 
-API: Main
+API: Main (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/main/MaisBeleza)
 <br />
-Front-end Web: frontend-web
+Front-end Web: frontend-web (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/frontend-web)
 <br />
 Front-end Mobile:
 
