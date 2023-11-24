@@ -6,7 +6,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ![Mais Beleza](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/49ce7ee6-c617-4ccd-bd3a-7684dc04e6b8)
 
-Figura 10 - Diagrama da arquitetura
+Figura 33 - Diagrama da arquitetura
 
 A escolha do SQL Server como banco de dados da API se deu por sua integração com o ASP.NET, simplificando o processo de desenvolvimento da API e tornando mais eficiente a administração de recursos da equipe.
 
@@ -14,52 +14,53 @@ A escolha do SQL Server como banco de dados da API se deu por sua integração c
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Classe UML (12)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/91e6e69d-d058-4b25-aaa5-53868d3458dc)
+![Classe UML (13)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/0c9ad807-85c7-4ef9-a4e8-ebeba1863870)
 
-Figura 11 - Diagrama de classes
+
+Figura 34 - Diagrama de classes
 
 ## Modelo ER
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/3c03d382-64c0-419c-8918-17a96e1c9b05)
+![Modelo relacional](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/6b4b77a9-33df-41e8-a598-55c2cac654af)
 
-Figura 12 - Modelo entidade relacionamento
+Figura 35 - Modelo entidade relacionamento
 
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
-![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/5415b428-0ca4-481d-be11-fc756ee5359e)
+![Projeto de BD](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/0877534f-47f5-44f8-ae4d-54abcd3d3e70)
 
-Figura 13 - Esquema relacional
+Figura 36 - Esquema relacional
 
 ## Modelo Físico
 Segue abaixo a representação do banco de dados:
 
-![print_db](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/177cd1c7-afb4-41a5-adcd-b0b3e12dffec)
+![Captura de tela 2023-10-28 114137](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/4e471285-7e5a-432c-85de-4f9c773cf575)
 
-Figura 14 - Tabelas de Agenda, Agendamento e Clientes
+Figura 37 - Tabelas Agendamentos e Clientes
 
 ![print-db-2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/0b71eee8-8950-4412-9071-71bcad8718de)
 
-Figura 15 - Tabelas de Faturamentos e Meis
+Figura 38 - Tabelas de Faturamentos e Meis
 
 ![print-db-3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/81182674/47dd2044-fc15-47c3-b865-57ea3af7e5e6)
 
-Figura 16 - Tabela de Serviços
+Figura 39 - Tabela de Serviços
 
 ## Rotas e recursos
 
-![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4541c69f-0d68-4581-a671-7136824ffe99)
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/ceb50ca6-636b-4105-b1b2-739c581ee39f)
 
 ![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/51788340-aae0-4a7a-8a4c-9d721c3d90f8)
 
 ![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4cfd5cb3-b4e8-4064-bf88-740b31d11b94)
 
-![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/f6390dbb-f7fb-4a9a-87ef-3f1e466562a2)
+![Schema](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/4dfcaf13-a59f-4df3-9a5b-aa6568c0f837)
 
-Figura 17 - Rotas Swagger
+Figura 40 - Rotas Swagger
 
 ## Tecnologias Utilizadas
 
@@ -101,7 +102,7 @@ A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, d
 
 Fonte: ISO/IEC 25010, 2011, tradução nossa.
 
-Figura xx - Características de qualidade de software observadas pela equipe no desenvolvimento da aplicação.
+Figura 41 - Características de qualidade de software observadas pela equipe no desenvolvimento da aplicação.
 
 ### Descrição das subcaracterísticas escolhidas:
 
@@ -122,11 +123,11 @@ Fonte: ISO/IEC 25010, 2011, tradução nossa.
 
 |Subcaracterística  | Métrica           |Descrição              | Resultado            |
 |-------------------|-------------------|-------------------|-------------------|
-|Funcionalidade Apropriada |Taxa de conclusão de tarefas.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| |
-|Comportamento em Relação ao Tempo  |Tempo de resposta médio. |O tempo médio que o sistema leva para processar uma solicitação do usuário. | |
-|Coexistência |Taxa de desempenho em ambiente compartilhado.  |Porcentagem de tempo em que o produto mantém um desempenho aceitável enquanto compartilha recursos com outros produtos no mesmo ambiente.| | |
-|Reconhecimento de Adequação |Pesquisas de satisfação do usuário.  | Percentual de usuários que indicam, por meio de pesquisas, que a aplicação atende às suas necessidades.| | |
-|Maturidade |Taxa de defeitos reportados.  |Número de defeitos relatados em relação ao tempo, demonstrando a estabilidade ao longo do tempo.| | |
-|Confidencialidade |Todas as senhas cadastradas pelos usuários são armazenadas com criptografia. |Indicação da eficácia da medida de segurança.| | |
-|Modificabilidade |Tempo médio de implementação de modificações.  |Tempo médio necessário para implementar modificações no sistema sem introduzir novos defeitos.| | |
-|Adaptabilidade |Número de plataformas/dispositivos suportados. |Número total de diferentes plataformas, dispositivos ou ambientes operacionais para os quais o sistema pode ser adaptado sem perda significativa de funcionalidade.| | |
+|Funcionalidade Apropriada |Taxa de conclusão de tarefas.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| 100% |
+|Comportamento em Relação ao Tempo  |Tempo de resposta médio. |O tempo médio que o sistema leva para processar uma solicitação do usuário. | 1 segundo |
+|Coexistência |Taxa de desempenho em ambiente compartilhado.  |Porcentagem de tempo em que o produto mantém um desempenho aceitável enquanto compartilha recursos com outros produtos no mesmo ambiente.| 100% |
+|Reconhecimento de Adequação |Pesquisas de satisfação do usuário.  | Percentual de usuários que indicam, por meio de pesquisas, que a aplicação atende às suas necessidades.| 100% |
+|Maturidade |Taxa de defeitos reportados.  |Número de defeitos relatados em relação ao tempo, demonstrando a estabilidade ao longo do tempo.| Não foram identificados defeitos. |
+|Confidencialidade |Todas as senhas cadastradas pelos usuários são armazenadas com criptografia. |Indicação da eficácia da medida de segurança.| Utilização de criptografia em todos os cadastros de senhas.  |
+|Modificabilidade |Tempo médio de implementação de modificações.  |Tempo médio necessário para implementar modificações no sistema sem introduzir novos defeitos.| As implementações ocorreram de forma eficiente, sem introduzir novos erros. |
+|Adaptabilidade |Número de plataformas/dispositivos suportados. |Número total de diferentes plataformas, dispositivos ou ambientes operacionais para os quais o sistema pode ser adaptado sem perda significativa de funcionalidade.| Foram testadas a plataforma web e dispositivos mobile Android. |

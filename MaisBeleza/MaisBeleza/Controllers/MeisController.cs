@@ -46,7 +46,7 @@ namespace MaisBeleza.Controllers
                 Bairro = model.Bairro,
                 Cidade = model.Cidade,
                 Estado = model.Estado,
-                Perfil = model.Perfil,  
+                Perfil = model.Perfil,
                 Password = BCrypt.Net.BCrypt.HashPassword(model.Password),
                 HorarioFuncionamento = model.HorarioFuncionamento
             };
@@ -136,7 +136,7 @@ namespace MaisBeleza.Controllers
 
         [Authorize]
         [HttpGet("profile")]
-        public async Task<ActionResult> GetProfile() 
+        public async Task<ActionResult> GetProfile()
         {
             // Obtém o ID do usuário a partir do token (a partir das Claims)
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
@@ -154,7 +154,7 @@ namespace MaisBeleza.Controllers
                 return NotFound();
             }
 
-            
+
 
             return Ok(user);
         }

@@ -9,7 +9,7 @@ namespace MaisBeleza.Models
     {
         [Key]
         public int Id { get; set; }
-        
+
         [Display(Name = "Nome")]
         [Required(ErrorMessage = "É necessário informar o nome!")]
         public string NomeMei { get; set; }
@@ -55,4 +55,4 @@ namespace MaisBeleza.Models
 
         public ICollection<Agendamento> Agendamentos { get; set; }
     }
- }
+}

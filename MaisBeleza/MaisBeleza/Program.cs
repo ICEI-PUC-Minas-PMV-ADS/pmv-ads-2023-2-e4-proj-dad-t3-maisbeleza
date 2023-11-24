@@ -50,7 +50,6 @@ if (app.Environment.IsDevelopment())
 app.UseCors(options =>
 {
     options.AllowAnyOrigin();
-    //options.WithOrigins("http://localhost:3000", "https://snack-web-player.s3.us-west-1.amazonaws.com");
     options.AllowAnyMethod();
     options.AllowAnyHeader();
 });

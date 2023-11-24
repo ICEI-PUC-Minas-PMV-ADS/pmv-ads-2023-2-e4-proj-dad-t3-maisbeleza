@@ -6,22 +6,14 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir ao usuário cadastrar uma conta. |   | 
-|RF-002| A aplicação deve permitir ao usuário cadastrado logar em sua conta. |  | 
-|RF-003| A aplicação deve permitir ao usuário cadastrado sair da sua conta.  |   |
-|RF-004| A aplicação deve permitir ao usuário gerenciar a sua conta. |  |
-|RF-005| A aplicação deve permitir ao cliente fazer agendamentos. | |
-|RF-006| A aplicação deve permitir ao cliente gerenciar seus agendamentos. |  |
+|RF-001| A aplicação deve permitir ao usuário cadastrar uma conta. |  Cadastro.js, MeisController.cs | 
+|RF-002| A aplicação deve permitir ao usuário cadastrado logar em sua conta. | Login.js, MeisController.cs | 
+|RF-003| A aplicação deve permitir ao usuário cadastrado sair da sua conta.  |  Navbar.js |
+|RF-004| A aplicação deve permitir ao usuário gerenciar a sua conta. | Perfil.js, MeisController.cs |
+|RF-005| A aplicação deve permitir ao cliente fazer agendamentos. | Agenda.js (Expo), AgendamentosController.cs |
+|RF-006| A aplicação deve permitir ao cliente gerenciar seus agendamentos. | Agendamentos.js (Expo), AgendamentosController.cs |
 |RF-007| A aplicação deve permitir ao microempreendedor individual aceitar ou negar agendamentos. |   |
-|RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda.   |  |
-|RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços.  | |
-|RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento.  |  |
-|RNF-001| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.  |  |
-
-# Instruções de acesso
-
-Para ter acesso a aplicação web, <a href="/">clique aqui</a>. Para fazer o login no sistema, utilize os dados abaixo:
-
-Email:
-<br>
-Senha:
+|RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda.   | Agenda.js, AgendamentosController.cs |
+|RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços.  | Servicos.js, ServicosController.cs |
+|RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento.  | Faturamento.js, FaturamentosController.cs  |
+|RNF-001| A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.  | App.css  |

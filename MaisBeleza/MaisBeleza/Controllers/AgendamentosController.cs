@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
 
 namespace MaisBeleza.Controllers
@@ -38,15 +39,17 @@ namespace MaisBeleza.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult> GetById(int id)
         {
-
             var model = await _context.Agendamentos
                 .FirstOrDefaultAsync(c => c.Id == id);
 
             if (model == null) return NotFound();
 
-            GerarLinks(model);
+            GerarLinks(model, Url); // Passando o objeto IUrlHelper para GerarLinks
+
             return Ok(model);
         }
+
+
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, Agendamento model)
         {
@@ -76,11 +79,34 @@ namespace MaisBeleza.Controllers
             return NoContent();
         }
 
-        private void GerarLinks(Agendamento model)
+        private void GerarLinks(Agendamento model, IUrlHelper urlHelper)
         {
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "self", metodo: "GET"));
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "update", metodo: "PUT"));
-            model.Links.Add(new LinkDto(model.Id, Url.ActionLink(), rel: "delete", metodo: "Delete"));
+            if (urlHelper == null)
+            {
+                // Adicione uma mensagem de log para diagnosticar o problema
+                Console.WriteLine("urlHelper é nulo.");
+                return;
+            }
+
+            if (urlHelper.ActionContext == null)
+            {
+                // Adicione uma mensagem de log para diagnosticar o problema
+                Console.WriteLine("urlHelper.ActionContext é nulo.");
+                return;
+            }
+
+            if (urlHelper.ActionContext.HttpContext == null)
+            {
+                // Adicione uma mensagem de log para diagnosticar o problema
+                Console.WriteLine("urlHelper.ActionContext.HttpContext é nulo.");
+                return;
+            }
+
+            // Se todas as verificações passaram, continue com a geração de links
+            model.Links.Add(new LinkDto(model.Id, urlHelper.ActionLink(nameof(GetById), "Agendamentos", new { id = model.Id }), rel: "self", metodo: "GET"));
+            model.Links.Add(new LinkDto(model.Id, urlHelper.ActionLink(nameof(Update), "Agendamentos", new { id = model.Id }), rel: "update", metodo: "PUT"));
+            model.Links.Add(new LinkDto(model.Id, urlHelper.ActionLink(nameof(Delete), "Agendamentos", new { id = model.Id }), rel: "delete", metodo: "DELETE"));
         }
     }
 }
+

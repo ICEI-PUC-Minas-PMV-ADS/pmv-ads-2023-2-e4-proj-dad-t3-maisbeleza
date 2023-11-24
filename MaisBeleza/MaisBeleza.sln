@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaisBeleza", "MaisBeleza\MaisBeleza.csproj", "{AC1F5EE6-110E-4A21-84C1-EF860102F416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteIntegracao", "TesteIntegracao\TesteIntegracao.csproj", "{B1DD20F1-605E-4172-8FF9-E99023AF9BD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{AC1F5EE6-110E-4A21-84C1-EF860102F416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC1F5EE6-110E-4A21-84C1-EF860102F416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC1F5EE6-110E-4A21-84C1-EF860102F416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DD20F1-605E-4172-8FF9-E99023AF9BD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DD20F1-605E-4172-8FF9-E99023AF9BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DD20F1-605E-4172-8FF9-E99023AF9BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DD20F1-605E-4172-8FF9-E99023AF9BD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
