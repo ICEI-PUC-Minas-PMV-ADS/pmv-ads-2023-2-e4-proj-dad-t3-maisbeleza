@@ -42,7 +42,7 @@
 | **Caso de Teste** 	| **CT-06 - Visualização de agendamentos (clientes)** 	|
 |	Requisito Associado 	| RF-006 -A aplicação deve permitir ao cliente gerenciar seus agendamentos.. |
 | Objetivo do Teste 	| Verificar se o cliente consegue visualizar seus agendamentos corretamente. |
-| Passos 	| - Acessar a aplicação mobile <br> - Clicar em “Login" na tela inicial <br> - Preencher os campos obrigatórios <br> -Clicar em "Entrar"<br> - Clicar em "Agenda" no menu |
+| Passos 	| - Acessar a aplicação mobile <br> - Clicar em “Login" na tela inicial <br> - Preencher os campos obrigatórios <br> - Clicar em "Entrar"<br> - Clicar em "Agenda" no menu |
 |Critério de Êxito | - O usuário conseguiu visualizar seus agendamentos corretamente. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 - Aceitar ou recusar agendamentos** 	|
