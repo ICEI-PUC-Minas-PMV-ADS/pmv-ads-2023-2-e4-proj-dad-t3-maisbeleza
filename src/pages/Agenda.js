@@ -7,6 +7,9 @@ import axios from 'axios';
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 import { IoMdCreate } from "react-icons/io";
 import { IoIosTrash } from 'react-icons/io';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 function Agenda() {
@@ -75,36 +78,42 @@ function Agenda() {
         }
         delete agendamentoSelecionado.id;
         await axios.post(baseUrl, agendamentoSelecionado)
-            .then(response => {
-                setData(data.concat(response.data));
-                setUpdateData(true);
-                abrirFecharModalIncluir();
-            }).catch(error => {
-                console.log(error);
-            })
-    }
+        .then(response => {
+            setData(data.concat(response.data));
+            setUpdateData(true);
+            abrirFecharModalIncluir();
+            toast.success('Você tem um novo agendamento!');
+        })
+        .catch(error => {
+            console.log(error);
+            toast.error('Erro ao criar agendamento.');
+        });
+}
 
     const pedidoPut = async () => {
         await axios.put(baseUrl + "/" + agendamentoSelecionado.id, agendamentoSelecionado)
-            .then(response => {
-                var resposta = response.data;
-                var dadosAuxiliar = data;
-                dadosAuxiliar.map(agendamento => {
-                    if (agendamento.id === agendamentoSelecionado.id) {
-                        agendamento.data = resposta.data;
-                        agendamento.horario = resposta.horario;
-                        agendamento.meiId = resposta.meiId;
-                        agendamento.clienteId = resposta.clienteId;
-                        agendamento.servicoId = resposta.servicoId;
-                    }
-                    return agendamento;
-                });
-                setUpdateData(true);
-                abrirFecharModalEditar();
-            }).catch(error => {
-                console.log(error);
-            })
-    }
+        .then(response => {
+            var resposta = response.data;
+            var dadosAuxiliar = data;
+            dadosAuxiliar.map(agendamento => {
+                if (agendamento.id === agendamentoSelecionado.id) {
+                    agendamento.data = resposta.data;
+                    agendamento.horario = resposta.horario;
+                    agendamento.meiId = resposta.meiId;
+                    agendamento.clienteId = resposta.clienteId;
+                    agendamento.servicoId = resposta.servicoId;
+                }
+                return agendamento;
+            });
+            setUpdateData(true);
+            abrirFecharModalEditar();
+            toast.success('Um agendamento foi atualizado!');
+        })
+        .catch(error => {
+            console.log(error);
+            toast.error('Erro ao atualizar agendamento.');
+        });
+}
 
     const pedidoDelete = async () => {
         await axios.delete(baseUrl + "/" + agendamentoSelecionado.id)
@@ -112,8 +121,10 @@ function Agenda() {
                 setData(data.filter(agendamento => agendamento.id !== response.data));
                 setUpdateData(true);
                 abrirFecharModalExcluir();
+                toast.success('Um agendamento foi cancelado!');
             }).catch(error => {
                 console.log(error);
+                toast.error('Erro ao cancelar o agendamento.');
             })
     }
 
@@ -211,7 +222,7 @@ function Agenda() {
                         <input type="date" className="form-control mb-2" name="data" onChange={handleChange} />
                         <p />
                         <label>Horário: </label>
-                        <input className="form-control mb-2" name="horario" placeholder="00:00" onChange={handleChange} />
+                        <input type="time" className="form-control mb-2" name="horario" placeholder="00:00" onChange={handleChange} />
                         <p />
                         <label>Profissional: </label>
                         <input type="number" className="form-control mb-2" name="meiId" placeholder="Digite o código do profissional" onChange={handleChange} />
@@ -236,11 +247,11 @@ function Agenda() {
                         <label>Código: </label><br />
                         <input className="form-control mb-2" readOnly value={agendamentoSelecionado && agendamentoSelecionado.id} /><br />
                         <label>Data: </label>
-                        <input className="form-control mb-2" name="data" onChange={handleChange}
-                            value={agendamentoSelecionado && agendamentoSelecionado.data} />
+                        <input type = "date" className="form-control mb-2" name="data" onChange={handleChange}
+                            value={agendamentoSelecionado && agendamentoSelecionado.data.split("T")[0]} />
                         <br />
                         <label>Horário: </label>
-                        <input type="text" className="form-control mb-2" name="horario" onChange={handleChange}
+                        <input type="time" className="form-control mb-2" name="horario" onChange={handleChange}
                             value={agendamentoSelecionado && agendamentoSelecionado.horario} />
                         <br />
                         <label>Profissional: </label>
