@@ -2,7 +2,13 @@
 
 ## Instalação do Site
 
--
+Para ter acesso aos códigos da aplicação distribuída, utilize as branches abaixo:
+
+API: Main
+<br />
+Front-end Web: frontend-web
+<br />
+Front-end Mobile:
 
 ## Histórico de versões
 
