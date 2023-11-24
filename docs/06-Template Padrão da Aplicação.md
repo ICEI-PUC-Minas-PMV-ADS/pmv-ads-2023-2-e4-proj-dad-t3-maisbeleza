@@ -10,7 +10,8 @@ Figura 42 - Identidade visual
 
 Figura 43 - Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual.
 
-![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/918d2443-8606-4816-9954-49dff62f9edd)
-![4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/b2502b39-b588-472b-826e-228a35bf3094)
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/fb5a77dc-d959-4b55-856d-4b10486d1b5a)
+![2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/47d419b4-bb62-4461-b7cb-46192382ee72)
+![3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100447878/a6061e12-6621-4972-9f2b-9dfd94bfe5c0)
 
 Figura 44 - Aspectos de responsividade.
