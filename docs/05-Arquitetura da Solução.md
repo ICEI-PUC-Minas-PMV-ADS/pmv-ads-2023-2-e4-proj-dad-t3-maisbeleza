@@ -123,11 +123,11 @@ Fonte: ISO/IEC 25010, 2011, tradução nossa.
 
 |Subcaracterística  | Métrica           |Descrição              | Resultado            |
 |-------------------|-------------------|-------------------|-------------------|
-|Funcionalidade Apropriada |Taxa de conclusão de tarefas.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| |
-|Comportamento em Relação ao Tempo  |Tempo de resposta médio. |O tempo médio que o sistema leva para processar uma solicitação do usuário. | |
-|Coexistência |Taxa de desempenho em ambiente compartilhado.  |Porcentagem de tempo em que o produto mantém um desempenho aceitável enquanto compartilha recursos com outros produtos no mesmo ambiente.| | |
-|Reconhecimento de Adequação |Pesquisas de satisfação do usuário.  | Percentual de usuários que indicam, por meio de pesquisas, que a aplicação atende às suas necessidades.| | |
-|Maturidade |Taxa de defeitos reportados.  |Número de defeitos relatados em relação ao tempo, demonstrando a estabilidade ao longo do tempo.| | |
-|Confidencialidade |Todas as senhas cadastradas pelos usuários são armazenadas com criptografia. |Indicação da eficácia da medida de segurança.| | |
-|Modificabilidade |Tempo médio de implementação de modificações.  |Tempo médio necessário para implementar modificações no sistema sem introduzir novos defeitos.| | |
-|Adaptabilidade |Número de plataformas/dispositivos suportados. |Número total de diferentes plataformas, dispositivos ou ambientes operacionais para os quais o sistema pode ser adaptado sem perda significativa de funcionalidade.| | |
+|Funcionalidade Apropriada |Taxa de conclusão de tarefas.  |Porcentagem de usuários que conseguem completar tarefas específicas dentro do sistema sem encontrar obstáculos significativos.| 100% |
+|Comportamento em Relação ao Tempo  |Tempo de resposta médio. |O tempo médio que o sistema leva para processar uma solicitação do usuário. | 1 segundo |
+|Coexistência |Taxa de desempenho em ambiente compartilhado.  |Porcentagem de tempo em que o produto mantém um desempenho aceitável enquanto compartilha recursos com outros produtos no mesmo ambiente.| 100% |
+|Reconhecimento de Adequação |Pesquisas de satisfação do usuário.  | Percentual de usuários que indicam, por meio de pesquisas, que a aplicação atende às suas necessidades.| 100% |
+|Maturidade |Taxa de defeitos reportados.  |Número de defeitos relatados em relação ao tempo, demonstrando a estabilidade ao longo do tempo.| Não foram identificados defeitos. |
+|Confidencialidade |Todas as senhas cadastradas pelos usuários são armazenadas com criptografia. |Indicação da eficácia da medida de segurança.| Utilização de criptografia em todos os cadastros de senhas.  |
+|Modificabilidade |Tempo médio de implementação de modificações.  |Tempo médio necessário para implementar modificações no sistema sem introduzir novos defeitos.| As implementações ocorreram de forma eficiente, sem introduzir novos erros. |
+|Adaptabilidade |Número de plataformas/dispositivos suportados. |Número total de diferentes plataformas, dispositivos ou ambientes operacionais para os quais o sistema pode ser adaptado sem perda significativa de funcionalidade.| Foram testadas a plataforma web e dispositivos mobile Android. |
