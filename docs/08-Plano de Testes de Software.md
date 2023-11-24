@@ -36,7 +36,7 @@
 | **Caso de Teste** 	| **CT-05 - Cadastro de usuários (clientes)** 	|
 |	Requisito Associado 	| RF-005 - A aplicação deve permitir ao cliente fazer agendamentos. |
 | Objetivo do Teste 	| Verificar se o cliente consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar a aplicação mobile <br> - Clicar em “Cadastro" na tela inicial <br> - Preencher os campos obrigatórios <br> -Clicar em "Cadastrar"<br> |
+| Passos 	| - Acessar a aplicação mobile <br> - Clicar em “Cadastro" na tela inicial <br> - Preencher os campos obrigatórios <br> - Clicar em "Cadastrar"<br> |
 |Critério de Êxito | - O usuário conseguiu se cadastrar com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 - Visualização de agendamentos (clientes)** 	|
