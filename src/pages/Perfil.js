@@ -54,7 +54,7 @@ function Perfil() {
       <p class="data-item">Bairro: {userData.bairro}</p>
       <p class="data-item">Cidade: {userData.cidade}</p>
       <p class="data-item">Estado: {userData.estado}</p>
-      <p class="data-item">Horário de Funcionamento: {userData.horarioFuncionamento}</p>
+      <p class="data-item">Horário de funcionamento: {userData.horarioFuncionamento}</p>
     </div>
       )}
       
