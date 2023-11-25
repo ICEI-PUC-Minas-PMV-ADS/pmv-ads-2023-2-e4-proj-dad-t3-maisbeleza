@@ -65,6 +65,8 @@ function Cadastro() {
 
     const pedidoPost = async () => {
         delete meiSelecionado.id;
+        meiSelecionado.perfil = parseInt(meiSelecionado.perfil, 10);
+        console.log('Dados enviados:', meiSelecionado);
         await axios.post(baseUrl, meiSelecionado)
             .then(response => {
                 setData(data.concat(response.data));
@@ -73,7 +75,7 @@ function Cadastro() {
                 setRegistrationSuccess(true);
                 navigate('/login');
             }).catch(error => {
-                console.log(error);
+                console.log('Erro ao cadastrar:', error.response.data);
             });
     };
 
@@ -126,9 +128,17 @@ function Cadastro() {
                 <input type='text' className='form-control' name='estado' onChange={handleChange} />
 
 
-                {/*<label>Perfil: </label>
+                <label>Perfil: </label>
                 <br />
-                <input type='text' className='form-control' name='perfil' onChange={handleChange} />*/}
+                <div className="select-container">
+                    <select className='form-control' name='perfil' value={meiSelecionado.perfil} onChange={handleChange}>
+                        <option value="0">Administrador</option>
+                        <option value="1">Usuário Mei</option>
+                        {/*  <option value="2">Usuário Cliente</option> */}
+                    </select>
+                    <div className="arrow-icon">&#9660;</div>
+                </div>
+
 
                 <label>Senha: </label>
                 <br />
