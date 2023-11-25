@@ -348,3 +348,21 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
+  .select-container {
+    position: relative;
+  }
+  
+  .select-container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .select-container .arrow-icon {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Para que a seta não interfira nos eventos do mouse */
+  }
