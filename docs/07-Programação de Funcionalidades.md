@@ -12,7 +12,7 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 |RF-004| A aplicação deve permitir ao usuário gerenciar a sua conta. | Perfil.js, MeisController.cs |
 |RF-005| A aplicação deve permitir ao cliente fazer agendamentos. | Agenda.js (Expo), AgendamentosController.cs |
 |RF-006| A aplicação deve permitir ao cliente gerenciar seus agendamentos. | Agendamentos.js (Expo), AgendamentosController.cs |
-|RF-007| A aplicação deve permitir ao microempreendedor individual aceitar ou negar agendamentos. |   |
+|RF-007| A aplicação deve permitir ao microempreendedor individual aceitar ou negar agendamentos. | Agendamentos.js, AgendamentosController.cs |
 |RF-008| A aplicação deve permitir ao microempreendedor individual visualizar sua agenda.   | Agenda.js, AgendamentosController.cs |
 |RF-009| A aplicação deve permitir ao microempreendedor individual cadastrar serviços.  | Servicos.js, ServicosController.cs |
 |RF-010| A aplicação deve permitir ao microempreendedor individual administrar seu faturamento.  | Faturamento.js, FaturamentosController.cs  |
