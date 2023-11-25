@@ -27,7 +27,7 @@ Para ter acesso aos códigos da aplicação distribuída, utilize as branches ab
 
 * API: Main (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/main/MaisBeleza)
 * Front-end Web: frontend-web (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/frontend-web)
-* Front-end Mobile: 
+* Front-end Mobile: (https://snack.expo.dev/@procopiodaiane/maisbelezaapp)
 
 # Documentação
 
