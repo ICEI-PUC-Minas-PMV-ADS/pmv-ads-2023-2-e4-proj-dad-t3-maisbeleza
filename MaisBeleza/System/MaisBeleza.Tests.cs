@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace MaisBeleza.Tests
 {
-    [TestClass]
+    [TestClass] // TESTE DE SISTEMA
     public class AppDbContextTests
     {
         [TestMethod]
@@ -23,10 +23,10 @@ namespace MaisBeleza.Tests
                 context.Agendamentos.Add(new Agendamento
                 {
                     Data = DateTime.Now,
-                    Horario = "08:00",  // Certifique-se de fornecer um formato válido para o horário
-                    MeiId = 1,  // Certifique-se de ter um Mei com Id = 1
-                    ClienteId = 1,  // Certifique-se de ter um Cliente com Id = 1
-                    // Outras propriedades necessárias
+                    Horario = "08:00",  
+                    MeiId = 1,  
+                    ClienteId = 1,  
+                 
                 });
 
                 // Adicione uma instância de Cliente
@@ -37,7 +37,7 @@ namespace MaisBeleza.Tests
                     Telefone = "123456789",
                     Perfil = Perfil.UsuarioCliente,
                     Password = "senha123",
-                    // Outras propriedades necessárias
+        
                 });
 
                 // Adicione uma instância de Faturamento
@@ -45,8 +45,8 @@ namespace MaisBeleza.Tests
                 {
                     Data = DateTime.Now,
                     ValorTotal = 100.0m,
-                    MeiId = 1,  // Certifique-se de ter um Mei com Id = 1
-                    // Outras propriedades necessárias
+                    MeiId = 1,  
+
                 });
 
                 // Adicione uma instância de Mei
@@ -63,7 +63,7 @@ namespace MaisBeleza.Tests
                     Perfil = Perfil.UsuarioMei,
                     Password = "senha456",
                     HorarioFuncionamento = "09:00 - 18:00",
-                    // Outras propriedades necessárias
+                   
                 });
 
                 // Adicione uma instância de Servico
@@ -73,8 +73,8 @@ namespace MaisBeleza.Tests
                     Descricao = "Corte moderno",
                     Duracao = 30,
                     Valor = 50.0m,
-                    MeiId = 1,  // Certifique-se de ter um Mei com Id = 1
-                    // Outras propriedades necessárias
+                    MeiId = 1, 
+                   
                 });
 
                 context.SaveChanges();
