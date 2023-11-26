@@ -15,8 +15,7 @@ Figura 45 - Plano de testes de usabilidade.
 |MEI| Eficiência dos usuários em cadastrar o(s) serviço(s) prestados. |   
 |MEI| Eficiência dos usuários  em registrar faturamento(s). |
 |MEI| Eficiência dos usuários em  gerenciar seu(s) agendamento(s).  |
-|MEI| Eficiência dos usuários em aceitar ou negar agendamento(s). |
-|MEI| Eficiência dos usuários em visualizar sua agenda. |
+|MEI| Eficiência dos usuários em editar ou negar agendamento(s). |
 
 ### TESTE 2 -- Clientes --  MOBILE
 
@@ -25,9 +24,10 @@ Figura 45 - Plano de testes de usabilidade.
 |CLIENTE| Entender os principais atritos quando os usuários tentam cadastrar uma conta. |
 |CLIENTE| Entender os principais atritos quando os usuários tentam logar em sua conta. |
 |CLIENTE| Entender os principais atritos quando os usuários querem sair de sua conta. |
-|CLIENTE| Eficiência dos usuários em visualizar os serviço(s) oferecido(s) pelo(s) profissional(is). |   
-|CLIENTE| Eficiência dos usuários em realizar agendamento(s). |
-|CLIENTE| Eficiência dos usuários em gerenciar seu(s) agendamento(s). |
+|CLIENTE| Eficiência dos usuários em visualizar os profissiona(is) cadastrados na plataforma. |  
+|CLIENTE| Eficiência dos usuários em visualizar os serviço(s) oferecido(s) pelo(s) profissional(is). |  
+|CLIENTE| Eficiência dos usuários em realizar e gerenciar agendamento(s)  |
+
 
 
 
