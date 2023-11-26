@@ -14,8 +14,8 @@ Figura 45 - Plano de testes de usabilidade.
 |MEI| Entender os principais atritos quando os usuários querem sair de sua conta. |
 |MEI| Eficiência dos usuários em cadastrar o(s) serviço(s) prestados. |   
 |MEI| Eficiência dos usuários  em registrar faturamento(s). |
-|MEI| Eficiência dos usuários em  gerenciar seu(s) agendamento(s).  |
-|MEI| Eficiência dos usuários em editar ou negar agendamento(s). |
+|MEI| Eficiência dos usuários em realizar e gerenciar agendamento(s) .  |
+
 
 ### TESTE 2 -- Clientes --  MOBILE
 
