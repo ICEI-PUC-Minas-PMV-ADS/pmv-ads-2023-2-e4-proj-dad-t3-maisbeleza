@@ -142,7 +142,7 @@ function Cadastro() {
 
                 <label>Senha: </label>
                 <br />
-                <input type='text' className='form-control' name='password' onChange={handleChange} />
+                <input type='password' className='form-control' name='password' onChange={handleChange} />
 
                 <label>Horário de funcionamento: </label>
                 <br />
