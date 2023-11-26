@@ -45,9 +45,36 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbele
 
 Abra a aplicação web registre o serviço, depois edite o campo desejado aperte em incluir e simule excluir o cadastro realizado. Após este procedimento, responda ao formulário com perguntas sobre a sua opinião e satisfação em relação a aplicação Mais Beleza.
 
-
-
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/52b72697-78a6-432f-92a8-8e26e7484250
+
+<h4> 04 - Eficiência dos usuários em registrar seus faturamento(s).</h4> 	
+<h4> Entender os principais atritos quando os usuários querem registrar informações sobre seus faturamento(s).</h4>
+
+Abra a aplicação web registre o seu faturamento. Após este procedimento, responda ao formulário com perguntas sobre a sua opinião e satisfação em relação a aplicação Mais Beleza.
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/79a012d7-fc06-42bb-926c-9bc40d5b1ded
+
+<h4> 04 - Eficiência dos usuários em gerenciar seu(s) agendamento(s).</h4> 	
+<h4> Entender os principais atritos quando os usuários querem gerenciar seu(s) agendamento(s).</h4>
+
+Abra a aplicação web e inclua um novo agendamento. Após este procedimento, responda ao formulário com perguntas sobre a sua opinião e satisfação em relação a aplicação Mais Beleza.
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/f262b11a-da6b-48ee-87ce-9868f1359ab4
+
+<h4> 04 - Eficiência dos usuários em editar ou negar agendamento(s).</h4> 	
+<h4> Entender os principais atritos quando os usuários querem editar ou negar seus agendamento(s).</h4>
+
+Abra a aplicação web selecione o agendamento, edite o campo desejado, aperte incluir e simule excluir um agendamento realizado. Após este procedimento, responda ao formulário com perguntas sobre a sua opinião e satisfação em relação a aplicação Mais Beleza.
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/assets/100734910/8421df17-cf64-4f8c-9df2-27f7a37359f8
+
+
+
+
+
+
+
 
 
 
