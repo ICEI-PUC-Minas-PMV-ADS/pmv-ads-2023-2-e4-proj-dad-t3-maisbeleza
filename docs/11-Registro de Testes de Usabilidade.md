@@ -18,6 +18,9 @@ Após realizar os testes de usabilidade, obtém-se um relatório a seguir sobre 
 
 <h3>Objetivos</h3>
 
+TESTE 1:
+Para o ciclo de testes definimos como prioridade o perfil:  Profissionais do Ramo da Beleza.
+
 <h4> 01 - Entender os principais atritos quando os usuários tentam cadastrar uma conta.</h4>
 
 <h4> Eficiência dos usuários em inserir os seus os dados pessoais na página de cadastro.</h4>
