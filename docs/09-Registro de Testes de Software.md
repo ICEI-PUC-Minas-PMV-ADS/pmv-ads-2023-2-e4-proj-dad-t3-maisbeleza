@@ -5,6 +5,7 @@
 - Os scritps de testes da API, utilizados no Insomina, podem ser acessados <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/blob/main/src/Insomnia_2023-09-27.json">aqui</a>.
 - Os testes unitários estão nas pastas MaisBelezaTests e MaisBeleza_Test, e podem ser acessados <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/main/MaisBeleza">aqui</a>.
 - O teste de integração está na pasta TesteIntegracao, e pode ser acessado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/main/MaisBeleza">aqui</a>.
+   O teste de sistema está na pasta System, e pode ser acessado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/main/MaisBeleza/System">aqui</a>.
 
 ## Testes de software
 
