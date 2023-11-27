@@ -73,7 +73,7 @@
 |Ferramenta   | Função | 
 |------|-----------------------------------------|
 |Insomnia| Teste de registros e rotas da API. | 
-|xUnit e MSTest| Testes de unidade. | 
+|xUnit e MSTest| Testes de unidade e teste de sistema. | 
 |Screen Recorder| Gravação da tela nos testes de software. | 
 |Typeform| Formulário online de pesquisa aplicado aos usuários que fizeram o teste de usabilidade. | 
 |xUnit | Testes de integração. | 
