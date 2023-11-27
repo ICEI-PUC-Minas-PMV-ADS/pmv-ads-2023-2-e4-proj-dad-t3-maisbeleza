@@ -1,6 +1,6 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+<span style="color:red">Pré-requisitos: Todos os demais artefatos.</span>
 
 ## Título do Projeto
 
