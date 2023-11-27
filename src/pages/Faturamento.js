@@ -12,7 +12,7 @@ import Footer from '../components/Footer2';
 
 function Faturamento () {
 
-    const baseUrl = "https://localhost:7075/api/Faturamentos";
+    const baseUrl = "https://maisbeleza20231125193603.azurewebsites.net/api/Faturamentos";
 
     const [data, setData] = useState ([]);
     const [updateData, setUpdateData] = useState(true);

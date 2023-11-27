@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 
 function Cadastro() {
 
-    const baseUrl = "https://localhost:7075/api/Meis";
+    const baseUrl = "https://maisbeleza20231125193603.azurewebsites.net/api/Meis";
     const [registrationSuccess, setRegistrationSuccess] = useState(false);
 
     const [data, setData] = useState([]);

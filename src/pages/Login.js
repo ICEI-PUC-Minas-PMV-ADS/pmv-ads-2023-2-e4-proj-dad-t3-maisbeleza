@@ -24,7 +24,7 @@ function Login() {
   const navigate = useNavigate();
   
   const fazerLogin = () => {
-    const loginEndpoint = "https://localhost:7075/api/Meis/authenticate";
+    const loginEndpoint = "https://maisbeleza20231125193603.azurewebsites.net/api/Meis/authenticate";
 
     const credentials = {
       email: loginData.email,
@@ -39,7 +39,7 @@ function Login() {
           console.log("Login bem-sucedido. Token de autenticação:", authToken);
           localStorage.setItem('authToken', authToken);
           // Agora, após o login bem-sucedido, faça uma solicitação para obter as informações do usuário
-          axios.get("https://localhost:7075/api/meis/profile", {
+          axios.get("https://maisbeleza20231125193603.azurewebsites.net/api/meis/profile", {
             headers: {
               Authorization: `Bearer ${authToken}`,
             }

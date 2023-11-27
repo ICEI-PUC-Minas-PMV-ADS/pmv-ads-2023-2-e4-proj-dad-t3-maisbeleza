@@ -20,7 +20,7 @@ function Perfil() {
 
     if (!userData) {
       // Solicitação para obter as informações do usuário com base no token
-      axios.get("https://localhost:7075/api/meis/profile", {
+      axios.get("https://maisbeleza20231125193603.azurewebsites.net/api/meis/profile", {
         headers: {
           Authorization: `Bearer ${authToken}`, 
         }
