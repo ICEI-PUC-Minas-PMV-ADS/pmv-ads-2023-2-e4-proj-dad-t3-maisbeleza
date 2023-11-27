@@ -15,3 +15,5 @@ A identidade visual do projeto está detalhada em <a href="https://github.com/IC
 O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
 
 ## Considerações finais
+
+Este documento deverá conter a descrição de uma avaliação dos frameworks e tecnologias utilizadas ao longo do processo de desenvolvimento, e a descrição de uma análise crítica e proposta de melhorias em relação ao projeto arquitetural e ao processo de análise e desenvolvimento do projeto como um todo. O documento também deverá contemplar um “retrato” atual do quadro visual da gestão do trabalho do time no Github, um “retrato” atual do status das contribuições dos membros do time no Github, além dos comentários adicionais sobre as responsabilidades/atribuições de cada membro do time.
