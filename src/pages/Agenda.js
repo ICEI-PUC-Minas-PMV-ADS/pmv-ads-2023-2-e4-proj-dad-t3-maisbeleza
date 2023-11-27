@@ -14,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Agenda() {
 
-    const baseUrl = "https://localhost:7075/api/agendamentos";
+    const baseUrl = "https://maisbeleza20231125193603.azurewebsites.net/api/agendamentos";
 
     const [data, setData] = useState([]);
     const [updateData, setUpdateData] = useState(true);
@@ -137,7 +137,7 @@ function Agenda() {
 
     async function fetchServiceName(servicoId) {
         try {
-            const response = await axios.get(`https://localhost:7075/api/servicos/${servicoId}`);
+            const response = await axios.get(`https://maisbeleza20231125193603.azurewebsites.net/api/servicos/${servicoId}`);
             return response.data.nomeServico;
         } catch (error) {
             console.error(error);
@@ -147,7 +147,7 @@ function Agenda() {
 
     async function fetchMeiName(meiId) {
         try {
-            const response = await axios.get(`https://localhost:7075/api/meis/${meiId}`);
+            const response = await axios.get(`https://maisbeleza20231125193603.azurewebsites.net/api/meis/${meiId}`);
             return response.data.nomeMei;
         } catch (error) {
             console.error(error);
@@ -157,7 +157,7 @@ function Agenda() {
 
     async function fetchClienteName(clienteId) {
         try {
-            const response = await axios.get(`https://localhost:7075/api/clientes/${clienteId}`);
+            const response = await axios.get(`https://maisbeleza20231125193603.azurewebsites.net/api/clientes/${clienteId}`);
             return response.data.nome;
         } catch (error) {
             console.error(error);

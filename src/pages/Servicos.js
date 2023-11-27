@@ -12,7 +12,7 @@ import {IoIosTrash} from 'react-icons/io';
 
 function Servicos() {
 
-  const baseUrl = "https://localhost:7075/api/servicos";
+  const baseUrl = "https://maisbeleza20231125193603.azurewebsites.net/api/servicos";
 
   const [data, setData] = useState([]);
   const [updateData, setUpdateData] = useState(true);
