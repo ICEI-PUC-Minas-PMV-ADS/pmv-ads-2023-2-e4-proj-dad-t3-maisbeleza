@@ -23,3 +23,7 @@ Front-end Mobile: (https://snack.expo.dev/@procopiodaiane/maisbelezaappfinal)
 ### [0.3.0] - 26/11/2023
 #### Adicionado
 - Criação do Front-end Mobile e integração com a API.
+
+### [0.4.0] - 10/12/2023
+#### Adicionado
+- API hospedada no Azure.
