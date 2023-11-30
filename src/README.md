@@ -8,7 +8,7 @@ API: Main (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-
 <br />
 Front-end Web: frontend-web (https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza/tree/frontend-web)
 <br />
-Front-end Mobile: (https://snack.expo.dev/@procopiodaiane/maisbelezaapp)
+Front-end Mobile: (https://snack.expo.dev/@procopiodaiane/maisbelezaappfinal)
 
 ## Histórico de versões
 
