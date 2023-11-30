@@ -16,4 +16,14 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 
 ## Considerações finais
 
-Este documento deverá conter a descrição de uma avaliação dos frameworks e tecnologias utilizadas ao longo do processo de desenvolvimento, e a descrição de uma análise crítica e proposta de melhorias em relação ao projeto arquitetural e ao processo de análise e desenvolvimento do projeto como um todo. O documento também deverá contemplar um “retrato” atual do quadro visual da gestão do trabalho do time no Github, um “retrato” atual do status das contribuições dos membros do time no Github, além dos comentários adicionais sobre as responsabilidades/atribuições de cada membro do time.
+Após uma análise reflexiva do semestre, avaliamos de maneira positiva o projeto desenvolvido e o trabalho realizado pela equipe, pois cumprimos os prazos e entregas, pela qualidade do trabalho realizado, a colaboração e comunicação efetiva entre os membros da equipe, nossa adaptabilidade e capacidade de lidar com mudanças, tivemos autonomia e iniciativa em tomar decisões, observamos uma curva crescente de aprendizado e observamos uma melhoria contínua ao longo do projeto. Todos os integrantes da equipe participaram de todas as etapas do desenvolvimento do projeto e na criação dos artefatos. As atribuições de cada membro da equipe podem ser consultadas aqui.
+
+A ferramenta Expo Dev, utilizada para a criação do código da aplicação móvel, atendeu às necessidades da equipe, pois possui os recursos necessários para o desenvolvimento da aplicação, como a disponibilidade de um conjunto de bibliotecas pré-construídas. Porém, apresentou algumas limitações e erros, que influenciaram na escolha da equipe em não criar funcionalidades além do que havia sido estabelecido no início do semestre, nos requisitos funcionais. O Expo Dev é uma ótima ferramenta para o aprendizado de estudantes que precisam desenvolver aplicativos de forma rápida e eficiente.
+
+O framework utilizado, React Native, apresenta diversos recursos para o desenvolvimento de aplicações móveis multiplataformas. Permite a criação de interfaces ricas e responsivas, possibilitanto a equipe a utilizar a criatividade.
+
+Utilizamos o SQL Server para o banco de dados. Atendeu as necessidades da equipe por se tratar de um projeto pequeno com foco no aprendizado.
+
+A linguagem Javascript vem sendo utilizada pela equipe desde o primeiro semestre. É uma linguagem versátil com recursos para a interação do usuário, processamento de solicitações, entre outros.
+
+Destacamos também o papel fundamental do nosso professor orientador, Leonardo Cardoso, no sucesso do projeto, que contribuiu significativamente com valiosas sugestões e colaborações para a equipe.
