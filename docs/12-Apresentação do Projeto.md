@@ -24,6 +24,10 @@ O framework utilizado, React Native, apresenta diversos recursos para o desenvol
 
 Utilizamos o SQL Server para o banco de dados. Atendeu as necessidades da equipe por se tratar de um projeto pequeno com foco no aprendizado.
 
+O ASP.NET Core ofereceu benefícios significativos na criação de APIs, como modularidade e flexibilidade.
+
+O Axios é uma biblioteca JavaScript utilizada para fazer requisições HTTP, e foi utilizado na integração entre o front-end web e mobile e a API. Integrar o Axios ao front-end para interagir com um banco de dados SQL Server trouxe benefícios como simplicidade, tratamento eficiente de requisições, um código mais claro e conciso.
+
 A linguagem Javascript vem sendo utilizada pela equipe desde o primeiro semestre. É uma linguagem versátil com recursos para a interação do usuário, processamento de solicitações, entre outros.
 
 Destacamos também o papel fundamental do nosso professor orientador, Leonardo Cardoso, no sucesso do projeto, que contribuiu significativamente com valiosas sugestões e colaborações para a equipe.
