@@ -7,6 +7,31 @@
 
 `2/2023`
 
+[Uploadmessage: Please cite this software using these metadata.
+title: Mais Beleza
+authors:
+  - family-names: Campos Procópio
+    given-names: Daiane
+  - family-names: Augusta de Barcelos Coura
+    given-names: Fernanda
+  - family-names: Faustini de Azevedo
+    given-names: Guilherme
+  - family-names: Calazans Rodrigues de Magalhães
+    given-names: Juliana
+  - family-names: Karina Prado Costa
+    given-names: Rúbia
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Vilela Cardoso
+    given-names: Leonardo
+keywords:
+  - Gestão empresarial
+  - Microempreendedor individual
+  - Beleza
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-dad-t3-maisbeleza
+version: 1.0.0
+date-released: 2023-12-10ing citation.cff…]()
+
 O objetivo deste projeto é a criação de uma aplicação distribuída, voltada para os Microempreendedores Individuais (MEI) do ramo da beleza, com intuito de auxiliá-los na gestão de seus negócios.
 
 ## Integrantes
